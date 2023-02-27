@@ -724,3 +724,49 @@ Received Import Request.
   path: Assets/Prefabs/Shooter/Lane_Target_4 Variant.prefab
   artifactKey: Guid(2d9198bae8031e84bb9ca4b0ba9a65ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/Shooter/Lane_Target_4 Variant.prefab using Guid(2d9198bae8031e84bb9ca4b0ba9a65ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f616ccab924163869c097802939b3ae7') in 0.018156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 302.388481 seconds.
+  path: Assets/Prefabs/Shooter/Lane_Target_1 Variant.prefab
+  artifactKey: Guid(aec8d1af7bb27d742a23219fa93b8d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shooter/Lane_Target_1 Variant.prefab using Guid(aec8d1af7bb27d742a23219fa93b8d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d2f9e070271d4c6ea5852b10f2b3f8') in 0.020284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.628380 seconds.
+  path: Assets/Prefabs/Shooter/Base_Lane_Target.prefab
+  artifactKey: Guid(936c627b993fd74488d4cdc78b658679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shooter/Base_Lane_Target.prefab using Guid(936c627b993fd74488d4cdc78b658679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd8f4b904cb9895c3bd0e1ac05cca8a') in 0.026516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003976 seconds.
+  path: Assets/Prefabs/Shooter/Lane_Target_4 Variant.prefab
+  artifactKey: Guid(2d9198bae8031e84bb9ca4b0ba9a65ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shooter/Lane_Target_4 Variant.prefab using Guid(2d9198bae8031e84bb9ca4b0ba9a65ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066d03f60db9b474b1e5acaa15f1ee5a') in 0.021232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefabs/Shooter/ShootRange_Layout.prefab
+  artifactKey: Guid(72f7e489df76597438244a2f2e11482e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shooter/ShootRange_Layout.prefab using Guid(72f7e489df76597438244a2f2e11482e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2f812ffb1c3a71d3b5b677342e9e1d') in 0.036717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.332735 seconds.
+  path: Assets/Prefabs/Shooter/Base_Lane_Target.prefab
+  artifactKey: Guid(936c627b993fd74488d4cdc78b658679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shooter/Base_Lane_Target.prefab using Guid(936c627b993fd74488d4cdc78b658679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe9292782ff64fade2b21d078731e13') in 0.017617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/Shooter/Lane_Target_4 Variant.prefab
+  artifactKey: Guid(2d9198bae8031e84bb9ca4b0ba9a65ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shooter/Lane_Target_4 Variant.prefab using Guid(2d9198bae8031e84bb9ca4b0ba9a65ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3929a97a9298520c83797d12905189ac') in 0.020557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Shooter/ShootRange_Layout.prefab
+  artifactKey: Guid(72f7e489df76597438244a2f2e11482e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shooter/ShootRange_Layout.prefab using Guid(72f7e489df76597438244a2f2e11482e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebec80b23830af0d278b4e9119978713') in 0.034085 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -261,7 +261,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3678218485347633655
 Transform:
   m_ObjectHideFlags: 0
@@ -291,23 +291,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97aba86d82ef2bd48b38fa18e14f4ce6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _targetPool:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   _batchRange: {x: 1, y: 6}
   _endGameTimer: {fileID: 3678218483621646963}
   _gameEnded: {fileID: 11400000, guid: e71b24dd0e0195848a51f0b22f95bbb1, type: 2}

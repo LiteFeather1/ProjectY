@@ -1,4 +1,3 @@
-using System.Linq;
 using System.Collections.Generic;
 using UnityEngine;
 using ProjectY;
@@ -9,8 +8,7 @@ namespace Shooter
     public class ShooterManager : MonoBehaviour
     {
         [Header("Targets")]
-        [ContextMenuItem("Get all targets in scene", nameof(GetAllTargetsInScene))]
-        [SerializeField] private List<Mover> _targetPool = new();
+        private List<Mover> _targetPool = new();
         private readonly List<Mover> _currentBadTargetsFlipped = new();
         private readonly List<Mover> _currentGoodTargetsFlipped = new();
         [SerializeField] private Vector2Int _batchRange = new(1,6);
@@ -36,15 +34,15 @@ namespace Shooter
             _flipTargetsBack.TimeEvent -= FlipTargetsBack;
         }
 
-        private void Update()
-        {
-            UpdateTimeLeft();
-        }
+        private void Start() => _flipTargets.Continue();
+
+        private void Update() => UpdateTimeLeft();
 
         private void UpdateTimeLeft()
         {
             if(!_endGameTimer.CanTick)
                 return;
+
             float startTime = _endGameTimer.Time;
             _currentTime.SetValue(MathHelper.Map(_endGameTimer.ElapsedTime, 0, startTime, startTime, 0));
         }
@@ -66,15 +64,6 @@ namespace Shooter
             timer.enabled = false;
         }
 
-        private void GetAllTargetsInScene()
-        {
-#if UNITY_EDITOR
-            UnityEditor.EditorUtility.SetDirty(this);
-            UnityEditor.PrefabUtility.RecordPrefabInstancePropertyModifications(this);
-#endif
-            _targetPool = FindObjectsOfType<Mover>().ToList();
-        }
-
         [ContextMenu("Flip")]
         public void FlipTargets()
         {
@@ -87,9 +76,11 @@ namespace Shooter
             {
                 int index = Random.Range(0, _targetPool.Count);
 
+                if (index >= _targetPool.Count)
+                    continue;
+
                 Mover iFlipper = _targetPool[index];
                 RemoveFromPool(iFlipper);
-
                 iFlipper.Move();
             }
         }
@@ -158,9 +149,6 @@ namespace Shooter
         }
 
         //Event listener 
-        public void AddSecondToTimer(float timeToAdd)
-        {
-            _endGameTimer.ChangeTime(timeToAdd);
-        }
+        public void AddSecondToTimer(float timeToAdd) => _endGameTimer.ChangeTime(timeToAdd);
     }
 }

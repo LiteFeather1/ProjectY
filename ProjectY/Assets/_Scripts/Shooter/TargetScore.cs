@@ -11,7 +11,7 @@ namespace Shooter
         [SerializeField] private Transform _targetCenter;
         [Tooltip("From center to outer")]
         [SerializeField] private Transform[] _rings = new Transform[3];
-        [SerializeField] private FloatVariable _laneMultiplier; 
+        private FloatVariable _laneMultiplier; 
         private float TargetSize => _targetCenter.localScale.x;
         //Might need to map Target size multiplier from min size max size to min multiplier max multiplier  
 
@@ -32,6 +32,8 @@ namespace Shooter
         [SerializeField] private Vector3Event _scorePopUp;
 
         public System.Action Shot { get; set; }
+
+        public void SetLaneMultiplier(FloatVariable laneMultipler) => _laneMultiplier = laneMultipler;
 
         public override void ChangeManagerScore()
         { 
@@ -77,6 +79,7 @@ namespace Shooter
             {
                 if (_scoreToRaise > 0)
                     _scoreToRaise = -_scoreToRaise;
+
                 _feedBackMessageEvent.Raise("Not an enemy!");
             }
 
