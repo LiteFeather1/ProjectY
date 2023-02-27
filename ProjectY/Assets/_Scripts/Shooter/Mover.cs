@@ -18,12 +18,12 @@ namespace ProjectY
 
         public abstract void Move();
 
-        public abstract void MoveBack(float speedMultiplier = 1);
+        public abstract void MovedDown(float speedMultiplier = 1);
 
         public virtual void ReturnToPool()
         {
             _event.Raise(this);
-            MoveBack(_backSpeedMultiplier);
+            MovedDown(_backSpeedMultiplier);
         }
     }
 }

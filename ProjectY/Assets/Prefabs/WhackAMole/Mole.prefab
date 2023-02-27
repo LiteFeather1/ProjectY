@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _scored: {fileID: 11400000, guid: f4855d017d56c8e4186db1a519e23a27, type: 2}
-  _baseScore: 0
+  _baseScore: 50
 --- !u!1 &8734187569945177730
 GameObject:
   m_ObjectHideFlags: 0
@@ -179,13 +179,12 @@ MonoBehaviour:
   _event: {fileID: 0}
   _maxSpeed: 5
   upPosition: {x: 0, y: 0.2, z: 0}
-  downPosition: {x: 0, y: 0, z: 0}
-  shouldBeUp: 1
+  _startPos: {x: 0, y: 0, z: 0}
   _time: {fileID: 11400000, guid: f30c0135398bed94da528f09081bee7b, type: 2}
   _elapsedTime: {fileID: 11400000, guid: 4ad3770f40ccfd54aafa763299c80452, type: 2}
-  body: {fileID: 0}
-  score: {fileID: 0}
-  target: {fileID: 0}
+  body: {fileID: 2066953761}
+  score: {fileID: 1286860648}
+  target: {fileID: 11400000, guid: b820448dc0510ef4fbbbabacdb47350b, type: 2}
 --- !u!54 &2066953761
 Rigidbody:
   m_ObjectHideFlags: 0

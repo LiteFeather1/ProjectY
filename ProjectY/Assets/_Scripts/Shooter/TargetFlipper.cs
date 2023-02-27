@@ -28,7 +28,7 @@ namespace Shooter
             StartCoroutine(FlipCoroutine(_standing, -1));
         }
 
-        public override void MoveBack(float speedMultiplier = 1)
+        public override void MovedDown(float speedMultiplier = 1)
         {
             StopAllCoroutines();
             StartCoroutine(FlipCoroutine(_laying, speedMultiplier));

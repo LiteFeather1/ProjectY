@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using ProjectY;
 using ScriptableObjectEvents;
@@ -9,18 +7,18 @@ namespace WhackAMole
     {
         [SerializeField] private float _maxSpeed;
         [SerializeField] Vector3 upPosition;
-        [SerializeField] Vector3 downPosition;
-        [SerializeField] bool shouldBeUp = true;
+        [SerializeField] Vector3 _startPos;
         [SerializeField] FloatVariable _time;
         [SerializeField] FloatVariable _elapsedTime;
+        private bool _up;
         public Rigidbody body;
         public BaseScore score;
         public TargetEvent target;
-        private Vector3 UpPosition => upPosition + downPosition;
+        private Vector3 UpPosition => _startPos + upPosition;
 
         private void Start()
         {
-            downPosition = transform.position;
+            _startPos = transform.position;
             body = GetComponent<Rigidbody>();
         }
 
@@ -28,44 +26,49 @@ namespace WhackAMole
         {
             float speed = Mathf.Lerp(_speed, _maxSpeed, _elapsedTime / _time);
             body.velocity = Vector3.zero;
-            if (shouldBeUp == true)
+
+            if (Vector3.Distance(transform.position, UpPosition) >= 0.1)
             {
-                if (Vector3.Distance(transform.position, UpPosition) >= 0.1)
-                {
-                    transform.position = Vector3.MoveTowards(transform.position, UpPosition, Time.deltaTime * speed);
-                }
-                if (Vector3.Distance(transform.position, downPosition) <= 0.1)
-                {
-                    MoveBack();
-                }
+                print("moving");
+                transform.position = Vector3.MoveTowards(transform.position, UpPosition, Time.deltaTime * speed);
+            }
+
+            if (Vector3.Distance(transform.position, _startPos) <= 0.1)
+            {
+                if (_up)
+                    return;
+                MovedDown();
             }
         }
 
         public override void Move()
         {
-            shouldBeUp = false;
+            print("Hello");
+            enabled = true;
+            _up = true;
         }
 
-        public override void MoveBack(float speedMultiplier = 1)
+        public override void MovedDown(float speedMultiplier = 1)
         {
-            shouldBeUp = false;
-            //score.ChangeManagerScore();
-            //target.Raise(this);
+            if (!_up)
+                return;
+            _up = false;
+            score.ChangeManagerScore();
+            target.Raise(this);
+            enabled = false;
         }
 
         //  O que fazer - Manager para voltar a meter as moles para cima, mudar o speed de que eles se movem com o tempo.
         // Mudar a velocidade inicial de quando elvas vao para cima
 
+        private void OnDrawGizmos()
+        {
+            Gizmos.color = Color.yellow;
+            if (Application.isPlaying)
+                Gizmos.DrawCube(UpPosition, Vector3.one / 3);
+            else
+                Gizmos.DrawCube(transform.position + upPosition, Vector3.one / 3);
 
-        //IEnumerator Move_Co(Vector3 startPos, Vector3 endPos)
-        //{
-        //    while(Vector3.Distance(transform.position,pos) <= 0.1)
-        //    {
-        //        transform.position = Vector3.Lerp(pos,);
-        //        yield return _wait;
-        //    }
-
-        //}
-
+        }
     }
 }
