@@ -88,7 +88,6 @@ MonoBehaviour:
   - {fileID: 161258298592579013}
   - {fileID: 4552306557668394169}
   - {fileID: 8220009974910610793}
-  _laneMultiplier: {fileID: 11400000, guid: ed539b06b3094fa40a377deb2455300e, type: 2}
   _addTime:
     _changeAmount: 1
     _amountToAddEvent: {fileID: 11400000, guid: f05ef207ccd4ee3428a8e953731ccf30,
@@ -442,6 +441,7 @@ GameObject:
   - component: {fileID: 5691246597014923360}
   - component: {fileID: 3621954183281730084}
   - component: {fileID: 2081870643}
+  - component: {fileID: 8887991328278021677}
   m_Layer: 6
   m_Name: Base_Lane_Target
   m_TagString: Untagged
@@ -530,3 +530,16 @@ MonoBehaviour:
   _target: {fileID: 5468368251933307023}
   _outerRing: {fileID: 8220009974910610793}
   _showGizmos: 0
+--- !u!114 &8887991328278021677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7273748829927224178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274e10f8238f52d4bafbfc29f08caabc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _nudgeAmountRange: {x: 0.5, y: 0.125, z: 0}

@@ -4,11 +4,13 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class ActivateTeleportationRay : MonoBehaviour
 {
+    [Header("Left")]
     [SerializeField] private GameObject _leftTeleportation;
     [SerializeField] private InputActionProperty _leftActivate;
     [SerializeField] private InputActionProperty _leftCancel;
     [SerializeField] private XRRayInteractor _leftRay;
-    [Space ]
+
+    [Header("Right")]
     [SerializeField] private GameObject _rightTeleportation;
     [SerializeField] private InputActionProperty _rightActivate;
     [SerializeField] private InputActionProperty _rightCancel;

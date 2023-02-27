@@ -8,10 +8,12 @@ namespace Shooter
     public class ShooterManager : MonoBehaviour
     {
         [Header("Targets")]
-        private List<Mover> _targetPool = new();
+        [SerializeField] private Vector2Int _batchRange = new(1,6);
+        private readonly List<Mover> _targetPool = new();
         private readonly List<Mover> _currentBadTargetsFlipped = new();
         private readonly List<Mover> _currentGoodTargetsFlipped = new();
-        [SerializeField] private Vector2Int _batchRange = new(1,6);
+
+        public int TargetCount => _targetPool.Count;
 
         [Header("Timers")]
         [SerializeField] private Timer _endGameTimer;

@@ -17,7 +17,8 @@ namespace SkeeBall
             {
                 if (ball.Scored)
                     return;
-                _feedBackMessage?.Raise(FeedBackMessage);
+
+                _feedBackMessage.Raise(FeedBackMessage);
                 ChangeManagerScore();
                 ball.EnteredAHole();
                 Scored?.Invoke();
