@@ -18,7 +18,6 @@ public class ActivateTeleportationRay : MonoBehaviour
 
     private readonly float _sensibility = 0.1f;
 
-
     void Update()
     {
 

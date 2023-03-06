@@ -36,7 +36,11 @@ namespace Shooter
             _flipTargetsBack.TimeEvent -= FlipTargetsBack;
         }
 
-        private void Start() => _flipTargets.Continue();
+        public void StartGame(Games games)
+        {
+            if (games == Games.Shooter)
+                _flipTargets.Continue();
+        }
 
         private void Update() => UpdateTimeLeft();
 
