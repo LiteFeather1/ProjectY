@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 77
+  controlID: 99
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 78
+  controlID: 100
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 79
+  controlID: 101
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -655,9 +655,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.5318127, y: 0.97122824, z: -10.461078}
+    m_Target: {x: -0.7443048, y: 0.91711617, z: -11.601744}
     speed: 2
-    m_Value: {x: 0.5318127, y: 0.97122824, z: -10.461078}
+    m_Value: {x: -0.7443048, y: 0.91711617, z: -11.601744}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -704,13 +704,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.049304854, y: -0.67377037, z: 0.04514547, w: -0.73599726}
+    m_Target: {x: 0.031452183, y: -0.93800163, z: 0.08833274, w: 0.33390728}
     speed: 2
-    m_Value: {x: -0.04923394, y: -0.67483056, z: 0.045216493, w: -0.7349389}
+    m_Value: {x: 0.031317566, y: -0.938439, z: 0.088373944, w: 0.33247778}
   m_Size:
-    m_Target: 1.4234567
+    m_Target: 1.8944123
     speed: 2
-    m_Value: 1.4905305
+    m_Value: 1.9836777
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1408,22 +1408,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Models
+    - Assets/Models/others
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 76
   m_LastFolders:
-  - Assets/Models
+  - Assets/Models/others
   m_LastFoldersGridSize: 76
   m_LastProjectPath: C:\RepositorioVR\ProjectY
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 12750000
-    m_LastClickedID: 29970
-    m_ExpandedIDs: 00000000287300001275000000ca9a3b
+    m_SelectedIDs: 62730000
+    m_LastClickedID: 29538
+    m_ExpandedIDs: 00000000287300005273000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
