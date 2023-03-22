@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 63
+  controlID: 20
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 64
+  controlID: 21
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 65
+  controlID: 22
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -321,21 +321,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials/whackaKappa_mtl
+    - Assets/Textures/whackaKappa_tx
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Materials/whackaKappa_mtl
+  - Assets/Textures/whackaKappa_tx
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\RepositorioVR\ProjectY
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 34750000
-    m_LastClickedID: 30004
+    m_SelectedIDs: 4a750000
+    m_LastClickedID: 30026
     m_ExpandedIDs: 000000002a7300002c7300002e7300003073000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -797,9 +797,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.383415, y: 0.13095133, z: 10.840682}
+    m_Target: {x: 5.5350256, y: 1.0197067, z: 8.834542}
     speed: 2
-    m_Value: {x: 1.383415, y: 0.13095133, z: 10.840682}
+    m_Value: {x: 5.5350256, y: 1.0197067, z: 8.834542}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -846,20 +846,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.11757977, y: 0.43738884, z: -0.057830945, w: 0.88978773}
+    m_Target: {x: 0.019204525, y: 0.96658516, z: -0.074905545, w: 0.24483529}
     speed: 2
-    m_Value: {x: 0.11765458, y: 0.4360099, z: -0.057648726, w: 0.8903535}
+    m_Value: {x: 0.019314826, y: 0.966115, z: -0.07486876, w: 0.24625893}
   m_Size:
-    m_Target: 0.6106111
+    m_Target: 2.7758157
     speed: 2
-    m_Value: 0.6393833
+    m_Value: 2.656283
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 0.24087998
-    m_SpeedNormalized: 0.11999999
+    m_Speed: 0.36082
+    m_SpeedNormalized: 0.17999999
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -1567,13 +1567,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials/shooter_mtl
+    - Assets/Materials/whackaKappa_mtl
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 76
   m_LastFolders:
-  - Assets/Materials/shooter_mtl
+  - Assets/Materials/whackaKappa_mtl
   m_LastFoldersGridSize: 76
   m_LastProjectPath: C:\RepositorioVR\ProjectY
   m_LockTracker:
@@ -1585,18 +1585,18 @@ MonoBehaviour:
     m_ExpandedIDs: 000000002a7300002c7300002e7300003073000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: whackaKappa_mtl
-      m_OriginalName: whackaKappa_mtl
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 30004
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 

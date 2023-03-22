@@ -15,7 +15,7 @@ C:/RepositorioVR/ProjectY
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51697
+58117
 Successfully changed project path to: C:/RepositorioVR/ProjectY
 C:/RepositorioVR/ProjectY
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/RepositorioVR/ProjectY
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11884] Host "[IP] 192.168.25.58 [Port] 0 [Flags] 2 [Guid] 4198852001 [EditorId] 4198852001 [Version] 1048832 [Id] WindowsEditor(7,D011-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10916] Host "[IP] 192.168.25.58 [Port] 0 [Flags] 2 [Guid] 2700063187 [EditorId] 2700063187 [Version] 1048832 [Id] WindowsEditor(7,D011-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11884] Host "[IP] 192.168.25.58 [Port] 0 [Flags] 2 [Guid] 4198852001 [EditorId] 4198852001 [Version] 1048832 [Id] WindowsEditor(7,D011-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10916] Host "[IP] 192.168.25.58 [Port] 0 [Flags] 2 [Guid] 2700063187 [EditorId] 2700063187 [Version] 1048832 [Id] WindowsEditor(7,D011-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 109.65 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.38 ms.
+Refreshing native plugins compatible for Editor in 114.17 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.40 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.15f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/RepositorioVR/ProjectY/Assets
@@ -67,37 +67,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003602 seconds.
+Registered in 0.003532 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 100.16 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 115.04 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.556 seconds
+- Completed reload, in  0.579 seconds
 Domain Reload Profiling:
-	ReloadAssembly (556ms)
-		BeginReloadAssembly (54ms)
+	ReloadAssembly (579ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (413ms)
+		EndReloadAssembly (432ms)
 			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (85ms)
+			SetupTypeCache (89ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (264ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (272ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (100ms)
+				RefreshPlugins (115ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadAttributes (115ms)
 				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -105,12 +105,12 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008404 seconds.
+Registered in 0.008608 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\RepositorioVR\ProjectY\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\RepositorioVR\ProjectY\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 116.76 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 124.04 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
@@ -129,43 +129,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.260 seconds
+- Completed reload, in  1.226 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1260ms)
-		BeginReloadAssembly (93ms)
+	ReloadAssembly (1226ms)
+		BeginReloadAssembly (86ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (1051ms)
-			LoadAssemblies (78ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1037ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (252ms)
+			SetupTypeCache (261ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (618ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (603ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (117ms)
-				BeforeProcessingInitializeOnLoad (118ms)
-				ProcessInitializeOnLoadAttributes (285ms)
-				ProcessInitializeOnLoadMethodAttributes (85ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (124ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (284ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.02 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Unloading 6347 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 62 unused Assets / (0.8 MB). Loaded Objects now: 6782.
 Memory consumption went from 247.2 MB to 246.5 MB.
-Total: 3.971300 ms (FindLiveObjects: 0.422700 ms CreateObjectMapping: 0.457200 ms MarkObjects: 2.786500 ms  DeleteObjects: 0.304000 ms)
+Total: 4.117300 ms (FindLiveObjects: 0.425200 ms CreateObjectMapping: 0.453300 ms MarkObjects: 2.929700 ms  DeleteObjects: 0.308400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -179,53 +179,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 31859.375045 seconds.
-  path: Assets/Materials/shooter_mtl/instructions_mtl.mat
-  artifactKey: Guid(da59158ec215c5a4baf163f82c1d684e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/shooter_mtl/instructions_mtl.mat using Guid(da59158ec215c5a4baf163f82c1d684e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8706f119a026f54fde0904e573a31ba1') in 0.251609 seconds 
+  Time since last request: 558476.566355 seconds.
+  path: Assets/Textures/whackaKappa_tx/wk_baseMachine_MaskMap.png
+  artifactKey: Guid(d9a5f2a3da8747649b8e38a32c604069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/whackaKappa_tx/wk_baseMachine_MaskMap.png using Guid(d9a5f2a3da8747649b8e38a32c604069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a07dce27075aad5110267bce80dec4') in 0.076526 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.531558 seconds.
-  path: Assets/Textures/whackaKappa_tx/Materials/wk_kappa_face_02_BaseMap.mat
-  artifactKey: Guid(19593e7f66f29394a971e5ec791dd0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/whackaKappa_tx/Materials/wk_kappa_face_02_BaseMap.mat using Guid(19593e7f66f29394a971e5ec791dd0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f374faa0ac1397eba5f8ffd730893bf6') in 0.026684 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Textures/whackaKappa_tx/Materials/wk_kappa_face_07_BaseMap.mat
-  artifactKey: Guid(30b5d12060d2801489033bfb9cc646c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/whackaKappa_tx/Materials/wk_kappa_face_07_BaseMap.mat using Guid(30b5d12060d2801489033bfb9cc646c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecafecc03ed2aae0638f6a192936e5b1') in 0.023005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Textures/whackaKappa_tx/Materials/wk_kappa_face_04_BaseMap.mat
-  artifactKey: Guid(1c65285415f2a304b99734e2e36b83b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/whackaKappa_tx/Materials/wk_kappa_face_04_BaseMap.mat using Guid(1c65285415f2a304b99734e2e36b83b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06663e24ec8ef6db15fd29c9002d0650') in 0.021329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Textures/whackaKappa_tx/Materials/wk_kappa_face_05_BaseMap.mat
-  artifactKey: Guid(40f02c6e04e4eaf4f8eae2c7125f05f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/whackaKappa_tx/Materials/wk_kappa_face_05_BaseMap.mat using Guid(40f02c6e04e4eaf4f8eae2c7125f05f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7093542d3bb506b45f264ac0b1fe463c') in 0.021592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Textures/whackaKappa_tx/Materials/wk_kappa_face_03_BaseMap.mat
-  artifactKey: Guid(a52cd705187664a4ca833e381258b072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/whackaKappa_tx/Materials/wk_kappa_face_03_BaseMap.mat using Guid(a52cd705187664a4ca833e381258b072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5910628f57fde390b46a966ec585fca6') in 0.022348 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Textures/whackaKappa_tx/Materials/wk_kappa_face_06_BaseMap.mat
-  artifactKey: Guid(8364cd54e35ee944f9efa5c80c9d93a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/whackaKappa_tx/Materials/wk_kappa_face_06_BaseMap.mat using Guid(8364cd54e35ee944f9efa5c80c9d93a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fde1440f53a9a86ad3e821ff819f4d') in 0.021494 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 54.037264 seconds.
-  path: Assets/Textures/whackaKappa_tx/wk_basemachine_extras_Normal.png
-  artifactKey: Guid(13fa92cde3d3702469c08169f2e23c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/whackaKappa_tx/wk_basemachine_extras_Normal.png using Guid(13fa92cde3d3702469c08169f2e23c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa52252978a9d8c3e6b6ee9d9bb82fc') in 0.043751 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 216.121350 seconds.
+  path: Assets/Textures/whackaKappa_tx/wk_baseMachine_MaskMap.png
+  artifactKey: Guid(d9a5f2a3da8747649b8e38a32c604069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/whackaKappa_tx/wk_baseMachine_MaskMap.png using Guid(d9a5f2a3da8747649b8e38a32c604069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db70005c4595d1743b38a704bea47e54') in 0.011051 seconds 
