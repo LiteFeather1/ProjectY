@@ -11,10 +11,12 @@ namespace SkeeBall
         [SerializeField] private Ball _ball;
         private readonly Queue<Ball> _thrownBalls = new();
         [SerializeField] private int _startingBalls = 9;
-        private int _currentBallCount;
+        private readonly List<Ball> _currentBalls = new();
         [SerializeField] private Transform _ballSpawnPoint;
         [SerializeField] private float _delayBetweenSpawns = 0.25f;
         private WaitForSeconds _delayWait;
+        private bool _respawning = false;
+        public int BallCount => _currentBalls.Count;
 
         [Header("Score")]
         [Tooltip("Every time the player scores this amount he gains balls back")]
@@ -28,20 +30,27 @@ namespace SkeeBall
         [Header("End Game")]
         [SerializeField] private VoidEvent _endGame;
 
+
         private void Start()
         {
             _delayWait = new(_delayBetweenSpawns);
-            StartCoroutine(SpawnBalls(_startingBalls));
+        }
+
+        //Event listener
+        public void StartGame(Games game)
+        {
+            if (game == Games.SkeeBall)
+                StartCoroutine(SpawnBalls(_startingBalls));
         }
 
         private IEnumerator SpawnBalls(float amount)
         {
             for (int i = 0; i < amount; i++)
             {
-                Instantiate(_ball, _ballSpawnPoint.transform.position, Quaternion.identity);
-                _currentBallCount++;
+                _currentBalls.Add(Instantiate(_ball, _ballSpawnPoint.transform.position, Quaternion.identity));
                 yield return _delayWait;
             }
+            _respawning = false;
         }
 
         //Event Listener. Listens to the special Score
@@ -54,10 +63,21 @@ namespace SkeeBall
         public void GiveBalls(float scoreAmount)
         {
             int i = _howMuchScoreToGainBall * _timesThatGainBall;
+
             if(scoreAmount / i >= 1)
             {
+                _respawning = true;
+                DestroyExtraBalls();
                 _timesThatGainBall++;
                 StartCoroutine(GiveBallsCo(_ballsToGain));
+            }
+        }
+
+        private void DestroyExtraBalls()
+        {
+            for (int i = _currentBalls.Count - 1; i >= 0; i--)
+            {
+                QueueBall(_currentBalls[i]);
             }
         }
 
@@ -70,26 +90,40 @@ namespace SkeeBall
                     StartCoroutine(SpawnBalls(amount - i));
                     yield break;
                 }
-                _thrownBalls.Dequeue().Appear(_ballSpawnPoint);
-                _currentBallCount++;
+                _currentBalls.Add(_thrownBalls.Dequeue().Appear(_ballSpawnPoint));
                 yield return _delayWait;
             }
+            _respawning = false;
+        }
+
+        private void QueueBall(Ball ball)
+        {
+            _currentBalls.Remove(ball);
+            _thrownBalls.Enqueue(ball);
         }
 
         //Event Listener.Listens to when a ball is stops moving 
         public void BallThrown(Ball ball)
         {
-            _currentBallCount--;
-            _thrownBalls.Enqueue(ball);
+            QueueBall(ball);
             EndGame();
         }
 
         public void EndGame()
         {
-            if(_currentBallCount == 0)
+            // might need a clouse here
+            if (_respawning)
+                return;
+
+            if (_currentBalls.Count == 0)
             {
                 print("No more balls");
                 _endGame.Raise();
+
+                foreach (var ball in _thrownBalls)
+                {
+                    ball.enabled = false;
+                }
             }
         }
     }

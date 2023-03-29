@@ -9,7 +9,9 @@ namespace Shooter
         [Header("Score")]
         [SerializeField] private TargetScore _targetScore;
 
-        //Bad hardCoded but yeah
+        public TargetScore TargetScore => _targetScore;
+
+        //Bad hard coded but yeah
         private readonly Quaternion _laying = Quaternion.Euler(100, 0, 0);
         private readonly Quaternion _standing = Quaternion.Euler(0, 0, 0);
 
@@ -17,9 +19,16 @@ namespace Shooter
 
         private void OnEnable() => _targetScore.Shot += ReturnToPool;
 
+        private void Start()
+        {
+            _event.Raise(this);
+            transform.rotation = _laying;
+        }
+
         private void OnDisable() => _targetScore.Shot -= ReturnToPool;
 
         public void Stand() => transform.rotation = _standing;
+
         public void Lay() => transform.rotation = _laying;
 
         public override void Move()
@@ -41,12 +50,14 @@ namespace Shooter
                 transform.Rotate(_speed * positive * speedMultiplier * Time.deltaTime * Vector3.right);
                 yield return _wait;
             }
+
             transform.rotation = rotation;
         }
 
         public void SetType(TargetType type)
         {
             _badOrGood = type;
+
             if (type == TargetType.Good)
                 _targetScore.SetScore(-_targetScore.Score);
             else

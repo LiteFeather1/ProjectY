@@ -13,6 +13,7 @@ public static class MenuItemTest
         {
             if (child == t)
                 continue;
+
             child.name = t.name+ " " + child.name;
         }
     }

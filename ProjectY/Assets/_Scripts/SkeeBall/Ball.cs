@@ -31,25 +31,27 @@ namespace SkeeBall
 
         private void LateUpdate()
         {
-            if (!_thrown && !_scored)
+            if (!_thrown)
                 return;
-            if(CheckIfMoving)
-            {
-                _timerToDisappear.Stop();
-            }
-            else
+
+            if(!CheckIfMoving || _scored)
             {
                 _timerToDisappear.Continue();
             }
+            else
+            {
+                _timerToDisappear.Stop();
+            }
         }
 
-        public void Appear(Transform pos)
+        public Ball Appear(Transform pos)
         {
             transform.position = pos.position;
             gameObject.SetActive(true);
             enabled = true;
             _scored = false;
             _thrown = false;
+            return this;
         }
 
         public void Disappear()
@@ -82,6 +84,8 @@ namespace SkeeBall
             _rb.isKinematic = true;
             transform.SetParent(parent);
             transform.SetPositionAndRotation(point.position, point.rotation);
+            _thrown = false;
+            _timerToDisappear.StopAndReset();
             return this;
         }
     }
