@@ -1,6 +1,7 @@
 using UnityEngine;
 using ProjectY;
 using ScriptableObjectEvents;
+
 namespace WhackAMole
 {
     public class WhackAMoleMover : Mover
@@ -10,7 +11,7 @@ namespace WhackAMole
         [SerializeField] Vector3 _startPos;
         [SerializeField] FloatVariable _time;
         [SerializeField] FloatVariable _elapsedTime;
-        private bool _up;
+        private bool _up = false;
         public Rigidbody body;
         public BaseScore score;
         public TargetEvent target;
@@ -20,6 +21,7 @@ namespace WhackAMole
         {
             _startPos = transform.position;
             body = GetComponent<Rigidbody>();
+            _event.Raise(this);
         }
 
         private void Update()
@@ -27,24 +29,35 @@ namespace WhackAMole
             float speed = Mathf.Lerp(_speed, _maxSpeed, _elapsedTime / _time);
             body.velocity = Vector3.zero;
 
-            if (Vector3.Distance(transform.position, UpPosition) >= 0.1)
+            if (_up)
             {
-                print("moving");
-                transform.position = Vector3.MoveTowards(transform.position, UpPosition, Time.deltaTime * speed);
+                if (Vector3.Distance(transform.position, UpPosition) >= 0.1)
+                {
+                    print("moving");
+                    transform.position = Vector3.MoveTowards(transform.position, UpPosition, Time.deltaTime * speed);
+                }
             }
+            else
+            {
+                if (Vector3.Distance(transform.position, _startPos) <= 0.1)
+                {
+                    MovedDown();
+                }
+            }
+            Limit();
+        }
 
-            if (Vector3.Distance(transform.position, _startPos) <= 0.1)
-            {
-                if (_up)
-                    return;
-                MovedDown();
-            }
+        private void Limit()
+        {
+            if(transform.position.y > UpPosition.y)
+                transform.position = UpPosition;
+
+            if (transform.position.y < _startPos.y)
+                transform.position = _startPos;
         }
 
         public override void Move()
         {
-            print("Hello");
-            enabled = true;
             _up = true;
         }
 
@@ -52,10 +65,10 @@ namespace WhackAMole
         {
             if (!_up)
                 return;
+
             _up = false;
             score.ChangeManagerScore();
             target.Raise(this);
-            enabled = false;
         }
 
         //  O que fazer - Manager para voltar a meter as moles para cima, mudar o speed de que eles se movem com o tempo.
@@ -64,10 +77,11 @@ namespace WhackAMole
         private void OnDrawGizmos()
         {
             Gizmos.color = Color.yellow;
+
             if (Application.isPlaying)
-                Gizmos.DrawCube(UpPosition, Vector3.one / 3);
+                Gizmos.DrawCube(UpPosition, Vector3.one / 10);
             else
-                Gizmos.DrawCube(transform.position + upPosition, Vector3.one / 3);
+                Gizmos.DrawCube(transform.position + upPosition, Vector3.one / 10);
 
         }
     }

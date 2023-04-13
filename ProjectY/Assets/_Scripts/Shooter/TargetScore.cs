@@ -7,8 +7,8 @@ namespace Shooter
     public class TargetScore : BaseScore
     {
         [Header("Target Score")]
-        private float _scoreToRaise;
         [SerializeField] private Transform _targetCenter;
+        private float _scoreToRaise;
         [Tooltip("From center to outer")]
         [SerializeField] private Transform[] _rings = new Transform[3];
         private FloatVariable _laneMultiplier; 
@@ -36,7 +36,10 @@ namespace Shooter
         public void SetLaneMultiplier(FloatVariable laneMultipler) => _laneMultiplier = laneMultipler;
 
         public override void ChangeManagerScore()
-        { 
+        {
+            if (!_canScore)
+                return;
+
             _scorePopUp.Raise(transform.position);
             _scored.Raise(_scoreToRaise);
             Shot?.Invoke();
@@ -45,44 +48,45 @@ namespace Shooter
         public void ChangeManagerScore(Vector3 bulletPoint)
         {
             // Using vector3 might be better because we doenst use the Z axis. All we should  care for is the distance on a 2d plane
-            // But this means our is locked in a rotation , where Z is depth
-            float distanceFromCenter = Vector2.Distance(bulletPoint, _targetCenter.position);
+            //// But this means our is locked in a rotation , where Z is depth
+            //float distanceFromCenter = Vector2.Distance(bulletPoint, _targetCenter.position);
 
-            //Inner ring
-            if (distanceFromCenter < RingRadius(0))
-            {
-                _scoreToRaise = _baseScore * 2 * _laneMultiplier / TargetSize;
-                _addTime.Change();
-                RaiseFeedBack(0, bulletPoint);
-            }
-            //Inbetween ring
-            else if (distanceFromCenter < RingRadius(1))
-            {
-                _scoreToRaise = _baseScore * _laneMultiplier / TargetSize;
-                RaiseFeedBack(1, bulletPoint);
-            }
-            //Outer ring
-            else if (distanceFromCenter < RingRadius(2))
-            {
-                _scoreToRaise = _baseScore / 2 * _laneMultiplier / TargetSize;
-                RaiseFeedBack(2, bulletPoint);
-            }
-            //Too Far
-            else
-            {
-                _scoreToRaise = -_baseScore / 2 * _laneMultiplier / TargetSize;
-                _removeTime.Change();
-                RaiseFeedBack(3, bulletPoint);
-            }
+            ////Inner ring
+            //if (distanceFromCenter < RingRadius(0))
+            //{
+            //    _scoreToRaise = _baseScore * 2 * _laneMultiplier / TargetSize;
+            //    _addTime.Change();
+            //    RaiseFeedBack(0, bulletPoint);
+            //}
+            ////Inbetween ring
+            //else if (distanceFromCenter < RingRadius(1))
+            //{
+            //    _scoreToRaise = _baseScore * _laneMultiplier / TargetSize;
+            //    RaiseFeedBack(1, bulletPoint);
+            //}
+            ////Outer ring
+            //else if (distanceFromCenter < RingRadius(2))
+            //{
+            //    _scoreToRaise = _baseScore / 2 * _laneMultiplier / TargetSize;
+            //    RaiseFeedBack(2, bulletPoint);
+            //}
+            ////Too Far
+            //else
+            //{
+            //    _scoreToRaise = -_baseScore / 2 * _laneMultiplier / TargetSize;
+            //    _removeTime.Change();
+            //    RaiseFeedBack(3, bulletPoint);
+            //}
 
-            if (_baseScore < 0)
-            {
-                if (_scoreToRaise > 0)
-                    _scoreToRaise = -_scoreToRaise;
+            //if (_baseScore < 0)
+            //{
+            //    if (_scoreToRaise > 0)
+            //        _scoreToRaise = -_scoreToRaise;
 
-                _feedBackMessageEvent.Raise("Not an enemy!");
-            }
+            //    _feedBackMessageEvent.Raise("Not an enemy!");
+            //}
 
+            _scoreToRaise = _baseScore * _laneMultiplier * TargetSize;
             ChangeManagerScore();
         }
 

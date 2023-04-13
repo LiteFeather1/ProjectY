@@ -11,7 +11,7 @@ namespace WhackAMole
         [Header("Targets")]
         [ContextMenuItem("Get all targets in scene", nameof(GetAllTargetsInScene))]
         [SerializeField] private List<Mover> _molesPool = new();
-        private readonly List<Mover> _currentMoles = new();
+        private List<Mover> _currentMoles = new();
         [SerializeField] private Vector2Int _batchRange = new(1, 3);
 
         [Header("Timers")]
@@ -41,6 +41,7 @@ namespace WhackAMole
         {
             if (!_endGameTimer.CanTick)
                 return;
+
             float startTime = _endGameTimer.Time;
             _currentTime.SetValue(MathHelper.Map(_endGameTimer.ElapsedTime, 0, startTime, startTime, 0));
         }
@@ -72,6 +73,7 @@ namespace WhackAMole
         [ContextMenu("Flip")]
         public void PopMoles()
         {
+            print("Hello");
             _popMoles.StopAndReset();
 
             int amountToFlip = Random.Range(_batchRange.x, _batchRange.y);

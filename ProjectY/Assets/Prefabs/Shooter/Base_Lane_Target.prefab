@@ -438,7 +438,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7273748829927224179}
   - component: {fileID: 7273748829927224176}
-  - component: {fileID: 5691246597014923360}
   - component: {fileID: 3621954183281730084}
   - component: {fileID: 2081870643}
   - component: {fileID: 8887991328278021677}
@@ -483,22 +482,6 @@ MonoBehaviour:
   _badOrGood: 0
   _event: {fileID: 11400000, guid: b820448dc0510ef4fbbbabacdb47350b, type: 2}
   _targetScore: {fileID: 331496803689764416}
---- !u!114 &5691246597014923360
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7273748829927224178}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac27d9314c54a9e43acb72a142e0fc19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _chance: 0
-  _flipper: {fileID: 7273748829927224176}
-  _goodMaterial: {fileID: 2100000, guid: 0951e629b54a5ac4b99d2f235b303362, type: 2}
-  _renderer: {fileID: 9029135288774703470}
 --- !u!114 &3621954183281730084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -542,4 +525,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 274e10f8238f52d4bafbfc29f08caabc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _nudgeAmountRange: {x: 0.25, y: 0.125, z: 0}
+  _nudgeAmountRange: {x: 0.25, y: 0, z: 0}

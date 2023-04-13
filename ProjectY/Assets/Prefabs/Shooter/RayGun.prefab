@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6708780182891682575}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.002, y: -0.0889, z: 0.0188}
+  m_LocalPosition: {x: 0.0425, y: -0.051, z: 0.0676}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -55,7 +55,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6708780183464677109}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.002, y: -0.0841, z: 0.0196}
+  m_LocalPosition: {x: -0.031, y: -0.08, z: 0.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -181,7 +181,19 @@ MonoBehaviour:
       m_Calls: []
   m_Activated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6708780184181679947}
+        m_TargetAssemblyTypeName: Shooter.RayGun, Assembly-CSharp
+        m_MethodName: Shoot
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
@@ -267,10 +279,15 @@ MonoBehaviour:
   _targetLayer:
     serializedVersion: 2
     m_Bits: 64
+  _ballPrefab: {fileID: 5320228373611498253, guid: 5ba534a2faf0e6d49b6ff20a63eebd9b,
+    type: 3}
+  _firePoint: {fileID: 6708780184322359088}
+  _force: 30
   _lineRenderer: {fileID: 6708780184181679946}
   _lineRayMasks:
     serializedVersion: 2
     m_Bits: 243
+  _grabable: {fileID: 6708780184181679945}
 --- !u!120 &6708780184181679946
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -410,7 +427,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d7f846efe4e4b94ab8c41601f5e146c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _startGame: {fileID: 11400000, guid: cd557e1b5bac4b9409d26e38ed922272, type: 2}
   _changeGame: {fileID: 11400000, guid: 6a24cef068d070542adfbb87711d86c1, type: 2}
   _gameToSet: 0
   _interactable: {fileID: 6708780184181679945}
@@ -466,7 +482,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6708780184322359095}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.3273}
+  m_LocalPosition: {x: 0, y: 0.025, z: 0.185}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -535,10 +551,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0e95a5589269e214cbd65014569a7b74,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a481553eb44fce4438210456d266e049, type: 2}
     - target: {fileID: 919132149155446097, guid: 0e95a5589269e214cbd65014569a7b74,
         type: 3}
       propertyPath: m_Name
       value: s_gun
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0e95a5589269e214cbd65014569a7b74,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e95a5589269e214cbd65014569a7b74, type: 3}
@@ -565,6 +591,6 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6255687079079774844, guid: 0e95a5589269e214cbd65014569a7b74, type: 3}
