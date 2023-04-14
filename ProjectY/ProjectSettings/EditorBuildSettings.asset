@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/ShooterTestScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/SetDressing_lvl.unity
+    guid: 8d0bf356572c235478588e5befd87818
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 372a78ca79ec0d044ad7f216b144db0b,
       type: 2}
