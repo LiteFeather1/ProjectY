@@ -11,13 +11,13 @@ C:\Program Files\Unity 2021.3.15f1\Editor\Unity.exe
 -name
 AssetImportWorker3
 -projectPath
-C:/RepositorioVR/ProjectY
+C:/Users/GenisSuriol/Documents/ProjectY/ProjectY
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-55975
-Successfully changed project path to: C:/RepositorioVR/ProjectY
-C:/RepositorioVR/ProjectY
+62304
+Successfully changed project path to: C:/Users/GenisSuriol/Documents/ProjectY/ProjectY
+C:/Users/GenisSuriol/Documents/ProjectY/ProjectY
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,15 +47,15 @@ C:/RepositorioVR/ProjectY
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15916] Host "[IP] 192.168.25.58 [Port] 0 [Flags] 2 [Guid] 1152651336 [EditorId] 1152651336 [Version] 1048832 [Id] WindowsEditor(7,D011-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15092] Host "[IP] 192.168.25.57 [Port] 0 [Flags] 2 [Guid] 36773161 [EditorId] 36773161 [Version] 1048832 [Id] WindowsEditor(7,D009-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15916] Host "[IP] 192.168.25.58 [Port] 0 [Flags] 2 [Guid] 1152651336 [EditorId] 1152651336 [Version] 1048832 [Id] WindowsEditor(7,D011-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15092] Host "[IP] 192.168.25.57 [Port] 0 [Flags] 2 [Guid] 36773161 [EditorId] 36773161 [Version] 1048832 [Id] WindowsEditor(7,D009-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 109.51 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.35 ms.
+Refreshing native plugins compatible for Editor in 123.29 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.56 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.15f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/RepositorioVR/ProjectY/Assets
+[Subsystems] Discovering subsystems at path C:/Users/GenisSuriol/Documents/ProjectY/ProjectY/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -67,55 +67,55 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003590 seconds.
+Registered in 0.003852 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 114.95 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 112.23 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.597 seconds
+- Completed reload, in  0.613 seconds
 Domain Reload Profiling:
-	ReloadAssembly (598ms)
-		BeginReloadAssembly (54ms)
+	ReloadAssembly (613ms)
+		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (448ms)
-			LoadAssemblies (52ms)
+		EndReloadAssembly (449ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (83ms)
+			SetupTypeCache (95ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (302ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (286ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (115ms)
+				RefreshPlugins (112ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (138ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009779 seconds.
+Registered in 0.010076 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\RepositorioVR\ProjectY\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\RepositorioVR\ProjectY\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\GenisSuriol\Documents\ProjectY\ProjectY\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\GenisSuriol\Documents\ProjectY\ProjectY\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 116.41 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 107.96 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\RepositorioVR\ProjectY\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\RepositorioVR\ProjectY\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:281 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\GenisSuriol\Documents\ProjectY\ProjectY\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\GenisSuriol\Documents\ProjectY\ProjectY\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:281 
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d6232873609549b8a045fa15811a5bd3>:0 
    --- End of inner exception stack trace ---
@@ -129,29 +129,29 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.196 seconds
+- Completed reload, in  1.315 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1196ms)
-		BeginReloadAssembly (85ms)
+	ReloadAssembly (1316ms)
+		BeginReloadAssembly (91ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (1010ms)
-			LoadAssemblies (70ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1114ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (251ms)
+			SetupTypeCache (275ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (593ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (656ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (117ms)
-				BeforeProcessingInitializeOnLoad (118ms)
-				ProcessInitializeOnLoadAttributes (270ms)
-				ProcessInitializeOnLoadMethodAttributes (78ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (328ms)
+				ProcessInitializeOnLoadMethodAttributes (87ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -160,12 +160,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.75 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 6360 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (0.8 MB). Loaded Objects now: 6796.
-Memory consumption went from 248.5 MB to 247.8 MB.
-Total: 3.725300 ms (FindLiveObjects: 0.409900 ms CreateObjectMapping: 0.517100 ms MarkObjects: 2.490700 ms  DeleteObjects: 0.307100 ms)
+Refreshing native plugins compatible for Editor in 1.79 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 6361 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (0.8 MB). Loaded Objects now: 6797.
+Memory consumption went from 249.1 MB to 248.3 MB.
+Total: 4.146500 ms (FindLiveObjects: 0.426700 ms CreateObjectMapping: 0.479200 ms MarkObjects: 2.922100 ms  DeleteObjects: 0.317700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -177,147 +177,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 123318.735256 seconds.
-  path: Assets/Materials/PropMaterials/shooter_mtl/gunAndBall_mtl.mat
-  artifactKey: Guid(a481553eb44fce4438210456d266e049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PropMaterials/shooter_mtl/gunAndBall_mtl.mat using Guid(a481553eb44fce4438210456d266e049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e16a18fd085fdfbb1f1cc54beef5fb1') in 0.245285 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1171.566377 seconds.
-  path: Assets/Materials/PropMaterials/others_mtl/ticket_mtl.mat
-  artifactKey: Guid(9971ee1037fe30c46abae708a2a61cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PropMaterials/others_mtl/ticket_mtl.mat using Guid(9971ee1037fe30c46abae708a2a61cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8055c942c509ecff43086e6ad3723875') in 0.019390 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 42.758960 seconds.
-  path: Assets/Materials/PropMaterials/shooter_mtl/templeExterior_mtl.mat
-  artifactKey: Guid(168ece71fb786f54cba7feb35ade9be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PropMaterials/shooter_mtl/templeExterior_mtl.mat using Guid(168ece71fb786f54cba7feb35ade9be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d92b9d5d3491130724a902106d3b25') in 0.019861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 315.226603 seconds.
-  path: Assets/Materials/PropMaterials/whackaKappa_mtl/stall_mtl.mat
-  artifactKey: Guid(157cc4bc5408668429bbf7061161bf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PropMaterials/whackaKappa_mtl/stall_mtl.mat using Guid(157cc4bc5408668429bbf7061161bf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd938e22daa38df299d7b7bf062e36d6e') in 0.023852 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 421.838674 seconds.
-  path: Assets/Textures/canGame_tx/BaseMachine/C_BaseMachine_LP_lambert4_Emissive.png
-  artifactKey: Guid(40edb8c9f8834f942917e030ca355172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/canGame_tx/BaseMachine/C_BaseMachine_LP_lambert4_Emissive.png using Guid(40edb8c9f8834f942917e030ca355172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9792ef680e2c31abad48c3954dcebd0f') in 0.051426 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Textures/canGame_tx/BaseMachine/C_BaseMachine_LP_lambert4_Normal.png
-  artifactKey: Guid(36db85624c3fe0741ba646a3b8ee0748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/canGame_tx/BaseMachine/C_BaseMachine_LP_lambert4_Normal.png using Guid(36db85624c3fe0741ba646a3b8ee0748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2f85330ae80a1569929cf305b7e2c9') in 0.011542 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 33.553664 seconds.
-  path: Assets/Textures/canGame_tx/C_BaseMachine_LP_lambert4_Emissive.png
-  artifactKey: Guid(c89d2ae373587484ea2d01bdf674d0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/canGame_tx/C_BaseMachine_LP_lambert4_Emissive.png using Guid(c89d2ae373587484ea2d01bdf674d0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01386af10a2580469cbe29ec64b2cdab') in 0.010549 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Textures/canGame_tx/C_BaseMachine_LP_lambert4_Normal.png
-  artifactKey: Guid(dda2fb868d0fd3b46953818c2a1d0db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/canGame_tx/C_BaseMachine_LP_lambert4_Normal.png using Guid(dda2fb868d0fd3b46953818c2a1d0db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dabf1f4e30f6d96442af82f6234e01c') in 0.036654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.915747 seconds.
-  path: Assets/Textures/canGame_tx/C_Instruccions_LP_lambert7_Emission.png
-  artifactKey: Guid(1b3632345c39fca4aa42dc28f7d4c219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/canGame_tx/C_Instruccions_LP_lambert7_Emission.png using Guid(1b3632345c39fca4aa42dc28f7d4c219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63bfc98f373032729b3974c5b09ee69c') in 0.010738 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Textures/canGame_tx/C_Instruccions_LP_lambert7_MetallicSmoothness.png
-  artifactKey: Guid(b8e09aeb5ae8b354d93dc1fc3c7651d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/canGame_tx/C_Instruccions_LP_lambert7_MetallicSmoothness.png using Guid(b8e09aeb5ae8b354d93dc1fc3c7651d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26610eb2735c7ce8f638bf30495bff1a') in 0.027787 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.687013 seconds.
-  path: Assets/Textures/canGame_tx/C_Scoreboard_LP_lambert5_Emissive.png
-  artifactKey: Guid(3077d36b3bddd4d4598bd4d1e9b01cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/canGame_tx/C_Scoreboard_LP_lambert5_Emissive.png using Guid(3077d36b3bddd4d4598bd4d1e9b01cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc280ba7f1ea3c2c76853c6a2d9d6a1') in 0.014916 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Textures/canGame_tx/C_Scoreboard_LP_lambert5_Normal.png
-  artifactKey: Guid(8be899ac6afcf0f4b873ab215f58c771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/canGame_tx/C_Scoreboard_LP_lambert5_Normal.png using Guid(8be899ac6afcf0f4b873ab215f58c771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc58cd47153f01ef3a5ad83c2ada029') in 0.024821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.636657 seconds.
-  path: Assets/Textures/canGame_tx/TableHojas_LP_Hojas_Emissive.png
-  artifactKey: Guid(297c560916ceb704f84fbaab6dcc63a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/canGame_tx/TableHojas_LP_Hojas_Emissive.png using Guid(297c560916ceb704f84fbaab6dcc63a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190769f306e2c7ebcb62fae873dcb5e2') in 0.015327 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.009623 seconds.
-  path: Assets/Textures/canGame_tx/TableHojas_LP_Hojas_MaskMap.png
-  artifactKey: Guid(9155e17b7ec89304183dbd6c64b03795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/canGame_tx/TableHojas_LP_Hojas_MaskMap.png using Guid(9155e17b7ec89304183dbd6c64b03795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbc455523b44fdd36984186b81286cb') in 0.013697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Textures/canGame_tx/TableHojas_LP_Table_BaseMap.png
-  artifactKey: Guid(5bfe98aab5b8d774e950de0d77e4a346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/canGame_tx/TableHojas_LP_Table_BaseMap.png using Guid(5bfe98aab5b8d774e950de0d77e4a346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655604073d6fc9c6b3b67682dbf0d11b') in 0.029929 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.995273 seconds.
-  path: Assets/Textures/skeeball_tx/BaseMachine_LP_blinn2_Emissive.png
-  artifactKey: Guid(e4686ebe6710f7f4d8ff85e7dae5e854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/skeeball_tx/BaseMachine_LP_blinn2_Emissive.png using Guid(e4686ebe6710f7f4d8ff85e7dae5e854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4370127650e0de9acdee64c8b0f930') in 0.038236 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Textures/skeeball_tx/BaseMachine_LP_blinn2_MaskMap.png
-  artifactKey: Guid(0f597f995bbe5674da9572bc5ab8d7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/skeeball_tx/BaseMachine_LP_blinn2_MaskMap.png using Guid(0f597f995bbe5674da9572bc5ab8d7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a7ac6648709f8f10c30c04ddee3dde') in 0.028565 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.612752 seconds.
-  path: Assets/Textures/skeeball_tx/Instrucions_LP_lambert1_Emissive.png
-  artifactKey: Guid(14e8e8aa823e548479d880b605bd46f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/skeeball_tx/Instrucions_LP_lambert1_Emissive.png using Guid(14e8e8aa823e548479d880b605bd46f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c88f2a53ad7f91af284062519753858') in 0.012077 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Textures/skeeball_tx/Instrucions_LP_lambert1_Normal.png
-  artifactKey: Guid(fad2f9c620783f341bfac1f1892c2111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/skeeball_tx/Instrucions_LP_lambert1_Normal.png using Guid(fad2f9c620783f341bfac1f1892c2111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01fbdb35b6ad902ef4774f1aac8634d') in 0.038793 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.563619 seconds.
-  path: Assets/Textures/skeeball_tx/LANTERN_LP_lambert1_Emissive.png
-  artifactKey: Guid(0d0c3d49b94803843bf28f1b80e3e437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/skeeball_tx/LANTERN_LP_lambert1_Emissive.png using Guid(0d0c3d49b94803843bf28f1b80e3e437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7612cf5dae54c1c35989480ab9b344ba') in 0.011454 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Textures/skeeball_tx/LANTERN_LP_lambert1_Normal.png
-  artifactKey: Guid(db979a5d73cd5e446accd6abc4fb9f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/skeeball_tx/LANTERN_LP_lambert1_Normal.png using Guid(db979a5d73cd5e446accd6abc4fb9f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4e8a97b2aaedf9b82d056f1ca16f94') in 0.012151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 749.080290 seconds.
-  path: Assets/Textures/canGame_tx/C_BaseMachine_LP_lambert4_MaskMap.png
-  artifactKey: Guid(3662fd8416c0a6745a38577c0da31ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/canGame_tx/C_BaseMachine_LP_lambert4_MaskMap.png using Guid(3662fd8416c0a6745a38577c0da31ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80bce78fdbca2c38530927883933aa9') in 0.013738 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 207.989685 seconds.
-  path: Assets/Materials/PropMaterials/canGame_mtl/c_scoreboard_ml.mat
-  artifactKey: Guid(3bd01ccc1d4d29b4e9fa8eb5e98e0b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PropMaterials/canGame_mtl/c_scoreboard_ml.mat using Guid(3bd01ccc1d4d29b4e9fa8eb5e98e0b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755e8b332c32d0faab05b556a1972baa') in 0.017120 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 119.606118 seconds.
-  path: Assets/Materials/PropMaterials/canGame_mtl/c_tableHojas_mtl.mat
-  artifactKey: Guid(595f918bb0237ae4e8818ba5ee96a60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PropMaterials/canGame_mtl/c_tableHojas_mtl.mat using Guid(595f918bb0237ae4e8818ba5ee96a60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4454fc4c919451ceace72c7ad21a1c06') in 0.011841 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
