@@ -1,4 +1,3 @@
-using System.Text;
 using UnityEngine;
 
 public class Text_Time : MonoBehaviour
@@ -13,8 +12,9 @@ public class Text_Time : MonoBehaviour
 
     public void UpdateText(float time)
     {
-        StringBuilder sb = new();
-        sb.Append("Time Left : ").Append(Mathf.Round(time).ToString("00"));
-        _score.text = sb.ToString();
+        int minute = (int)(time / 60);
+        int secs = (int)(time % 60);
+
+        _score.text = "Time Left: " + string.Format("{0:00} : {1:00}", minute, secs);
     }
 }

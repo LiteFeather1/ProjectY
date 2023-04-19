@@ -18,5 +18,4 @@ namespace ProjectY
             _timeElapsed.SetValue(ElapsedTime);
         }
     }
-
  }

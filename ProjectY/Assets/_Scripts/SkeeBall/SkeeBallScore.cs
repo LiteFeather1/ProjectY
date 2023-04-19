@@ -4,8 +4,6 @@ namespace SkeeBall
 {
     public class SkeeBallScore : BaseScore
     {
-        public System.Action Scored { get; set; }
-
         [Header("FeedBack")]
         [SerializeField] private ScriptableObjectEvents.StringEvent _feedBackMessage;
 

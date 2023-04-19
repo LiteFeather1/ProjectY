@@ -12,9 +12,14 @@ public class BaseScore : MonoBehaviour
 
     public void SetScore(float score) => _baseScore = score;
 
+    public System.Action Scored { get; set; }
+
     public virtual void ChangeManagerScore()
     {
-        if (_canScore)
-            _scored.Raise(_baseScore);
+        if (!_canScore)
+            return;
+
+        _scored.Raise(_baseScore);
+        Scored?.Invoke();
     }
 }
