@@ -11,13 +11,13 @@ C:\Program Files\Unity 2021.3.15f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/RepositorioVR/ProjectY
+C:/Users/GenisSuriol/Documents/ProjectY/ProjectY
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55975
-Successfully changed project path to: C:/RepositorioVR/ProjectY
-C:/RepositorioVR/ProjectY
+62304
+Successfully changed project path to: C:/Users/GenisSuriol/Documents/ProjectY/ProjectY
+C:/Users/GenisSuriol/Documents/ProjectY/ProjectY
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,15 +47,15 @@ C:/RepositorioVR/ProjectY
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5804] Host "[IP] 192.168.25.58 [Port] 0 [Flags] 2 [Guid] 269127146 [EditorId] 269127146 [Version] 1048832 [Id] WindowsEditor(7,D011-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7736] Host "[IP] 192.168.25.57 [Port] 0 [Flags] 2 [Guid] 127193722 [EditorId] 127193722 [Version] 1048832 [Id] WindowsEditor(7,D009-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5804] Host "[IP] 192.168.25.58 [Port] 0 [Flags] 2 [Guid] 269127146 [EditorId] 269127146 [Version] 1048832 [Id] WindowsEditor(7,D011-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7736] Host "[IP] 192.168.25.57 [Port] 0 [Flags] 2 [Guid] 127193722 [EditorId] 127193722 [Version] 1048832 [Id] WindowsEditor(7,D009-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 116.37 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.39 ms.
+Refreshing native plugins compatible for Editor in 115.92 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.42 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.15f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/RepositorioVR/ProjectY/Assets
+[Subsystems] Discovering subsystems at path C:/Users/GenisSuriol/Documents/ProjectY/ProjectY/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -67,55 +67,55 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003690 seconds.
+Registered in 0.003972 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 110.21 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 111.98 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.563 seconds
+- Completed reload, in  0.604 seconds
 Domain Reload Profiling:
-	ReloadAssembly (563ms)
-		BeginReloadAssembly (56ms)
+	ReloadAssembly (605ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (419ms)
-			LoadAssemblies (54ms)
+		EndReloadAssembly (458ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (88ms)
+			SetupTypeCache (92ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (266ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (287ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (110ms)
+				RefreshPlugins (112ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (111ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010064 seconds.
+Registered in 0.009344 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\RepositorioVR\ProjectY\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\RepositorioVR\ProjectY\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\GenisSuriol\Documents\ProjectY\ProjectY\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\GenisSuriol\Documents\ProjectY\ProjectY\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 103.97 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 124.27 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\RepositorioVR\ProjectY\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\RepositorioVR\ProjectY\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:281 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\GenisSuriol\Documents\ProjectY\ProjectY\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\GenisSuriol\Documents\ProjectY\ProjectY\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:281 
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d6232873609549b8a045fa15811a5bd3>:0 
    --- End of inner exception stack trace ---
@@ -129,30 +129,30 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.226 seconds
+- Completed reload, in  1.308 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1227ms)
-		BeginReloadAssembly (88ms)
+	ReloadAssembly (1309ms)
+		BeginReloadAssembly (91ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1042ms)
-			LoadAssemblies (70ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1118ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (259ms)
+			SetupTypeCache (286ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (591ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (650ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (104ms)
-				BeforeProcessingInitializeOnLoad (121ms)
-				ProcessInitializeOnLoadAttributes (283ms)
-				ProcessInitializeOnLoadMethodAttributes (74ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (124ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (316ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
@@ -160,12 +160,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.30 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 6360 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (0.8 MB). Loaded Objects now: 6796.
-Memory consumption went from 248.6 MB to 247.9 MB.
-Total: 5.143400 ms (FindLiveObjects: 0.445200 ms CreateObjectMapping: 0.583600 ms MarkObjects: 3.774700 ms  DeleteObjects: 0.339000 ms)
+Refreshing native plugins compatible for Editor in 1.76 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 6361 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (0.8 MB). Loaded Objects now: 6797.
+Memory consumption went from 249.1 MB to 248.3 MB.
+Total: 4.015700 ms (FindLiveObjects: 0.476800 ms CreateObjectMapping: 0.557500 ms MarkObjects: 2.610500 ms  DeleteObjects: 0.370100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -179,64 +179,160 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 120783.087783 seconds.
-  path: Assets/Materials/PropMaririals/others_mtl
-  artifactKey: Guid(1edc91f355dde56438b8e366732e31a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PropMaririals/others_mtl using Guid(1edc91f355dde56438b8e366732e31a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7775119c9ef2ab30db4d9bd2cd7d41') in 0.014434 seconds 
+  Time since last request: 1720302.293358 seconds.
+  path: Assets/Textures/canGame_tx/C_Scoreboard_LP_lambert5_Normal.png
+  artifactKey: Guid(8be899ac6afcf0f4b873ab215f58c771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/canGame_tx/C_Scoreboard_LP_lambert5_Normal.png using Guid(8be899ac6afcf0f4b873ab215f58c771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9179128dda28c5c02f5d5be371a2a8bb') in 0.052825 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Materials/PropMaririals
+  Time since last request: 0.000016 seconds.
+  path: Assets/Textures/canGame_tx/C_BaseMachine_LP_lambert4_BaseMap.png
+  artifactKey: Guid(fbc42fca347b20644a9bca46ca67a747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/canGame_tx/C_BaseMachine_LP_lambert4_BaseMap.png using Guid(fbc42fca347b20644a9bca46ca67a747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b67de384eda0afada1482691067ab4b') in 0.021708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Textures/canGame_tx/TableHojas_LP_Hojas_Normal.png
+  artifactKey: Guid(9c0c22b53a99ca94e8e07b529f2beff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/canGame_tx/TableHojas_LP_Hojas_Normal.png using Guid(9c0c22b53a99ca94e8e07b529f2beff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29fda63c139f7945110a640c0453307') in 0.023910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Textures/canGame_tx/C_BaseMachine_LP_lambert4_Normal.png
+  artifactKey: Guid(dda2fb868d0fd3b46953818c2a1d0db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/canGame_tx/C_BaseMachine_LP_lambert4_Normal.png using Guid(dda2fb868d0fd3b46953818c2a1d0db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561aac6f628a2233c35c7194a5e8cf07') in 0.021396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Textures/canGame_tx/C_Instruccions_LP_lambert7_Emission.png
+  artifactKey: Guid(1b3632345c39fca4aa42dc28f7d4c219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/canGame_tx/C_Instruccions_LP_lambert7_Emission.png using Guid(1b3632345c39fca4aa42dc28f7d4c219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3a1de27deea6906580d738e853364d') in 0.012481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Textures/canGame_tx/C_Scoreboard_LP_lambert5_BaseMap.png
+  artifactKey: Guid(96a74c342428ea04d8cb8fd82621f526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/canGame_tx/C_Scoreboard_LP_lambert5_BaseMap.png using Guid(96a74c342428ea04d8cb8fd82621f526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd83a5671e46e2e1df752351aecd0f3d') in 0.025464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Textures/canGame_tx/TableHojas_LP_Table_Normal.png
+  artifactKey: Guid(e2612898814f8874e81aae51cdf30244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/canGame_tx/TableHojas_LP_Table_Normal.png using Guid(e2612898814f8874e81aae51cdf30244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14edba6223f9606a0c3f6d2ab6ee8095') in 0.012155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Textures/canGame_tx/C_Scoreboard_LP_lambert5_MaskMap.png
+  artifactKey: Guid(315bd6d660a1b8a4aa6eb71a8fdf453f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/canGame_tx/C_Scoreboard_LP_lambert5_MaskMap.png using Guid(315bd6d660a1b8a4aa6eb71a8fdf453f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5075efe004cce3ed9baf9d561a82c48a') in 0.013706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Textures/canGame_tx/C_Instruccions_LP_lambert7_Normal.png
+  artifactKey: Guid(85104b89f59f77f43a60a8136b1c959b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/canGame_tx/C_Instruccions_LP_lambert7_Normal.png using Guid(85104b89f59f77f43a60a8136b1c959b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde90476690a59293ccb14000b7e1985') in 0.013114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 259.218476 seconds.
+  path: Assets/Textures/canGame_tx/C_BaseMachine_LP_lambert4_Normal.png
+  artifactKey: Guid(dda2fb868d0fd3b46953818c2a1d0db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/canGame_tx/C_BaseMachine_LP_lambert4_Normal.png using Guid(dda2fb868d0fd3b46953818c2a1d0db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb809cd558dcad5ab303198380dbbdc3') in 0.034295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 942.699170 seconds.
+  path: Assets/Textures/canGame_tx/C_Scoreboard_LP_lambert5_Normal.png
+  artifactKey: Guid(8be899ac6afcf0f4b873ab215f58c771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/canGame_tx/C_Scoreboard_LP_lambert5_Normal.png using Guid(8be899ac6afcf0f4b873ab215f58c771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ad8fbe1edf3d98aaa175b84cb063ce') in 0.009956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.245839 seconds.
+  path: Assets/Textures/canGame_tx/C_Instruccions_LP_lambert7_Normal.png
+  artifactKey: Guid(85104b89f59f77f43a60a8136b1c959b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/canGame_tx/C_Instruccions_LP_lambert7_Normal.png using Guid(85104b89f59f77f43a60a8136b1c959b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52307929f861dcae833ac3793daf9cf9') in 0.009463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.137604 seconds.
+  path: Assets/Textures/canGame_tx/TableHojas_LP_Hojas_Normal.png
+  artifactKey: Guid(9c0c22b53a99ca94e8e07b529f2beff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/canGame_tx/TableHojas_LP_Hojas_Normal.png using Guid(9c0c22b53a99ca94e8e07b529f2beff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbb4ed5ccfdf05f378aeeca15ceb9c2') in 0.008015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.713392 seconds.
+  path: Assets/Textures/canGame_tx/TableHojas_LP_Table_Normal.png
+  artifactKey: Guid(e2612898814f8874e81aae51cdf30244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/canGame_tx/TableHojas_LP_Table_Normal.png using Guid(e2612898814f8874e81aae51cdf30244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2acbafbcdc95633751c4e7b75d3e65dc') in 0.010531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 184.726163 seconds.
+  path: Assets/Materials/PropMaterials
   artifactKey: Guid(6b43534bf17ea494dad35bdd8a82da61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PropMaririals using Guid(6b43534bf17ea494dad35bdd8a82da61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b773509d73123c2d4b4fd4b2d3331f94') in 0.006528 seconds 
+Start importing Assets/Materials/PropMaterials using Guid(6b43534bf17ea494dad35bdd8a82da61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c425981de5f5e50d7b873c4fb5950993') in 0.005477 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.216443 seconds.
-  path: Assets/Materials/PropMaririals/others_mtl/shelf_mtl.mat
-  artifactKey: Guid(4f4b23dcb8f8eda4a81c551ef153dd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PropMaririals/others_mtl/shelf_mtl.mat using Guid(4f4b23dcb8f8eda4a81c551ef153dd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46dba38c544943ab551cbf3cb19d2c38') in 1.163288 seconds 
+  Time since last request: 4.572564 seconds.
+  path: Assets/Materials/PropMaterials/canGame_mtl
+  artifactKey: Guid(99ddd4086c38b834fb2589f0912e1f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PropMaterials/canGame_mtl using Guid(99ddd4086c38b834fb2589f0912e1f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47bffb539a7f1b89ad95982825c6e09') in 0.005448 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1757.428575 seconds.
-  path: Assets/Models/shooter_mdl/s_temple_arc.fbx
-  artifactKey: Guid(5dcfafb1cd1f91941a997ba6ffa6c078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/shooter_mdl/s_temple_arc.fbx using Guid(5dcfafb1cd1f91941a997ba6ffa6c078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c444d6d2987d047449b78e67695489f3') in 0.136379 seconds 
+  Time since last request: 0.063246 seconds.
+  path: Assets/Materials/PropMaterials/canGame_mtl/c_basemachine_mtl.mat
+  artifactKey: Guid(32b3c27605381c44abc952a5b5d46911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PropMaterials/canGame_mtl/c_basemachine_mtl.mat using Guid(32b3c27605381c44abc952a5b5d46911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e25a4d1bdb80de88d84530698dd0ea') in 0.179626 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 124.009493 seconds.
-  path: Assets/Materials/PropMaririals/whackaKappa_mtl/kappa01_mtl.mat
-  artifactKey: Guid(5a46a477af92798419b1136fba64f5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PropMaririals/whackaKappa_mtl/kappa01_mtl.mat using Guid(5a46a477af92798419b1136fba64f5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23427581ffbc329d5442e24e16e616b9') in 0.023621 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/PropMaterials/canGame_mtl/c_scoreboard_ml.mat
+  artifactKey: Guid(3bd01ccc1d4d29b4e9fa8eb5e98e0b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PropMaterials/canGame_mtl/c_scoreboard_ml.mat using Guid(3bd01ccc1d4d29b4e9fa8eb5e98e0b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f31595ecec9e4ced90a02dfb0512e2') in 0.026190 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Materials/PropMaririals/whackaKappa_mtl/kappa07_mtl.mat
-  artifactKey: Guid(a3089627883d4844b87879bbe072eed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PropMaririals/whackaKappa_mtl/kappa07_mtl.mat using Guid(a3089627883d4844b87879bbe072eed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a294a5ece55a72eac8092ddbad3096') in 0.081286 seconds 
+  Time since last request: 20.252097 seconds.
+  path: Assets/Materials/PropMaterials/MasterNode_Transparent.shadergraph
+  artifactKey: Guid(7777b688e8b64aa4293ed6d699f6f5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PropMaterials/MasterNode_Transparent.shadergraph using Guid(7777b688e8b64aa4293ed6d699f6f5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9d6b8d561cf337485d41a09ed5409e') in 0.007650 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Materials/PropMaririals/whackaKappa_mtl/kappa03_mtl.mat
-  artifactKey: Guid(55a1a768e636ad14cb46a5df8265e64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PropMaririals/whackaKappa_mtl/kappa03_mtl.mat using Guid(55a1a768e636ad14cb46a5df8265e64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e5f221363d42b918c0c90c4c7646f4') in 0.037280 seconds 
+  Time since last request: 138.025652 seconds.
+  path: Assets/Textures/canGame_tx/TableHojas_LP_Hojas_BaseMap 1.png
+  artifactKey: Guid(c0907d9f0f01ee9478daac97dec41e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/canGame_tx/TableHojas_LP_Hojas_BaseMap 1.png using Guid(c0907d9f0f01ee9478daac97dec41e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe66bee0bf9d703e905cf53a1dba199') in 0.026302 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Materials/PropMaririals/whackaKappa_mtl/kappa05_mtl.mat
-  artifactKey: Guid(3a1dadc9287bb60479dab8cd3c523365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PropMaririals/whackaKappa_mtl/kappa05_mtl.mat using Guid(3a1dadc9287bb60479dab8cd3c523365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033d5c3308e0c0c84696dd4ab2ca8829') in 0.017968 seconds 
+  Time since last request: 10.525198 seconds.
+  path: Assets/Textures/whackaKappa_tx
+  artifactKey: Guid(129f24fe92e3fca4ba066aa6bc3900b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/whackaKappa_tx using Guid(129f24fe92e3fca4ba066aa6bc3900b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62f5abbed5b9c9580b3f0760f2be166') in 0.005168 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Materials/PropMaririals/whackaKappa_mtl/kappa06_mtl.mat
-  artifactKey: Guid(9cd9662ea503f474e84fb40fc0477179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PropMaririals/whackaKappa_mtl/kappa06_mtl.mat using Guid(9cd9662ea503f474e84fb40fc0477179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3c467beed4b37ffe96f5a54978b030') in 0.020081 seconds 
+  Time since last request: 28.539917 seconds.
+  path: Assets/Materials/PropMaterials/MasterNode_Transparent.shadergraph
+  artifactKey: Guid(7777b688e8b64aa4293ed6d699f6f5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PropMaterials/MasterNode_Transparent.shadergraph using Guid(7777b688e8b64aa4293ed6d699f6f5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c43284bbc5fb3cbc51b09c05b6068f') in 0.003136 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Materials/PropMaririals/whackaKappa_mtl/kappa04_mtl.mat
-  artifactKey: Guid(96588a02f9f4dec429effa33ee3a0b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PropMaririals/whackaKappa_mtl/kappa04_mtl.mat using Guid(96588a02f9f4dec429effa33ee3a0b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ad1821f5b593cd1a1c7b9370a9691e') in 0.018022 seconds 
+  Time since last request: 466.458819 seconds.
+  path: Assets/Models/Can Game/Ball.mat
+  artifactKey: Guid(a842d8bdfc48217488694e9894967bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Can Game/Ball.mat using Guid(a842d8bdfc48217488694e9894967bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10fd74d9e456bae40e2bc9d67b2cceaa') in 0.029390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/Can Game/C_Cans.fbx
+  artifactKey: Guid(ec9e84af9c10fd24398d372bddc7869b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Can Game/C_Cans.fbx using Guid(ec9e84af9c10fd24398d372bddc7869b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70550ac2e1f5aa503b6aa0a02cdef5ef') in 0.107126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Can Game/C_Scoreboard.fbx
+  artifactKey: Guid(a6cb9dd7edf16464282150e7af95f06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Can Game/C_Scoreboard.fbx using Guid(a6cb9dd7edf16464282150e7af95f06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d43ed25cb574dbb87670549f5f0c457') in 0.072104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Can Game/C_Table.fbx
+  artifactKey: Guid(f44c7e366cec04b4a97c1bc4bedcb24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Can Game/C_Table.fbx using Guid(f44c7e366cec04b4a97c1bc4bedcb24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e15bfeea3bd8d66dcdad313252df1c8') in 0.063430 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
