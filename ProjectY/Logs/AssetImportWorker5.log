@@ -9,11 +9,11 @@ C:\Program Files\Unity 2021.3.15f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker2
+AssetImportWorker5
 -projectPath
 C:/RepositorioVR/ProjectY
 -logFile
-Logs/AssetImportWorker2.log
+Logs/AssetImportWorker5.log
 -srvPort
 50786
 Successfully changed project path to: C:/RepositorioVR/ProjectY
@@ -47,12 +47,12 @@ C:/RepositorioVR/ProjectY
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8052] Host "[IP] 192.168.25.58 [Port] 0 [Flags] 2 [Guid] 2185093733 [EditorId] 2185093733 [Version] 1048832 [Id] WindowsEditor(7,D011-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18372] Host "[IP] 192.168.25.58 [Port] 0 [Flags] 2 [Guid] 3555058612 [EditorId] 3555058612 [Version] 1048832 [Id] WindowsEditor(7,D011-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8052] Host "[IP] 192.168.25.58 [Port] 0 [Flags] 2 [Guid] 2185093733 [EditorId] 2185093733 [Version] 1048832 [Id] WindowsEditor(7,D011-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18372] Host "[IP] 192.168.25.58 [Port] 0 [Flags] 2 [Guid] 3555058612 [EditorId] 3555058612 [Version] 1048832 [Id] WindowsEditor(7,D011-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 122.13 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.40 ms.
+Refreshing native plugins compatible for Editor in 116.30 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.36 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.15f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/RepositorioVR/ProjectY/Assets
@@ -67,51 +67,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005537 seconds.
+Registered in 0.003509 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 124.58 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 102.64 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.641 seconds
+- Completed reload, in  0.546 seconds
 Domain Reload Profiling:
-	ReloadAssembly (642ms)
-		BeginReloadAssembly (55ms)
+	ReloadAssembly (546ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (487ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (406ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (99ms)
+			SetupTypeCache (86ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (304ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (254ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (125ms)
+				RefreshPlugins (103ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (123ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009083 seconds.
+Registered in 0.010926 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\RepositorioVR\ProjectY\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\RepositorioVR\ProjectY\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 107.69 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 106.94 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\RepositorioVR\ProjectY\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
@@ -129,29 +129,29 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.195 seconds
+- Completed reload, in  1.192 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1196ms)
-		BeginReloadAssembly (87ms)
+	ReloadAssembly (1192ms)
+		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (1013ms)
+		EndReloadAssembly (1009ms)
 			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (253ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (584ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (580ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (108ms)
-				BeforeProcessingInitializeOnLoad (118ms)
-				ProcessInitializeOnLoadAttributes (276ms)
-				ProcessInitializeOnLoadMethodAttributes (73ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (278ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -160,12 +160,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.02 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 1.05 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Unloading 6361 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 62 unused Assets / (0.8 MB). Loaded Objects now: 6797.
-Memory consumption went from 258.9 MB to 258.2 MB.
-Total: 4.955700 ms (FindLiveObjects: 0.469500 ms CreateObjectMapping: 0.568900 ms MarkObjects: 3.600500 ms  DeleteObjects: 0.316000 ms)
+Memory consumption went from 249.2 MB to 248.4 MB.
+Total: 4.092500 ms (FindLiveObjects: 0.520700 ms CreateObjectMapping: 0.441300 ms MarkObjects: 2.821200 ms  DeleteObjects: 0.308300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -179,47 +179,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 6110.453492 seconds.
+  Time since last request: 7326.211867 seconds.
+  path: Assets/Models/Can Game/Cans_LP.fbx
+  artifactKey: Guid(0fcd7a0572d827940996773a975c63d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Can Game/Cans_LP.fbx using Guid(0fcd7a0572d827940996773a975c63d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b12ddd0f81563dd9b1eaa79dce0035') in 0.267329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.819557 seconds.
   path: Assets/Materials/PropMaterials/others_mtl/gacha_mtl.mat
   artifactKey: Guid(c9fd95addc2ebd443a33661049375820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PropMaterials/others_mtl/gacha_mtl.mat using Guid(c9fd95addc2ebd443a33661049375820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11048f797998c2a29d8f1d9a4537c1a2') in 0.208622 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 132.998544 seconds.
-  path: Assets/Textures/canGame_tx/C_BaseMachine_LP_lambert4_Normal.png
-  artifactKey: Guid(dda2fb868d0fd3b46953818c2a1d0db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/canGame_tx/C_BaseMachine_LP_lambert4_Normal.png using Guid(dda2fb868d0fd3b46953818c2a1d0db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0961a064c2bd758437065b801d259ee') in 0.053755 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Textures/canGame_tx/C_Instruccions_LP_lambert7_Emissive.png
-  artifactKey: Guid(921d7eb321cb41d45a3c96e42cc746b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/canGame_tx/C_Instruccions_LP_lambert7_Emissive.png using Guid(921d7eb321cb41d45a3c96e42cc746b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33b24ee3be4d0c880d9872b81ffbffe') in 0.014821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Textures/canGame_tx/C_Instruccions_LP_lambert7_MaskMap.png
-  artifactKey: Guid(1f13c1b545072aa49bb0ec6ba04d48d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/canGame_tx/C_Instruccions_LP_lambert7_MaskMap.png using Guid(1f13c1b545072aa49bb0ec6ba04d48d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c64766c4624f6b6b3c2d9ee73e6674') in 0.011853 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Textures/canGame_tx/C_Scoreboard_LP_lambert5_Normal.png
-  artifactKey: Guid(8be899ac6afcf0f4b873ab215f58c771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/canGame_tx/C_Scoreboard_LP_lambert5_Normal.png using Guid(8be899ac6afcf0f4b873ab215f58c771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6cf1e4207589747813549d53e515c3') in 0.010750 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Textures/canGame_tx/TableHojas_LP_Table_Normal.png
-  artifactKey: Guid(e2612898814f8874e81aae51cdf30244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/canGame_tx/TableHojas_LP_Table_Normal.png using Guid(e2612898814f8874e81aae51cdf30244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412d15e2c1043cea4c7b987dac595c3c') in 0.011758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Textures/canGame_tx/C_Instruccions_LP_lambert7_Normal.png
-  artifactKey: Guid(85104b89f59f77f43a60a8136b1c959b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/canGame_tx/C_Instruccions_LP_lambert7_Normal.png using Guid(85104b89f59f77f43a60a8136b1c959b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d26268251adba6355a4c396130f0261') in 0.011992 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Start importing Assets/Materials/PropMaterials/others_mtl/gacha_mtl.mat using Guid(c9fd95addc2ebd443a33661049375820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863394bed0fd90024e212c5333c19258') in 0.045790 seconds 
