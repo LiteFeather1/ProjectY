@@ -11,25 +11,34 @@ namespace WhackAMole
         [Header("Targets")]
         [ContextMenuItem("Get all targets in scene", nameof(GetAllTargetsInScene))]
         [SerializeField] private List<Mover> _molesPool = new();
-        private readonly List<Mover> _currentMoles = new();
+        private List<Mover> _currentMoles = new();
         [SerializeField] private Vector2Int _batchRange = new(1, 3);
 
         [Header("Timers")]
+        [SerializeField] private float _gameTime = 120f;
         [SerializeField] private DynamicTimer _endGameTimer;
         [SerializeField] private VoidEvent _gameEnded;
         [SerializeField] private FloatVariable _currentTime;
         [SerializeField] private Timer _popMoles;
+        [SerializeField] private Timer _moveDownTimer;
 
         private void OnEnable()
         {
             _endGameTimer.TimeEvent += EndGame;
             _popMoles.TimeEvent += PopMoles;
+            _moveDownTimer.TimeEvent += MoveMolesDown;
+        }
+
+        private void Start()
+        {
+            _endGameTimer.SetTime(_gameTime);
         }
 
         private void OnDisable()
         {
             _endGameTimer.TimeEvent -= EndGame;
             _popMoles.TimeEvent -= PopMoles;
+            _moveDownTimer.TimeEvent -= MoveMolesDown;
         }
 
         private void Update()
@@ -41,6 +50,7 @@ namespace WhackAMole
         {
             if (!_endGameTimer.CanTick)
                 return;
+
             float startTime = _endGameTimer.Time;
             _currentTime.SetValue(MathHelper.Map(_endGameTimer.ElapsedTime, 0, startTime, startTime, 0));
         }
@@ -74,7 +84,7 @@ namespace WhackAMole
         {
             _popMoles.StopAndReset();
 
-            int amountToFlip = Random.Range(_batchRange.x, _batchRange.y);
+            int amountToFlip = Random.Range(_batchRange.x, _batchRange.y + 1);
 
             _endGameTimer.Multiplier = amountToFlip;
 
@@ -82,11 +92,30 @@ namespace WhackAMole
             {
                 int index = Random.Range(0, _molesPool.Count);
 
-                Mover iFlipper = _molesPool[index];
-                RemoveFromPool(iFlipper);
+                Mover imover = _molesPool[index];
+                RemoveFromPool(imover);
 
-                iFlipper.Move();
+                imover.Move();
             }
+
+            _moveDownTimer.Continue();
+        }
+
+
+        public void MoveMolesDown()
+        {
+            _moveDownTimer.StopAndReset();
+
+            int count = _currentMoles.Count;
+
+            for (int i = count - 1; i >= 0; i--)
+            {
+                Mover iMover = _currentMoles[i];
+                AddBackToPool(iMover);
+                iMover.MovedDown();
+            }
+
+            _popMoles.Continue();
         }
 
         private void RemoveFromPool(Mover iFlipper)
@@ -100,14 +129,15 @@ namespace WhackAMole
             _molesPool.Add(iFlipper);
             _currentMoles.Remove(iFlipper);
             _endGameTimer.Multiplier--;
+
             if (_endGameTimer.Multiplier < 0)
                 _endGameTimer.Multiplier = 0;
         }
 
         //Event Listener
-        public void AddBackToPoolPublic(Mover flipper)
+        public void AddBackToPoolPublic(Mover mover)
         {
-            AddBackToPool(flipper);
+            AddBackToPool(mover);
             if (_currentMoles.Count == 0)
             {
                 _popMoles.Continue();

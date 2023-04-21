@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
 namespace Shooter
@@ -7,14 +8,20 @@ namespace Shooter
     {
         [SerializeField] private LineRenderer _lineRenderer;
         [SerializeField] private LayerMask _lineRayMasks;
+        [SerializeField] private XRGrabInteractable _grabable;
         private Vector3 _maxLineLength;
 
         protected override Ray Ray => _ray.SetOriginAndDirection(transform.position, transform.forward);
 
-        private void Start()
+        //private void OnEnable()
+        //{
+        //    XRGrabInteractable grabbable = GetComponent<XRGrabInteractable>();
+        //    grabbable.activated.AddListener(Shoot);
+        //}
+
+        public void Shoot(ActivateEventArgs arg0)
         {
-            XRGrabInteractable grabbable = GetComponent<XRGrabInteractable>();
-            grabbable.activated.AddListener(_ => Shoot());
+            Shoot();
         }
 
         private void FixedUpdate()

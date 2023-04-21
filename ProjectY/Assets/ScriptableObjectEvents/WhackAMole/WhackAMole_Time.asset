@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: WhackAMole_Time
   m_EditorClassIdentifier: 
   _devDescription: 
-  _value: 60
+  _value: 120

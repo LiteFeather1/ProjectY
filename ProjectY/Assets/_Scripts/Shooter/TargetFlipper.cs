@@ -34,17 +34,20 @@ namespace Shooter
         public override void Move()
         {
             StopAllCoroutines();
-            StartCoroutine(FlipCoroutine(_standing, -1));
+            StartCoroutine(FlipCoroutine(_standing, true, -1));
         }
 
         public override void MovedDown(float speedMultiplier = 1)
         {
             StopAllCoroutines();
-            StartCoroutine(FlipCoroutine(_laying, speedMultiplier));
+            StartCoroutine(FlipCoroutine(_laying, false, speedMultiplier));
         }
 
-        private IEnumerator FlipCoroutine(Quaternion rotation, float speedMultiplier = 1 ,int positive = 1)
+        private IEnumerator FlipCoroutine(Quaternion rotation, bool canScore, float speedMultiplier = 1 ,int positive = 1)
         {
+            if (canScore)
+                _targetScore.SetCanScore(canScore);
+
             while (!MathHelper.CompareRotations(transform.rotation, rotation, 10))
             {
                 transform.Rotate(_speed * positive * speedMultiplier * Time.deltaTime * Vector3.right);
@@ -52,6 +55,9 @@ namespace Shooter
             }
 
             transform.rotation = rotation;
+
+            if (!canScore)
+                _targetScore.SetCanScore(canScore);
         }
 
         public void SetType(TargetType type)

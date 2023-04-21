@@ -36,6 +36,9 @@ namespace SkeeBall
             _delayWait = new(_delayBetweenSpawns);
         }
 
+        [ContextMenu("Start Game")]
+        public void StartGame() => StartGame(Games.SkeeBall);
+
         //Event listener
         public void StartGame(Games game)
         {
