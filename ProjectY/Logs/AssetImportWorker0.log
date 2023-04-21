@@ -15,7 +15,7 @@ C:/RepositorioVR/ProjectY
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50786
+52618
 Successfully changed project path to: C:/RepositorioVR/ProjectY
 C:/RepositorioVR/ProjectY
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/RepositorioVR/ProjectY
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5440] Host "[IP] 192.168.25.58 [Port] 0 [Flags] 2 [Guid] 2576655108 [EditorId] 2576655108 [Version] 1048832 [Id] WindowsEditor(7,D011-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10372] Host "[IP] 192.168.25.58 [Port] 0 [Flags] 2 [Guid] 1723862469 [EditorId] 1723862469 [Version] 1048832 [Id] WindowsEditor(7,D011-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5440] Host "[IP] 192.168.25.58 [Port] 0 [Flags] 2 [Guid] 2576655108 [EditorId] 2576655108 [Version] 1048832 [Id] WindowsEditor(7,D011-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10372] Host "[IP] 192.168.25.58 [Port] 0 [Flags] 2 [Guid] 1723862469 [EditorId] 1723862469 [Version] 1048832 [Id] WindowsEditor(7,D011-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 114.61 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.45 ms.
+Refreshing native plugins compatible for Editor in 109.54 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.40 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.15f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/RepositorioVR/ProjectY/Assets
@@ -67,51 +67,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003660 seconds.
+Registered in 0.003612 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 115.91 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 110.48 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.567 seconds
+- Completed reload, in  0.573 seconds
 Domain Reload Profiling:
-	ReloadAssembly (567ms)
-		BeginReloadAssembly (58ms)
+	ReloadAssembly (574ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (422ms)
-			LoadAssemblies (56ms)
+		EndReloadAssembly (430ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (84ms)
+			SetupTypeCache (87ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (273ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (279ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (116ms)
+				RefreshPlugins (111ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (110ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009050 seconds.
+Registered in 0.009429 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\RepositorioVR\ProjectY\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\RepositorioVR\ProjectY\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 115.37 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 106.80 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\RepositorioVR\ProjectY\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
@@ -129,30 +129,30 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.235 seconds
+- Completed reload, in  1.233 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1235ms)
-		BeginReloadAssembly (86ms)
+	ReloadAssembly (1234ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (1052ms)
-			LoadAssemblies (80ms)
+		EndReloadAssembly (1041ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (247ms)
+			SetupTypeCache (250ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
+			RebuildScriptCaches (60ms)
 			SetupLoadedEditorAssemblies (619ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (116ms)
+				RefreshPlugins (107ms)
 				BeforeProcessingInitializeOnLoad (120ms)
-				ProcessInitializeOnLoadAttributes (295ms)
-				ProcessInitializeOnLoadMethodAttributes (77ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (304ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
@@ -160,12 +160,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.03 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Unloading 6361 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 62 unused Assets / (0.8 MB). Loaded Objects now: 6797.
 Memory consumption went from 249.2 MB to 248.4 MB.
-Total: 3.805700 ms (FindLiveObjects: 0.435200 ms CreateObjectMapping: 0.514000 ms MarkObjects: 2.539900 ms  DeleteObjects: 0.315700 ms)
+Total: 4.181100 ms (FindLiveObjects: 0.420300 ms CreateObjectMapping: 0.468900 ms MarkObjects: 2.965900 ms  DeleteObjects: 0.325100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -179,29 +179,61 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 6083.354076 seconds.
-  path: Assets/Textures/other_tx/o_gacha_lambert3_Normal.png
-  artifactKey: Guid(682ace98e2425bf4896e3a9136f72a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/other_tx/o_gacha_lambert3_Normal.png using Guid(682ace98e2425bf4896e3a9136f72a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ca32e024c2a852c1ee2eb044b84164') in 0.090233 seconds 
+  Time since last request: 90988.240792 seconds.
+  path: Assets/TextMesh Pro/TextMeshProUGUI.preset
+  artifactKey: Guid(fca141edb6b1ad74fbebfb443273a478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/TextMeshProUGUI.preset using Guid(fca141edb6b1ad74fbebfb443273a478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5525e6b4e595e0f81e04c4f3bce62dce') in 0.066782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.010278 seconds.
+  path: Assets/Textures/other_tx/o_wheel_Cavina_BaseMap.png
+  artifactKey: Guid(5283358b62897234e9822fb349a93a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/other_tx/o_wheel_Cavina_BaseMap.png using Guid(5283358b62897234e9822fb349a93a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b88c97829b1e65251ab8a8ac0d9ab4d') in 0.071032 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Materials/PropMaterials/whackaKappa_mtl/stall_mtl.mat
-  artifactKey: Guid(157cc4bc5408668429bbf7061161bf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PropMaterials/whackaKappa_mtl/stall_mtl.mat using Guid(157cc4bc5408668429bbf7061161bf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca26d9c8cdfc3d1aa0f14a20643ecd4a') in 0.209520 seconds 
+  path: Assets/Textures/other_tx/o_wheel_Cavina_Normal.png
+  artifactKey: Guid(2d9c96b73d55ded4ebe541217d77b92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/other_tx/o_wheel_Cavina_Normal.png using Guid(2d9c96b73d55ded4ebe541217d77b92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07bd93e512fe1b2d0bfe95f8d0534b21') in 0.019387 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Materials/PropMaterials/whackaKappa_mtl/basemachine_mtl.mat
-  artifactKey: Guid(f33a94002c673a24bb0431b39790ee93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PropMaterials/whackaKappa_mtl/basemachine_mtl.mat using Guid(f33a94002c673a24bb0431b39790ee93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997d3ac9042bb614dd6d59ffd3389f6a') in 0.019827 seconds 
+  Time since last request: 19.306691 seconds.
+  path: Assets/Materials/PropMaterials/others_mtl/wheel_cabina_mtl.mat
+  artifactKey: Guid(80bcaa691a107a34185eeefafb2e7580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PropMaterials/others_mtl/wheel_cabina_mtl.mat using Guid(80bcaa691a107a34185eeefafb2e7580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd71a40135ed66314cdde974a118e9b') in 0.163263 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.615760 seconds.
-  path: Assets/Materials/PropMaterials/others_mtl/shelf_mtl.mat
-  artifactKey: Guid(4f4b23dcb8f8eda4a81c551ef153dd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PropMaterials/others_mtl/shelf_mtl.mat using Guid(4f4b23dcb8f8eda4a81c551ef153dd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c77a2bde3de5ec4857b5a40d76465e') in 0.016828 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 4.112852 seconds.
+  path: Assets/Textures/other_tx/o_wheel_Cavina_Normal.png
+  artifactKey: Guid(2d9c96b73d55ded4ebe541217d77b92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/other_tx/o_wheel_Cavina_Normal.png using Guid(2d9c96b73d55ded4ebe541217d77b92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8241f64760363cf39350b109b8520d') in 0.022120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 117.509783 seconds.
+  path: Assets/Textures/other_tx/o_wheel_Noria_BaseMap.png
+  artifactKey: Guid(27a1cc11af2cd794b893ed685d599c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/other_tx/o_wheel_Noria_BaseMap.png using Guid(27a1cc11af2cd794b893ed685d599c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d604f5dd93b172309f20ed21b95f9dc') in 0.011633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/other_tx/o_wheel_Noria_MaskMap.png
+  artifactKey: Guid(b0911d42a75306e40b0916a2a4abee92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/other_tx/o_wheel_Noria_MaskMap.png using Guid(b0911d42a75306e40b0916a2a4abee92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e3ce1f741d75ddd2c752cd5910d468') in 0.010887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.641273 seconds.
+  path: Assets/Textures/other_tx/o_wheel_Noria_Normal.png
+  artifactKey: Guid(11843e11f3e615c4eb953fb95dc71f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/other_tx/o_wheel_Noria_Normal.png using Guid(11843e11f3e615c4eb953fb95dc71f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243f32ac270cc1eb4b8a46fdc21f78b6') in 0.017539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.843174 seconds.
+  path: Assets/Materials/PropMaterials/others_mtl/wheel_cabina_mtl.mat
+  artifactKey: Guid(80bcaa691a107a34185eeefafb2e7580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PropMaterials/others_mtl/wheel_cabina_mtl.mat using Guid(80bcaa691a107a34185eeefafb2e7580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc08cfb6078b1a9f640aed63241cc4f') in 0.039275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.684315 seconds.
+  path: Assets/Materials/PropMaterials/others_mtl/wheel_mtl.mat
+  artifactKey: Guid(7886c7fbf71db614abd0b8d123152cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PropMaterials/others_mtl/wheel_mtl.mat using Guid(7886c7fbf71db614abd0b8d123152cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d8ff980b8754ada666ad45c4b40325') in 0.022055 seconds 
