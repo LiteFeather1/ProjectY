@@ -66,7 +66,7 @@ namespace unitycoder_TerrainRotator
                 {
                     // grab terrain data (heightmap)
                     Terrain t = Selection.gameObjects[0].GetComponent<Terrain>();
-                    origHeightMap = t.terrainData.GetHeights(0, 0, t.terrainData.heightmapWidth, t.terrainData.heightmapHeight);
+                    origHeightMap = t.terrainData.GetHeights(0, 0, t.terrainData.heightmapResolution, t.terrainData.heightmapResolution);
                     origDetailLayer = new int[t.terrainData.detailPrototypes.Length][,];
                     for (int n = 0; n < t.terrainData.detailPrototypes.Length; n++)
                     {
@@ -185,8 +185,8 @@ namespace unitycoder_TerrainRotator
             float cs, sn;
 
             // heightmap rotation
-            int tw = terrain.terrainData.heightmapWidth;
-            int th = terrain.terrainData.heightmapHeight;
+            int tw = terrain.terrainData.heightmapResolution;
+            int th = terrain.terrainData.heightmapResolution;
             float[,] newHeightMap = new float[tw, th];
             float angleRad = angle * Mathf.Deg2Rad;
             float heightMiddle = (terrain.terrainData.heightmapResolution) / 2.0f; // pivot at middle
