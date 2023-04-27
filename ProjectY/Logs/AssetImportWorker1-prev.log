@@ -15,7 +15,7 @@ C:/RepositorioVR/ProjectY
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-59925
+61025
 Successfully changed project path to: C:/RepositorioVR/ProjectY
 C:/RepositorioVR/ProjectY
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/RepositorioVR/ProjectY
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11468] Host "[IP] 192.168.25.58 [Port] 0 [Flags] 2 [Guid] 1113807199 [EditorId] 1113807199 [Version] 1048832 [Id] WindowsEditor(7,D011-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [6748] Host "[IP] 192.168.25.58 [Port] 0 [Flags] 2 [Guid] 3395155114 [EditorId] 3395155114 [Version] 1048832 [Id] WindowsEditor(7,D011-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11468] Host "[IP] 192.168.25.58 [Port] 0 [Flags] 2 [Guid] 1113807199 [EditorId] 1113807199 [Version] 1048832 [Id] WindowsEditor(7,D011-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6748] Host "[IP] 192.168.25.58 [Port] 0 [Flags] 2 [Guid] 3395155114 [EditorId] 3395155114 [Version] 1048832 [Id] WindowsEditor(7,D011-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 113.10 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.39 ms.
+Refreshing native plugins compatible for Editor in 116.22 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.43 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.15f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/RepositorioVR/ProjectY/Assets
@@ -67,37 +67,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003748 seconds.
+Registered in 0.003846 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 105.43 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 115.37 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.568 seconds
+- Completed reload, in  0.566 seconds
 Domain Reload Profiling:
-	ReloadAssembly (568ms)
-		BeginReloadAssembly (61ms)
+	ReloadAssembly (566ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (413ms)
-			LoadAssemblies (59ms)
+		EndReloadAssembly (420ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (92ms)
+			SetupTypeCache (87ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (257ms)
+			SetupLoadedEditorAssemblies (268ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (106ms)
+				RefreshPlugins (116ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadAttributes (110ms)
 				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -105,12 +105,12 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008905 seconds.
+Registered in 0.009263 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\RepositorioVR\ProjectY\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\RepositorioVR\ProjectY\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 114.78 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 107.40 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
@@ -129,29 +129,29 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.241 seconds
+- Completed reload, in  1.216 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1242ms)
-		BeginReloadAssembly (98ms)
+	ReloadAssembly (1217ms)
+		BeginReloadAssembly (87ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1036ms)
-			LoadAssemblies (76ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (1017ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (269ms)
+			SetupTypeCache (247ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (591ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (601ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (115ms)
-				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (275ms)
-				ProcessInitializeOnLoadMethodAttributes (72ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (298ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -160,12 +160,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.31 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Refreshing native plugins compatible for Editor in 1.05 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Unloading 6362 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 59 unused Assets / (390.3 KB). Loaded Objects now: 6809.
 Memory consumption went from 249.8 MB to 249.4 MB.
-Total: 3.741600 ms (FindLiveObjects: 0.414800 ms CreateObjectMapping: 0.456300 ms MarkObjects: 2.686600 ms  DeleteObjects: 0.183100 ms)
+Total: 3.497900 ms (FindLiveObjects: 0.426300 ms CreateObjectMapping: 0.524900 ms MarkObjects: 2.369900 ms  DeleteObjects: 0.176100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -179,13 +179,61 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 594617.142454 seconds.
-  path: Assets/Textures/Floor_tx/NewLayer 4.terrainlayer
-  artifactKey: Guid(19ec3adffe2eac04ba89e5f14d42814b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Floor_tx/NewLayer 4.terrainlayer using Guid(19ec3adffe2eac04ba89e5f14d42814b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495ca7b6e45a225579d0ee6ebb6a3733') in 0.084235 seconds 
+  Time since last request: 599513.536113 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Rock (Basic)3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(483b7fdedc47b0d48ba8bc125df7342f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Rock (Basic)3d3aba195e4d26ee.terrainlayer using Guid(483b7fdedc47b0d48ba8bc125df7342f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc44f94c77637a8b6730e826ae6d770') in 0.072150 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.219928 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/merge-dark@2x.png
-  artifactKey: Guid(6b972fca7700d6748b66eb72f2072e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/merge-dark@2x.png using Guid(6b972fca7700d6748b66eb72f2072e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdd92821ef6f798212b5b0d52e5ac82') in 0.045755 seconds 
+  Time since last request: 7169.638557 seconds.
+  path: Assets/Textures/Brushes/Brush terrain_2.png
+  artifactKey: Guid(cb0640fac80727c429eb5ce5e4c0423a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Brushes/Brush terrain_2.png using Guid(cb0640fac80727c429eb5ce5e4c0423a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca37882c34dcc6080e3ea0dd730ed370') in 0.060604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Textures/Brushes/NewBrush 3.brush
+  artifactKey: Guid(6b78535da32e1da48bc35701a7446e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Brushes/NewBrush 3.brush using Guid(6b78535da32e1da48bc35701a7446e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acbbf31d00cf6f8a272e6f0be27185f') in 0.032280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Textures/Brushes/Brush terrain_3.png
+  artifactKey: Guid(696c9550f305e0645bcf207ec2ff746e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Brushes/Brush terrain_3.png using Guid(696c9550f305e0645bcf207ec2ff746e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab29f54641d527cdecab3669a3cb39e') in 0.021238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Textures/Brushes/Brush terrain_4.png
+  artifactKey: Guid(31efeb43b55edea49b3b9fb7ffa7d2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Brushes/Brush terrain_4.png using Guid(31efeb43b55edea49b3b9fb7ffa7d2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafc7055c9870cb860dcb3b47ba9cbf3') in 0.011352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Textures/Brushes/Brush terrain_8.png
+  artifactKey: Guid(cb75144bf04fa9642b3ea8109685695c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Brushes/Brush terrain_8.png using Guid(cb75144bf04fa9642b3ea8109685695c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a2f201a77041aecfd2bf12fb91d379') in 0.024230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Textures/Brushes/NewBrush 2.brush
+  artifactKey: Guid(3b8b3fddd0b21d849aab5ee519418cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Brushes/NewBrush 2.brush using Guid(3b8b3fddd0b21d849aab5ee519418cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91886d122be487dfd65f47537a0c554') in 0.015670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Textures/Brushes/NewBrush.brush
+  artifactKey: Guid(c9e366e206d0e444a94ed949ed91bffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Brushes/NewBrush.brush using Guid(c9e366e206d0e444a94ed949ed91bffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32182c146a922a9913b7d5f88c09b1ef') in 0.016908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Textures/Brushes/Brush terrain_7.png
+  artifactKey: Guid(8f7264bcb679e9342b3356c28458c92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Brushes/Brush terrain_7.png using Guid(8f7264bcb679e9342b3356c28458c92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109bff163bb1d178d7e8ce58e8efa8b7') in 0.019156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Textures/Brushes/NewBrush 6.brush
+  artifactKey: Guid(d01e47b06c4bfb04c854b60607cd17d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Brushes/NewBrush 6.brush using Guid(d01e47b06c4bfb04c854b60607cd17d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20add90fdd8ef6767713c0291f3d0acf') in 0.019825 seconds 
