@@ -282,7 +282,7 @@ MonoBehaviour:
   _ballPrefab: {fileID: 5320228373611498253, guid: 5ba534a2faf0e6d49b6ff20a63eebd9b,
     type: 3}
   _firePoint: {fileID: 6708780184322359088}
-  _force: 30
+  _force: 40
   _lineRenderer: {fileID: 6708780184181679946}
   _lineRayMasks:
     serializedVersion: 2
@@ -427,9 +427,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d7f846efe4e4b94ab8c41601f5e146c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _changeGame: {fileID: 11400000, guid: 6a24cef068d070542adfbb87711d86c1, type: 2}
-  _gameToSet: 0
+  _gameToStart: {fileID: 11400000, guid: 933b48f94cab6a145a7e6e36f72d6664, type: 2}
+  _gameEnded: {fileID: 11400000, guid: e71b24dd0e0195848a51f0b22f95bbb1, type: 2}
   _interactable: {fileID: 6708780184181679945}
+  _releaseEvent: {fileID: 11400000, guid: 5fc40feb4b093784b90fe9cff9360eba, type: 2}
 --- !u!114 &449235104939570477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -555,7 +556,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a481553eb44fce4438210456d266e049, type: 2}
+      objectReference: {fileID: 2100000, guid: f4985ec5cf891944c8df36c545554a97, type: 2}
     - target: {fileID: 919132149155446097, guid: 0e95a5589269e214cbd65014569a7b74,
         type: 3}
       propertyPath: m_Name

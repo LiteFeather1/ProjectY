@@ -1,16 +1,31 @@
+using ScriptableObjectEvents;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
 public class StartGameOnGrab : StarGame
 {
     [SerializeField] private XRGrabInteractable _interactable;
+    [SerializeField] private VoidEvent _releaseEvent;
+    private Vector3 _startPos;
+    private Quaternion _startRotation;
+
+    private void Awake()
+    {
+        _startPos = transform.position;
+        _startRotation = transform.rotation;
+    }
 
     private void OnEnable()
     {
-        _interactable.firstSelectEntered.AddListener(GameStarted);
+        AddListener();
     }
 
     private void OnDisable() => RemoveListener();
+
+    private void AddListener()
+    {
+        _interactable.firstSelectEntered.AddListener(GameStarted);
+    }
 
     private void RemoveListener()
     {
@@ -23,5 +38,15 @@ public class StartGameOnGrab : StarGame
     {
         base.GameStarted();
         RemoveListener();
+    }
+
+    public override void GameEnded()
+    {
+        gameObject.SetActive(false);
+        _releaseEvent.Raise();
+        AddListener();
+        transform.SetLocalPositionAndRotation(_startPos, _startRotation);   
+        base.GameEnded();
+        gameObject.SetActive(true);
     }
 }

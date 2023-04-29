@@ -14,6 +14,7 @@ namespace ProjectY
         public TargetType Type => _badOrGood;
 
         [Header("Event")]
+        [SerializeField] protected TargetEvent _addToStartingPool;
         [SerializeField] protected TargetEvent _event;
 
         public abstract void Move();

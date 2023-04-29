@@ -91,7 +91,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.01125
+  m_Radius: 0.04
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &5320228374921708494
 PrefabInstance:
@@ -159,7 +159,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a481553eb44fce4438210456d266e049, type: 2}
+      objectReference: {fileID: 2100000, guid: f4985ec5cf891944c8df36c545554a97, type: 2}
     - target: {fileID: 919132149155446097, guid: 247c93c336f3ced468fb31b22df50b23,
         type: 3}
       propertyPath: m_Name

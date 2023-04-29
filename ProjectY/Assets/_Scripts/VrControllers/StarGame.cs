@@ -3,8 +3,8 @@ using ScriptableObjectEvents;
 
 public class StarGame : MonoBehaviour
 {
-    [SerializeField] private GamesEvent _changeGame;
-    [SerializeField] private Games _gameToSet;
+    [SerializeField] private VoidEvent _gameToStart;
+    [SerializeField] private VoidEvent _gameEnded;
     private bool _gameStarted;
 
     public virtual void GameStarted()
@@ -13,8 +13,8 @@ public class StarGame : MonoBehaviour
             return;
 
         _gameStarted = true;
-        _changeGame.Raise(_gameToSet);
+        _gameToStart.Raise();
     }
 
-    public void GameEnded() => _gameStarted = false;
+    public virtual void GameEnded() => _gameStarted = false;
 }
