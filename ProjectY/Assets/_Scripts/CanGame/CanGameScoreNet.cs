@@ -1,20 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CanGameScoreNet : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerExit(Collider other)
     {
-        print(other.gameObject.name);
-        if(other.TryGetComponent<BaseScore>(out var score))
+        if(other.TryGetComponent<CanScore>(out var score))
         {
-            print("yrs");
-            score.ChangeManagerScore();
-        }
-        else
-        {
-            print("NOpe");
+            if(!score.LeftNet)
+                score.ChangeManagerScore();
         }
     }
 }

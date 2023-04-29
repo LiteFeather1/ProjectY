@@ -42,7 +42,6 @@ GameObject:
   - component: {fileID: 8108030040131334309}
   - component: {fileID: 5128009842387484416}
   - component: {fileID: 6975704744839252938}
-  - component: {fileID: 9000912571009039301}
   - component: {fileID: 5563961608122063201}
   - component: {fileID: 1206346908}
   - component: {fileID: 7975451343717934087}
@@ -63,8 +62,8 @@ Transform:
   m_GameObject: {fileID: 8921159109467253279}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.417, y: 1.1, z: 9.258}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7568630303525279378}
   m_Father: {fileID: 0}
@@ -120,20 +119,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &9000912571009039301
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8921159109467253279}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 839137281658953600, guid: f30ff6adf00f854419f312d1c4ba532a, type: 3}
 --- !u!54 &5563961608122063201
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -143,12 +128,12 @@ Rigidbody:
   m_GameObject: {fileID: 8921159109467253279}
   serializedVersion: 2
   m_Mass: 0.25
-  m_Drag: 0
-  m_AngularDrag: 0
+  m_Drag: 0.05
+  m_AngularDrag: 0.25
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 2
-  m_Constraints: 80
+  m_Interpolate: 0
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!114 &1206346908
 MonoBehaviour:
@@ -159,11 +144,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8921159109467253279}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f0387f802ef034418777165da078222, type: 3}
+  m_Script: {fileID: 11500000, guid: 61972a9371cc36845ad5dde90723dc58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _scored: {fileID: 11400000, guid: f4855d017d56c8e4186db1a519e23a27, type: 2}
   _baseScore: 50
+  _knocked: {fileID: 11400000, guid: eda22eb1f6488374c8ebba2e62a02573, type: 2}
 --- !u!65 &7975451343717934087
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -171,7 +157,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8921159109467253279}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: d7badc92e9d0bbf49bb91f0baf9f9753, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -190,4 +176,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rb: {fileID: 5563961608122063201}
+  _renderer: {fileID: 6975704744839252938}
   _centerOfMass: {fileID: 7568630303525279378}
