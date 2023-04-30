@@ -807,6 +807,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _score: {fileID: 3763527080505356744}
+  _scoreString: 'Score : '
 --- !u!114 &7459001968546403340
 MonoBehaviour:
   m_ObjectHideFlags: 0

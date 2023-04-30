@@ -30,6 +30,7 @@ namespace SkeeBall
 
         [Header("End Game")]
         [SerializeField] private VoidEvent _endGame;
+        private bool _gameStarted;
 
         private void Start() => _delayWait = new(_delayBetweenSpawns);
 
@@ -45,6 +46,8 @@ namespace SkeeBall
 
         private IEnumerator SpawnBalls(float amount)
         {
+            _gameStarted = true;
+
             for (int i = 0; i < amount; i++)
             {
                 _currentBalls.Add(Instantiate(_ball, _ballSpawnPoint.transform.position, Quaternion.identity));
@@ -115,11 +118,12 @@ namespace SkeeBall
         public void EndGame()
         {
             // might need a clouse here
-            if (_respawning)
+            if (_respawning || !_gameStarted)
                 return;
 
             if (_currentBalls.Count == 0)
             {
+                _gameStarted = false;
                 print("No more balls");
                 _endGame.Raise();
 

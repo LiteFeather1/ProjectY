@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using SkeeBall;
+using ScriptableObjectEvents;
 
 public class CanGameManager : MonoBehaviour
 {
@@ -26,14 +27,22 @@ public class CanGameManager : MonoBehaviour
     [SerializeField] private AnimationCurve _ballCurve;
     [SerializeField] private int _startBalls;
     [SerializeField] private VrBall _ballPrefab;
+    private int _ballCount;
 
-    private float XSpacing => _canMeshRenderer.bounds.size.x / 10 * .3f + xPadding;
+    [Header("End Game")]
+    [SerializeField] private VoidEvent _endGame;
+    private bool _gameStarted;
+    private float XSpacing => _canMeshRenderer.bounds.size.z / 10 * .3f + xPadding;
 
     private readonly YieldInstruction _waitBetweenBalls = new WaitForSeconds(1.3f);
     private readonly YieldInstruction _waitBetweenPhase = new WaitForSeconds(1.5f);
 
-    void Start()
+    //Event
+    [ContextMenu("Start Game")]
+    public void StartGame()
     {
+        _ballCount = 0;
+        _gameStarted = true;
         InitMaterialList();
         StartCoroutine(SpawnCans());
     }
@@ -64,11 +73,11 @@ public class CanGameManager : MonoBehaviour
         float totalCount = 0;
         for (int x = 0; x < rows; x++)
         {
-            float xPos = transform.position.x + XSpacing / 2 - (XSpacing * canQuantity / 2);
+            float xPos = transform.position.z + XSpacing / 2 - (XSpacing * canQuantity / 2);
 
             for (int i = 0; i < canQuantity; i++)
             {
-                Vector3 canPosition = new(xPos, height, transform.position.z);
+                Vector3 canPosition = new(transform.position.x, height, xPos);
 
                 Can newCan;
                 if (x == 0)
@@ -98,9 +107,11 @@ public class CanGameManager : MonoBehaviour
     private IEnumerator SpawnBalls()
     {
         int ballsToSpawn = (int)_ballCurve.Evaluate(rows);
+
         for (int i = 0; i < ballsToSpawn; i++)
         {
             Instantiate(_ballPrefab, _spawnPoint.position, Quaternion.identity);
+            _ballCount++;
             yield return _waitBetweenBalls;
         }
     }
@@ -108,6 +119,7 @@ public class CanGameManager : MonoBehaviour
     public void CanKnocked()
     {
         _currentCansKnocked++;
+
         if (_currentCansKnocked >= _currentCansNeededToKnock)
         {
             foreach (var can in _currentCans)
@@ -128,5 +140,30 @@ public class CanGameManager : MonoBehaviour
     {
         yield return _waitBetweenPhase;
         yield return SpawnCans();
+    }
+
+    private void EndGame()
+    {
+        if (_ballCount > 0)
+            return;
+
+        print("Can Game Ended");
+        _endGame.Raise();
+
+        foreach (var can in _currentCans)
+        {
+            Destroy(can.gameObject);
+        }
+    }
+
+    //Event
+    public void BallDisapperead()
+    {
+        if (!_gameStarted)
+            return;
+
+        _gameStarted = false;
+        _ballCount--;
+        EndGame();
     }
 }
