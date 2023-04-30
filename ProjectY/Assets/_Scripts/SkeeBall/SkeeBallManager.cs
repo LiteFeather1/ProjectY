@@ -9,14 +9,15 @@ namespace SkeeBall
     {
         [Header("Ball")]
         [SerializeField] private Ball _ball;
-        private readonly Queue<Ball> _thrownBalls = new();
+        private Queue<Ball> _thrownBalls;
         [SerializeField] private int _startingBalls = 9;
-        private readonly List<Ball> _currentBalls = new();
+        private List<Ball> _currentBalls;
         [SerializeField] private Transform _ballSpawnPoint;
         [SerializeField] private float _delayBetweenSpawns = 0.25f;
         private WaitForSeconds _delayWait;
         private bool _respawning = false;
-        public int BallCount => _currentBalls.Count;
+
+        public int BallCount => _currentBalls != null ? _currentBalls.Count : 0;
 
         [Header("Score")]
         [Tooltip("Every time the player scores this amount he gains balls back")]
@@ -30,21 +31,17 @@ namespace SkeeBall
         [Header("End Game")]
         [SerializeField] private VoidEvent _endGame;
 
+        private void Start() => _delayWait = new(_delayBetweenSpawns);
 
-        private void Start()
+        private void Awake()
         {
-            _delayWait = new(_delayBetweenSpawns);
+            _thrownBalls = new();
+            _currentBalls = new();
         }
 
         [ContextMenu("Start Game")]
-        public void StartGame() => StartGame(Games.SkeeBall);
-
         //Event listener
-        public void StartGame(Games game)
-        {
-            if (game == Games.SkeeBall)
-                StartCoroutine(SpawnBalls(_startingBalls));
-        }
+        public void StartGame() => StartCoroutine(SpawnBalls(_startingBalls));
 
         private IEnumerator SpawnBalls(float amount)
         {
@@ -53,21 +50,19 @@ namespace SkeeBall
                 _currentBalls.Add(Instantiate(_ball, _ballSpawnPoint.transform.position, Quaternion.identity));
                 yield return _delayWait;
             }
+
             _respawning = false;
         }
 
         //Event Listener. Listens to the special Score
-        public void GiveBallsSpecialScore()
-        {
-            StartCoroutine(GiveBallsCo(_ballsToGainFromSpecialScore));
-        }
+        public void GiveBallsSpecialScore() => StartCoroutine(GiveBallsCo(_ballsToGainFromSpecialScore));
 
         //Event Listener. Listens to score manager score update
         public void GiveBalls(float scoreAmount)
         {
             int i = _howMuchScoreToGainBall * _timesThatGainBall;
 
-            if(scoreAmount / i >= 1)
+            if (scoreAmount / i >= 1)
             {
                 _respawning = true;
                 DestroyExtraBalls();
@@ -88,14 +83,19 @@ namespace SkeeBall
         {
             for (int i = 0; i < amount; i++)
             {
+                if (_currentBalls.Count >= 3)
+                    break;
+
                 if (_thrownBalls.Count == 0)
                 {
                     StartCoroutine(SpawnBalls(amount - i));
                     yield break;
                 }
+
                 _currentBalls.Add(_thrownBalls.Dequeue().Appear(_ballSpawnPoint));
                 yield return _delayWait;
             }
+
             _respawning = false;
         }
 
@@ -127,6 +127,20 @@ namespace SkeeBall
                 {
                     ball.enabled = false;
                 }
+            }
+        }
+
+        public void GameEndedEvent()
+        {
+            for (int i = _currentBalls.Count - 1; i >= 0; i--)
+            {
+                _currentBalls.Remove(_currentBalls[i]);
+                _thrownBalls.Enqueue(_currentBalls[i]);
+            }
+
+            foreach (var ball in _thrownBalls)
+            {
+                ball.enabled = false;
             }
         }
     }

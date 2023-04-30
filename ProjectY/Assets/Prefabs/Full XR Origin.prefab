@@ -1585,7 +1585,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6337702293159429265
 Transform:
   m_ObjectHideFlags: 0
@@ -2772,7 +2772,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6337702293670670800
 Transform:
   m_ObjectHideFlags: 0
@@ -3480,7 +3480,7 @@ CharacterController:
   serializedVersion: 2
   m_Height: 2
   m_Radius: 0.2
-  m_SlopeLimit: 22.5
+  m_SlopeLimit: 1
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001

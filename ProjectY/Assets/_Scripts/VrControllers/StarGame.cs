@@ -4,7 +4,6 @@ using ScriptableObjectEvents;
 public class StarGame : MonoBehaviour
 {
     [SerializeField] private VoidEvent _gameToStart;
-    [SerializeField] private VoidEvent _gameEnded;
     private bool _gameStarted;
 
     public virtual void GameStarted()

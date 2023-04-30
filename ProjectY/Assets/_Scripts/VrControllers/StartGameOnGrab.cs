@@ -11,8 +11,8 @@ public class StartGameOnGrab : StarGame
 
     private void Awake()
     {
-        _startPos = transform.position;
-        _startRotation = transform.rotation;
+        _startPos = transform.localPosition;
+        _startRotation = transform.localRotation;
     }
 
     private void OnEnable()

@@ -3658,7 +3658,7 @@ MonoBehaviour:
   m_fontSize: 23
   m_fontSizeBase: 23
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 23
   m_fontStyle: 0
@@ -4431,6 +4431,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _molesPool: []
   _batchRange: {x: 2, y: 4}
+  _gameTime: 120
   _endGameTimer: {fileID: 3678218484522437892}
   _gameEnded: {fileID: 11400000, guid: e71b24dd0e0195848a51f0b22f95bbb1, type: 2}
   _currentTime: {fileID: 11400000, guid: 3cda4f5bad23d6346aace57f00d72618, type: 2}

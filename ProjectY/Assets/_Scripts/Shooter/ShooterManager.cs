@@ -57,12 +57,12 @@ namespace Shooter
 
         public void EndGame()
         {
-            DisableTimers(_flipTargets);
             DisableTimers(_flipTargetsBack);
             DisableTimers(_endGameTimer);
+            FlipTargetsBack();
             _currentTime.SetValue(0);
             _gameEnded.Raise();
-            FlipTargetsBack();
+            DisableTimers(_flipTargets);
         }
 
         private void DisableTimers(Timer timer)

@@ -19,6 +19,7 @@ namespace SkeeBall
                 _feedBackMessage.Raise(FeedBackMessage);
                 ChangeManagerScore();
                 ball.EnteredAHole();
+                ball.Disappear();
                 Scored?.Invoke();
             }
         }
