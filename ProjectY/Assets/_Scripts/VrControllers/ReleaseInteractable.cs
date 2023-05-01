@@ -12,6 +12,5 @@ public class ReleaseInteractable : MonoBehaviour
         _interactor.EndManualInteraction();
 
         _interactor.EndManualInteraction();
-
     }
 }

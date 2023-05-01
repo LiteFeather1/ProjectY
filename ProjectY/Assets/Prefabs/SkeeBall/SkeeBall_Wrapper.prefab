@@ -370,7 +370,7 @@ PrefabInstance:
     - target: {fileID: 9102289006216248631, guid: e3fa405a729494147bc834eaf208cc0d,
         type: 3}
       propertyPath: _unityEventResponse.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9102289006216248631, guid: e3fa405a729494147bc834eaf208cc0d,
         type: 3}
@@ -512,13 +512,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8843013309151357357, guid: e650facdaacbf5845b2d2fc806112bf3,
+        type: 3}
+      propertyPath: _ballListerner
+      value: 
+      objectReference: {fileID: 2764007901018178299}
     - target: {fileID: 8843013309151357359, guid: e650facdaacbf5845b2d2fc806112bf3,
         type: 3}
       propertyPath: m_Name
       value: SkeeBallManager
       objectReference: {fileID: 0}
+    - target: {fileID: 8843013310733843158, guid: e650facdaacbf5845b2d2fc806112bf3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e650facdaacbf5845b2d2fc806112bf3, type: 3}
+--- !u!1 &2764007901018178299 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8843013310733843158, guid: e650facdaacbf5845b2d2fc806112bf3,
+    type: 3}
+  m_PrefabInstance: {fileID: 6693205885048109101}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2764007901660713345 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8843013309151357356, guid: e650facdaacbf5845b2d2fc806112bf3,

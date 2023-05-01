@@ -9,7 +9,7 @@ namespace Shooter
     {
         [Header("Targets")]
         [SerializeField] private Vector2Int _batchRange = new(1,6);
-        private readonly List<Mover> _targetPool = new();
+        public List<Mover> _targetPool = new();
         private readonly List<Mover> _currentBadTargetsFlipped = new();
         private readonly List<Mover> _currentGoodTargetsFlipped = new();
 
@@ -154,6 +154,9 @@ namespace Shooter
         //Event Listener
         public void AddBackToPoolPublic(Mover flipper)
         {
+            if (flipper is not TargetFlipper)
+                return;
+
             AddBackToPool(flipper);
 
             if (_currentBadTargetsFlipped.Count == 0)

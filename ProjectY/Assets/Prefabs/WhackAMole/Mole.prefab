@@ -111,6 +111,7 @@ MonoBehaviour:
   _speed: 2
   _backSpeedMultiplier: 3
   _badOrGood: 0
+  _addToStartingPool: {fileID: 11400000, guid: 141832adb5fd8c84ea139ca0ea7b35b0, type: 2}
   _event: {fileID: 11400000, guid: b820448dc0510ef4fbbbabacdb47350b, type: 2}
   _maxSpeed: 5
   upPosition: {x: 0, y: 0.3, z: 0}
@@ -121,7 +122,6 @@ MonoBehaviour:
   _addTime: {fileID: 11400000, guid: f05ef207ccd4ee3428a8e953731ccf30, type: 2}
   _body: {fileID: 2066953761}
   _score: {fileID: 1286860648}
-  _targetEvent: {fileID: 11400000, guid: b820448dc0510ef4fbbbabacdb47350b, type: 2}
 --- !u!54 &2066953761
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -24,6 +24,7 @@ namespace SkeeBall
         [SerializeField] private int _howMuchScoreToGainBall = 100;// Better name pls
         [SerializeField] private int _ballsToGain = 3;
         private int _timesThatGainBall = 1;
+        [SerializeField] private GameObject _ballListerner;
 
         [Header("Special Score")]
         [SerializeField] private int _ballsToGainFromSpecialScore = 1;
@@ -47,7 +48,7 @@ namespace SkeeBall
         private IEnumerator SpawnBalls(float amount)
         {
             _gameStarted = true;
-
+            _ballListerner.SetActive(true);
             for (int i = 0; i < amount; i++)
             {
                 _currentBalls.Add(Instantiate(_ball, _ballSpawnPoint.transform.position, Quaternion.identity));
@@ -126,6 +127,8 @@ namespace SkeeBall
                 _gameStarted = false;
                 print("No more balls");
                 _endGame.Raise();
+                GameEnded();
+                _ballListerner.SetActive(false);
 
                 foreach (var ball in _thrownBalls)
                 {
@@ -134,8 +137,11 @@ namespace SkeeBall
             }
         }
 
-        public void GameEndedEvent()
+        public void GameEnded()
         {
+            if (_currentBalls.Count == 0)
+                return;
+
             for (int i = _currentBalls.Count - 1; i >= 0; i--)
             {
                 _currentBalls.Remove(_currentBalls[i]);
