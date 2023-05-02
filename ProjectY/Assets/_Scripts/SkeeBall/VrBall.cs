@@ -20,7 +20,12 @@ namespace SkeeBall
             _interactable.lastSelectExited.RemoveListener(_ => VrThrown());
             _interactable.firstSelectEntered.RemoveListener(_ => VrGrabbed());
         }
-        private void VrThrown() => _thrown = true;
+
+        private void VrThrown()
+        {
+            _timerToDisappear.Restart();
+            _thrown = true;
+        }
 
         private void VrGrabbed()
         {

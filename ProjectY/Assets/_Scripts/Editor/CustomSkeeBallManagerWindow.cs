@@ -13,7 +13,7 @@ namespace SkeeBall
             EditorGUILayout.Space();
             EditorGUILayout.LabelField("Custom Editor", EditorStyles.boldLabel);
             EditorGUI.BeginDisabledGroup(true);
-            EditorGUILayout.IntField("Target Count", skeeBallManager.BallCount);
+            EditorGUILayout.IntField("Ball Count", skeeBallManager.BallCount);
         }
     }
 }

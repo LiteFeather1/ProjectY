@@ -11,6 +11,7 @@ namespace Shooter
         {
             int r = Random.Range(0, _possibleTargets.Length);
             var target = Instantiate(_possibleTargets[r], transform.position, Quaternion.identity, transform.parent);
+            target.transform.localRotation = Quaternion.Euler(-90, 0, 180f);
             target.TargetScore.SetLaneMultiplier(_laneMultipler);
             gameObject.SetActive(false);
         }

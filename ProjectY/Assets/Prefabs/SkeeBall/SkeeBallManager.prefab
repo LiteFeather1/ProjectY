@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8471353910018352268}
-  - component: {fileID: 6406997534819317034}
+  - component: {fileID: 4662420503931055954}
   m_Layer: 0
   m_Name: GameStarted_Listener
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Father: {fileID: 8843013308791732950}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6406997534819317034
+--- !u!114 &4662420503931055954
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,17 +41,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 3088020715455064423}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0df2eb9d177a164c8f162cc11bd9925, type: 3}
+  m_Script: {fileID: 11500000, guid: 0bc1f57fc0234ba4784d1a7fcf94d9bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameEvent: {fileID: 11400000, guid: 6a24cef068d070542adfbb87711d86c1, type: 2}
+  _gameEvent: {fileID: 11400000, guid: 2d8268cc9186dd94ab2ebdd46d28aa68, type: 2}
   _unityEventResponse:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 8843013309151357357}
         m_TargetAssemblyTypeName: SkeeBall.SkeeBallManager, Assembly-CSharp
         m_MethodName: StartGame
-        m_Mode: 0
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -145,8 +145,9 @@ MonoBehaviour:
   _startingBalls: 4
   _ballSpawnPoint: {fileID: 8843013309787478083}
   _delayBetweenSpawns: 0.65
-  _howMuchScoreToGainBall: 100
-  _ballsToGain: 3
+  _howMuchScoreToGainBall: 150
+  _ballsToGain: 2
+  _ballListerner: {fileID: 0}
   _ballsToGainFromSpecialScore: 1
   _endGame: {fileID: 11400000, guid: e71b24dd0e0195848a51f0b22f95bbb1, type: 2}
 --- !u!1 &8843013309577955979
@@ -233,7 +234,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8843013309787478082}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.808, y: 0.658, z: -1.232}
+  m_LocalPosition: {x: 0.712, y: 0.658, z: -1.274}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

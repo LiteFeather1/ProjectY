@@ -27,5 +27,10 @@ public class ScoreManager : MonoBehaviour
         _score = 0;
     }
 
-    //Todo Turn Score into tickets
+
+    public void GameEnded()
+    {
+        _score = 0;
+        _scoreUpdated.Raise(_score);
+    }
 }

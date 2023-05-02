@@ -15,8 +15,8 @@ namespace SkeeBall
         [Header("Velocity")]
         [SerializeField] private Rigidbody _rb;
         [Tooltip("The event triggers when the rigidibody speed is under this value")]
-        [SerializeField] private float _velocityTolerance = 1f;
-        private bool CheckIfMoving => _rb.velocity.magnitude > _velocityTolerance;
+        //[SerializeField] private float _velocityTolerance = 1f;
+        //private bool CheckIfMoving => _rb.velocity.magnitude > _velocityTolerance;
         [SerializeField] protected Timer _timerToDisappear;
 
         protected virtual void OnEnable()
@@ -29,20 +29,20 @@ namespace SkeeBall
             _timerToDisappear.TimeEvent -= Disappear;
         }
 
-        private void LateUpdate()
-        {
-            if (!_thrown)
-                return;
+        //private void LateUpdate()
+        //{
+        //    if (!_thrown)
+        //        return;
 
-            if(!CheckIfMoving || _scored)
-            {
-                _timerToDisappear.Continue();
-            }
-            else
-            {
-                _timerToDisappear.Stop();
-            }
-        }
+        //    if(!CheckIfMoving || _scored)
+        //    {
+        //        _timerToDisappear.Continue();
+        //    }
+        //    else
+        //    {
+        //        _timerToDisappear.Stop();
+        //    }
+        //}
 
         public Ball Appear(Transform pos)
         {

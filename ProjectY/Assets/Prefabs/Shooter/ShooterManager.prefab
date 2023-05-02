@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3171663421650241911
+--- !u!1 &916424720
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,50 +8,50 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8077316128531469273}
-  - component: {fileID: 3860399542511751485}
+  - component: {fileID: 916424721}
+  - component: {fileID: 8075443124427154649}
   m_Layer: 0
-  m_Name: GameStarted
+  m_Name: StartGame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8077316128531469273
+--- !u!4 &916424721
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3171663421650241911}
+  m_GameObject: {fileID: 916424720}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3678218484429118859}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3860399542511751485
+--- !u!114 &8075443124427154649
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3171663421650241911}
+  m_GameObject: {fileID: 916424720}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0df2eb9d177a164c8f162cc11bd9925, type: 3}
+  m_Script: {fileID: 11500000, guid: 0bc1f57fc0234ba4784d1a7fcf94d9bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameEvent: {fileID: 11400000, guid: 6a24cef068d070542adfbb87711d86c1, type: 2}
+  _gameEvent: {fileID: 11400000, guid: 933b48f94cab6a145a7e6e36f72d6664, type: 2}
   _unityEventResponse:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3678218485347633652}
         m_TargetAssemblyTypeName: Shooter.ShooterManager, Assembly-CSharp
         m_MethodName: StartGame
-        m_Mode: 0
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 810a93fc99d30e94b9565395bad9249e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _canTick: 1
+  _canTick: 0
   _time: 60
 --- !u!1 &3678218483777140280
 GameObject:
@@ -302,7 +302,8 @@ Transform:
   m_Children:
   - {fileID: 3678218483449681707}
   - {fileID: 3678218483811926237}
-  - {fileID: 8077316128531469273}
+  - {fileID: 7220394621290890665}
+  - {fileID: 916424721}
   m_Father: {fileID: 3678218485347633655}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -436,5 +437,65 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03048b6754031f744acb62c8f1528856, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _canTick: 1
+  _canTick: 0
   _range: {x: 0.5, y: 2}
+--- !u!1 &7292049606322412059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7220394621290890665}
+  - component: {fileID: 7921760413576544187}
+  m_Layer: 0
+  m_Name: AddToPoolRaw
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7220394621290890665
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7292049606322412059}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3678218484429118859}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7921760413576544187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7292049606322412059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 321b6e1a3ef93184da3749fea3b99291, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameEvent: {fileID: 11400000, guid: 141832adb5fd8c84ea139ca0ea7b35b0, type: 2}
+  _unityEventResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3678218485347633652}
+        m_TargetAssemblyTypeName: Shooter.ShooterManager, Assembly-CSharp
+        m_MethodName: AddToPoolRaw
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

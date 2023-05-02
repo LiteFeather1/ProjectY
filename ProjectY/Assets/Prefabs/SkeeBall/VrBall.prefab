@@ -1,51 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3540801579913282219
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7144281103715977199}
-  - component: {fileID: 5022970512732758333}
-  m_Layer: 7
-  m_Name: TimeToDisappear
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7144281103715977199
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3540801579913282219}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9037500802654802402}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5022970512732758333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3540801579913282219}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 810a93fc99d30e94b9565395bad9249e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _canTick: 0
-  _time: 1.5
 --- !u!1 &9037500802654802406
 GameObject:
   m_ObjectHideFlags: 0
@@ -56,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9037500802654802402}
   - component: {fileID: 9037500802654802461}
+  - component: {fileID: 7430275471907668781}
   - component: {fileID: 9037500802654802401}
   - component: {fileID: 9037500802654802460}
   - component: {fileID: 8094401764562502575}
@@ -78,7 +33,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 7144281103715977199}
   - {fileID: 4888654366500810209}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -98,8 +52,22 @@ MonoBehaviour:
   _thrownEvent: {fileID: 11400000, guid: 9d0ea245cc8f3c74dab14f7cb08f4895, type: 2}
   _rb: {fileID: 9037500802654802460}
   _velocityTolerance: 1
-  _timerToDisappear: {fileID: 5022970512732758333}
+  _timerToDisappear: {fileID: 7430275471907668781}
   _interactable: {fileID: 8094401764562502575}
+--- !u!114 &7430275471907668781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9037500802654802406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 810a93fc99d30e94b9565395bad9249e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _canTick: 0
+  _time: 4
 --- !u!135 &9037500802654802401
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -254,7 +222,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 79e7a24ee47afe24f9f271f462d86458,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 79e7a24ee47afe24f9f271f462d86458,
         type: 3}
@@ -326,6 +294,11 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 79e7a24ee47afe24f9f271f462d86458,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a842d8bdfc48217488694e9894967bd7, type: 2}
     - target: {fileID: 919132149155446097, guid: 79e7a24ee47afe24f9f271f462d86458,
         type: 3}
       propertyPath: m_Name

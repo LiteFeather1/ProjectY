@@ -17,6 +17,7 @@ namespace ProjectY
         {
             if (!_canTick)
                 return;
+
             Ticking();
         }
 

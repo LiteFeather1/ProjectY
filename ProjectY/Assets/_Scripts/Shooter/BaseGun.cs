@@ -25,10 +25,9 @@ namespace Shooter
             //    }
             //    _hitPoint = hit.point;
             //}
-            print("Shooting");
             Rigidbody newProjectile = Instantiate(_ballPrefab, _firePoint.position, _firePoint.rotation);
             newProjectile.AddForce(_firePoint.forward * _force, ForceMode.VelocityChange);
-            newProjectile.AddTorque(Vector3.forward * _force * 20, ForceMode.VelocityChange);
+            newProjectile.AddTorque(_force * 20 * Vector3.forward, ForceMode.VelocityChange);
         }
 
         private void OnDrawGizmosSelected()

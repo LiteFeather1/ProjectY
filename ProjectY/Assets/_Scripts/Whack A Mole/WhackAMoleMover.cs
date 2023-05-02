@@ -30,8 +30,9 @@ namespace WhackAMole
         {
             _realUpPosition = transform.position + upPosition;
             _startPos = transform.position;
-            _event.Raise(this);
+            //_event.Raise(this);
             _yThreshHold = _startPos.y + (_realUpPosition.y - _startPos.y) * _threshHold;
+            _addToStartingPool.Raise(this);
         }
 
         private void FixedUpdate()
@@ -39,7 +40,6 @@ namespace WhackAMole
             float speed = Mathf.Lerp(_speed, _maxSpeed, _elapsedTime / _time);
 
             bool isDownEnough = transform.position.y <= _yThreshHold && _wasUp;
-            print(isDownEnough);
 
             if (_shouldBeDown)
             {

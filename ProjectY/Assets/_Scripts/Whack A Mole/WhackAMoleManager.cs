@@ -1,5 +1,6 @@
 using ProjectY;
 using ScriptableObjectEvents;
+using Shooter;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -22,16 +23,13 @@ namespace WhackAMole
         [SerializeField] private Timer _popMoles;
         [SerializeField] private Timer _moveDownTimer;
 
+        //private bool _gameStarted = false;
+
         private void OnEnable()
         {
             _endGameTimer.TimeEvent += EndGame;
             _popMoles.TimeEvent += PopMoles;
             _moveDownTimer.TimeEvent += MoveMolesDown;
-        }
-
-        private void Start()
-        {
-            _endGameTimer.SetTime(_gameTime);
         }
 
         private void OnDisable()
@@ -46,6 +44,15 @@ namespace WhackAMole
             UpdateTimeLeft();
         }
 
+        [ContextMenu("Start Gaem")]
+        public void StartGame()
+        {
+            //_gameStarted = true;
+            _endGameTimer.Restart();
+            _endGameTimer.SetTime(_gameTime);
+            _popMoles.Restart();
+        }
+
         private void UpdateTimeLeft()
         {
             if (!_endGameTimer.CanTick)
@@ -57,17 +64,27 @@ namespace WhackAMole
 
         public void EndGame()
         {
-            DisableTimers(_popMoles);
-            DisableTimers(_endGameTimer);
-            _currentTime.SetValue(0);
             _gameEnded.Raise();
-            gameObject.SetActive(false);
+            DisableTimers(_popMoles);
+            DisableTimers(_moveDownTimer);
+            DisableTimers(_endGameTimer);
+
+            int count = _currentMoles.Count;
+
+            for (int i = count - 1; i >= 0; i--)
+            {
+                Mover iMover = _currentMoles[i];
+                AddBackToPool(iMover);
+                iMover.MovedDown();
+            }
+
+            _currentTime.SetValue(0);
+            //_gameStarted = false;
         }
 
         private void DisableTimers(Timer timer)
         {
             timer.StopAndReset();
-            timer.enabled = false;
         }
 
         private void GetAllTargetsInScene()
@@ -101,10 +118,10 @@ namespace WhackAMole
             _moveDownTimer.Continue();
         }
 
-
         public void MoveMolesDown()
         {
             _moveDownTimer.StopAndReset();
+            _popMoles.Continue();
 
             int count = _currentMoles.Count;
 
@@ -114,8 +131,6 @@ namespace WhackAMole
                 AddBackToPool(iMover);
                 iMover.MovedDown();
             }
-
-            _popMoles.Continue();
         }
 
         private void RemoveFromPool(Mover iFlipper)
@@ -126,6 +141,9 @@ namespace WhackAMole
 
         private void AddBackToPool(Mover iFlipper)
         {
+            if (iFlipper is not WhackAMoleMover)
+                return;
+
             _molesPool.Add(iFlipper);
             _currentMoles.Remove(iFlipper);
             _endGameTimer.Multiplier--;
@@ -134,14 +152,25 @@ namespace WhackAMole
                 _endGameTimer.Multiplier = 0;
         }
 
+        public void AddToPoolRaw(Mover mover)
+        {
+            if (mover is not WhackAMoleMover)
+                return;
+
+            _molesPool.Add(mover);
+        }
+
         //Event Listener
         public void AddBackToPoolPublic(Mover mover)
         {
-            AddBackToPool(mover);
-            if (_currentMoles.Count == 0)
-            {
-                _popMoles.Continue();
-            }
+            if (mover is not WhackAMoleMover)
+                return;
+
+            //AddBackToPool(mover);
+            //if (_currentMoles.Count == 0)
+            //{
+            //    _popMoles.Continue();
+            //}
         }
 
         //Event listener 

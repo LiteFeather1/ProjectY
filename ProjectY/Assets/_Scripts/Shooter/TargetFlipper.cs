@@ -12,29 +12,37 @@ namespace Shooter
         public TargetScore TargetScore => _targetScore;
 
         //Bad hard coded but yeah
-        private readonly Quaternion _laying = Quaternion.Euler(100, 0, 0);
-        private readonly Quaternion _standing = Quaternion.Euler(0, 0, 0);
+        private readonly Quaternion _laying = Quaternion.Euler(-45, 0, 180);
+        private readonly Quaternion _standing = Quaternion.Euler(-180, 0, 180);
 
-        private readonly WaitForEndOfFrame _wait = new();
+        private readonly WaitForFixedUpdate _wait = new();
 
         private void OnEnable() => _targetScore.Shot += ReturnToPool;
 
         private void Start()
         {
-            _event.Raise(this);
-            transform.rotation = _laying;
+            //_event.Raise(this);
+            _addToStartingPool.Raise(this);
+            Lay();
         }
 
         private void OnDisable() => _targetScore.Shot -= ReturnToPool;
 
-        public void Stand() => transform.rotation = _standing;
+        public void Stand() => transform.localRotation = _standing;
 
-        public void Lay() => transform.rotation = _laying;
+        public void Lay() => transform.localRotation = _laying;
 
+        [ContextMenu("Move Up")]
         public override void Move()
         {
             StopAllCoroutines();
             StartCoroutine(FlipCoroutine(_standing, true, -1));
+        }
+
+        [ContextMenu("Move Down")]
+        public void MoveDown()
+        {
+            MovedDown();
         }
 
         public override void MovedDown(float speedMultiplier = 1)
@@ -48,13 +56,13 @@ namespace Shooter
             if (canScore)
                 _targetScore.SetCanScore(canScore);
 
-            while (!MathHelper.CompareRotations(transform.rotation, rotation, 10))
+            while (!MathHelper.CompareRotations(transform.localRotation, rotation, 10))
             {
-                transform.Rotate(_speed * positive * speedMultiplier * Time.deltaTime * Vector3.right);
+                transform.Rotate(_speed * positive * speedMultiplier * Time.deltaTime * Vector3.left);
                 yield return _wait;
             }
 
-            transform.rotation = rotation;
+            transform.localRotation = rotation;
 
             if (!canScore)
                 _targetScore.SetCanScore(canScore);
