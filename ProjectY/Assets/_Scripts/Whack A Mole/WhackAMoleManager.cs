@@ -23,7 +23,7 @@ namespace WhackAMole
         [SerializeField] private Timer _popMoles;
         [SerializeField] private Timer _moveDownTimer;
 
-        private bool _gameStarted = false;
+        //private bool _gameStarted = false;
 
         private void OnEnable()
         {
@@ -47,7 +47,7 @@ namespace WhackAMole
         [ContextMenu("Start Gaem")]
         public void StartGame()
         {
-            _gameStarted = true;
+            //_gameStarted = true;
             _endGameTimer.Restart();
             _endGameTimer.SetTime(_gameTime);
             _popMoles.Restart();
@@ -79,7 +79,7 @@ namespace WhackAMole
             }
 
             _currentTime.SetValue(0);
-            _gameStarted = false;
+            //_gameStarted = false;
         }
 
         private void DisableTimers(Timer timer)

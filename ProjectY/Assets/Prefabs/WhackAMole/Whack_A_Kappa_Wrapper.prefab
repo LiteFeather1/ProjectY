@@ -1121,7 +1121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _molesPool: []
   _batchRange: {x: 2, y: 4}
-  _gameTime: 10
+  _gameTime: 60
   _endGameTimer: {fileID: 8444627427046980040}
   _gameEnded: {fileID: 11400000, guid: e71b24dd0e0195848a51f0b22f95bbb1, type: 2}
   _currentTime: {fileID: 11400000, guid: 3cda4f5bad23d6346aace57f00d72618, type: 2}

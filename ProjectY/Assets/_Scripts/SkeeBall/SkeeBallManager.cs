@@ -125,7 +125,6 @@ namespace SkeeBall
             if (_currentBalls.Count == 0)
             {
                 _gameStarted = false;
-                print("No more balls");
                 _endGame.Raise();
                 GameEnded();
                 _ballListerner.SetActive(false);
