@@ -1,8 +1,8 @@
-using System.Collections;
 using System.Collections.Generic;
+using ScriptableObjectEvents;
+using System.Collections;
 using UnityEngine;
 using SkeeBall;
-using ScriptableObjectEvents;
 
 public class CanGameManager : MonoBehaviour
 {
@@ -71,6 +71,7 @@ public class CanGameManager : MonoBehaviour
         _currentCans = new List<Can>();
 
         float totalCount = 0;
+
         for (int x = 0; x < rows; x++)
         {
             float xPos = transform.position.z + XSpacing / 2 - (XSpacing * canQuantity / 2);
@@ -144,15 +145,18 @@ public class CanGameManager : MonoBehaviour
 
     private void EndGame()
     {
-        if (_ballCount > 0)
-            return;
-
-        print("Can Game Ended");
-        _endGame.Raise();
-
-        foreach (var can in _currentCans)
+        if (_ballCount <= 0)
         {
-            Destroy(can.gameObject);
+            print("Can Game Ended");
+            _endGame.Raise();
+
+            foreach (var can in _currentCans)
+            {
+                Destroy(can.gameObject);
+            }
+
+            _gameStarted = false;
+            _currentCans = new();
         }
     }
 
@@ -162,7 +166,6 @@ public class CanGameManager : MonoBehaviour
         if (!_gameStarted)
             return;
 
-        _gameStarted = false;
         _ballCount--;
         EndGame();
     }

@@ -10,7 +10,7 @@ public class Text_Score : MonoBehaviour
     public void UpdateScore(float score)
     {
         StringBuilder sb = new();
-        sb.Append(_scoreString).Append(Mathf.Round(score).ToString("000000"));
+        sb.Append(_scoreString).Append(Mathf.Round(score).ToString("0000"));
         _score.text = sb.ToString();
     }
 }

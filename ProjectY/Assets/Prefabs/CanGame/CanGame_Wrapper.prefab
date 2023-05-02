@@ -128,7 +128,7 @@ MonoBehaviour:
   _canMeshRenderer: {fileID: 6975704744839252938, guid: 195bc51e77a60c34f966d0f38971d885,
     type: 3}
   xPadding: 0.15
-  rows: 5
+  rows: 6
   _maxRows: 10
   _cansCurve:
     serializedVersion: 2

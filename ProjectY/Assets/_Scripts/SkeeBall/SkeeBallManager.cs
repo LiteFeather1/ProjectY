@@ -118,7 +118,6 @@ namespace SkeeBall
 
         public void EndGame()
         {
-            // might need a clouse here
             if (_respawning || !_gameStarted)
                 return;
 
