@@ -9,11 +9,11 @@ C:\Program Files\Unity 2021.3.15f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker0
+AssetImportWorker3
 -projectPath
 C:/RepositorioVR/ProjectY
 -logFile
-Logs/AssetImportWorker0.log
+Logs/AssetImportWorker3.log
 -srvPort
 59416
 Successfully changed project path to: C:/RepositorioVR/ProjectY
@@ -47,12 +47,12 @@ C:/RepositorioVR/ProjectY
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22284] Host "[IP] 192.168.25.58 [Port] 0 [Flags] 2 [Guid] 2419442960 [EditorId] 2419442960 [Version] 1048832 [Id] WindowsEditor(7,D011-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [2464] Host "[IP] 192.168.25.58 [Port] 0 [Flags] 2 [Guid] 4079009774 [EditorId] 4079009774 [Version] 1048832 [Id] WindowsEditor(7,D011-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [22284] Host "[IP] 192.168.25.58 [Port] 0 [Flags] 2 [Guid] 2419442960 [EditorId] 2419442960 [Version] 1048832 [Id] WindowsEditor(7,D011-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2464] Host "[IP] 192.168.25.58 [Port] 0 [Flags] 2 [Guid] 4079009774 [EditorId] 4079009774 [Version] 1048832 [Id] WindowsEditor(7,D011-21) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 112.45 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.41 ms.
+Refreshing native plugins compatible for Editor in 130.97 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.40 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.15f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/RepositorioVR/ProjectY/Assets
@@ -67,37 +67,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006173 seconds.
+Registered in 0.003619 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 119.24 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 105.17 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.587 seconds
+- Completed reload, in  0.550 seconds
 Domain Reload Profiling:
-	ReloadAssembly (587ms)
-		BeginReloadAssembly (57ms)
+	ReloadAssembly (551ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (436ms)
-			LoadAssemblies (55ms)
+		EndReloadAssembly (408ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (94ms)
+			SetupTypeCache (86ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (278ms)
+			SetupLoadedEditorAssemblies (258ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (119ms)
+				RefreshPlugins (105ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadAttributes (111ms)
 				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -105,12 +105,12 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009528 seconds.
+Registered in 0.009179 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\RepositorioVR\ProjectY\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\RepositorioVR\ProjectY\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 108.82 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 102.16 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
@@ -129,30 +129,30 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.270 seconds
+- Completed reload, in  1.142 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1271ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (1142ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (1063ms)
-			LoadAssemblies (87ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (964ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (281ms)
+			SetupTypeCache (236ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (600ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (564ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (109ms)
-				BeforeProcessingInitializeOnLoad (122ms)
-				ProcessInitializeOnLoadAttributes (285ms)
-				ProcessInitializeOnLoadMethodAttributes (74ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (274ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
@@ -160,12 +160,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.05 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 Unloading 6364 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 59 unused Assets / (412.7 KB). Loaded Objects now: 6813.
 Memory consumption went from 251.6 MB to 251.2 MB.
-Total: 3.586900 ms (FindLiveObjects: 0.448200 ms CreateObjectMapping: 0.498200 ms MarkObjects: 2.446600 ms  DeleteObjects: 0.192800 ms)
+Total: 3.610400 ms (FindLiveObjects: 0.418700 ms CreateObjectMapping: 0.441900 ms MarkObjects: 2.570200 ms  DeleteObjects: 0.178800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -179,76 +179,22 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1211424.595642 seconds.
-  path: Assets/Models/others_mdl/GameObject (1).prefab
-  artifactKey: Guid(2c11c47c11013194c8359cb4b74fd214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/others_mdl/GameObject (1).prefab using Guid(2c11c47c11013194c8359cb4b74fd214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1b31d2a24951dece641e3ba1877d39') in 0.435565 seconds 
+  Time since last request: 1211954.698543 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Gamepad@2x.png
+  artifactKey: Guid(bed935caee9524e6780614c2055bfd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Gamepad@2x.png using Guid(bed935caee9524e6780614c2055bfd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477f7b11e8a8c8146ab715da69aa1430') in 0.086717 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.451436 seconds.
-  path: Assets/Prefabs/SkeeBall/Ball.prefab
-  artifactKey: Guid(3f39ac835fcf25f4483b9dc64c2df210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SkeeBall/Ball.prefab using Guid(3f39ac835fcf25f4483b9dc64c2df210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc57734542d375bd33d1767a7c26ffb') in 0.033752 seconds 
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Gamepad@3x.png
+  artifactKey: Guid(9e882b58df0964f5b90ff99cb481ee79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Gamepad@3x.png using Guid(9e882b58df0964f5b90ff99cb481ee79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973872028491f6caa8248bbc53496b77') in 0.020325 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Models/Can Game/Cans/Cans_LP_ 1.prefab
-  artifactKey: Guid(5a0239abf90bf3841be37146f58bcc99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Can Game/Cans/Cans_LP_ 1.prefab using Guid(5a0239abf90bf3841be37146f58bcc99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27517a2a5666645ce7515c48ebb745b7') in 0.042533 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Prefabs/CanGame/C_Cans_Pxy_Light.prefab
-  artifactKey: Guid(a19b57d5f6a04054693b81de07b7f496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CanGame/C_Cans_Pxy_Light.prefab using Guid(a19b57d5f6a04054693b81de07b7f496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98596d321530c4070158dbcd455c7a6a') in 0.018371 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Prefabs/CanGame/C_Cans_Pxy_Heavy.prefab
-  artifactKey: Guid(195bc51e77a60c34f966d0f38971d885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CanGame/C_Cans_Pxy_Heavy.prefab using Guid(195bc51e77a60c34f966d0f38971d885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a390efcee49e37e90e28d752f0314e4') in 0.011184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 39.721476 seconds.
-  path: Assets/Models/Can Game/Cans/Cans_LP_ 9.prefab
-  artifactKey: Guid(89a9e179402e2c446889a83f11cd4f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Can Game/Cans/Cans_LP_ 9.prefab using Guid(89a9e179402e2c446889a83f11cd4f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3cd4b598712b970a72f06d1eb6c86e1') in 0.022878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Prefabs/Shooter/FeedBackParticle.prefab
-  artifactKey: Guid(d36e43edead8418488df0a761490e82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shooter/FeedBackParticle.prefab using Guid(d36e43edead8418488df0a761490e82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8947e335c135a45256433ba4b15ff93c') in 0.058443 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Prefabs/Shooter/Lane.prefab
-  artifactKey: Guid(b02da74cfe2a6e549b7ef5c3a8cedbf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shooter/Lane.prefab using Guid(b02da74cfe2a6e549b7ef5c3a8cedbf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3bcc9632e84aa857706890b569e9f5') in 0.028223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prefabs/Shooter/Lane_Target_4 Variant.prefab
-  artifactKey: Guid(2d9198bae8031e84bb9ca4b0ba9a65ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shooter/Lane_Target_4 Variant.prefab using Guid(2d9198bae8031e84bb9ca4b0ba9a65ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2001b60704effb97b990977d4574dcf7') in 0.032307 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Prefabs/Shooter/Lane_Target_3 Variant.prefab
-  artifactKey: Guid(0c102ccb6922ebb4fb03fac02197bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shooter/Lane_Target_3 Variant.prefab using Guid(0c102ccb6922ebb4fb03fac02197bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3fb1b29c3e0bcd02c7e16bb72ac68d') in 0.031874 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Models/Can Game/Cans/Cans_LP_ 11.prefab
-  artifactKey: Guid(cef4345ec182d6145954f0054a55e965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Can Game/Cans/Cans_LP_ 11.prefab using Guid(cef4345ec182d6145954f0054a55e965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6038de5b5d6c80238e6868c01483c571') in 0.022427 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Prefabs/Shooter/Lane_Target_1 Variant.prefab
-  artifactKey: Guid(aec8d1af7bb27d742a23219fa93b8d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shooter/Lane_Target_1 Variant.prefab using Guid(aec8d1af7bb27d742a23219fa93b8d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da907b2efbe3bca24d7124c70c5374e0') in 0.017739 seconds 
+  Time since last request: 0.000033 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Gamepad@2x.png
+  artifactKey: Guid(4defb5292901c41f29313d9c9c87a7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Gamepad@2x.png using Guid(4defb5292901c41f29313d9c9c87a7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de86a874a29e0d93e1dbb5f485c777c') in 0.022884 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
