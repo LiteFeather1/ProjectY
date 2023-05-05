@@ -71,6 +71,6 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _emissionMult: 1
-    - _multEmission: 0
+    - _multEmission: 1.33
     m_Colors: []
   m_BuildTextureStacks: []
