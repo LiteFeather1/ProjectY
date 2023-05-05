@@ -49,6 +49,7 @@ namespace SkeeBall
         {
             _gameStarted = true;
             _ballListerner.SetActive(true);
+            _timesThatGainBall = 1;
             for (int i = 0; i < amount; i++)
             {
                 _currentBalls.Add(Instantiate(_ball, _ballSpawnPoint.transform.position, Quaternion.identity));

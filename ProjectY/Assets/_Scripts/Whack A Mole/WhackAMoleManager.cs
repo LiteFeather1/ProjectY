@@ -166,11 +166,11 @@ namespace WhackAMole
             if (mover is not WhackAMoleMover)
                 return;
 
-            //AddBackToPool(mover);
-            //if (_currentMoles.Count == 0)
-            //{
-            //    _popMoles.Continue();
-            //}
+            AddBackToPool(mover);
+            if (_currentMoles.Count == 0)
+            {
+                _popMoles.Continue();
+            }
         }
 
         //Event listener 

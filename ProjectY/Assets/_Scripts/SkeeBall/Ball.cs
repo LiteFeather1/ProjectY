@@ -44,7 +44,7 @@ namespace SkeeBall
         //    }
         //}
 
-        public Ball Appear(Transform pos)
+        public virtual Ball Appear(Transform pos)
         {
             transform.position = pos.position;
             gameObject.SetActive(true);

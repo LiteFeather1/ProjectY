@@ -52,7 +52,7 @@ namespace WhackAMole
                     DownMovement(speed);
                     _shouldBeDown = true;
                     _score.ChangeManagerScore();
-                    _addTime.Raise(1f);
+                    _addTime.Raise(.25f);
                     _wasDown = false;
                 }
                 else
@@ -81,6 +81,7 @@ namespace WhackAMole
             {
                 if (_wasDown)
                     return;
+
                 _wasDown = true;
                 _event.Raise(this);
             }

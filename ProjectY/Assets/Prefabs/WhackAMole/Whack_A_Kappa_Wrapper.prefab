@@ -322,7 +322,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5060638461847901533}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0bc1f57fc0234ba4784d1a7fcf94d9bf, type: 3}
   m_Name: 
@@ -1219,7 +1219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e12eb5cd7942b04f82e61f29a7f0e16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameEvent: {fileID: 11400000, guid: f05ef207ccd4ee3428a8e953731ccf30, type: 2}
+  _gameEvent: {fileID: 11400000, guid: 851901f0a1aa87d47bad67cb91aca364, type: 2}
   _unityEventResponse:
     m_PersistentCalls:
       m_Calls:
@@ -2061,7 +2061,7 @@ PrefabInstance:
     - target: {fileID: 6754760615476741504, guid: 5c0f4af6e34c2e24b99ecf580974aa7d,
         type: 3}
       propertyPath: m_MovementType
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6754760615476741504, guid: 5c0f4af6e34c2e24b99ecf580974aa7d,
         type: 3}
