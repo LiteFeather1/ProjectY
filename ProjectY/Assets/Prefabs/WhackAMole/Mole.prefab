@@ -119,7 +119,7 @@ MonoBehaviour:
   _threshHold: 0.3
   _time: {fileID: 11400000, guid: f30c0135398bed94da528f09081bee7b, type: 2}
   _elapsedTime: {fileID: 11400000, guid: 4ad3770f40ccfd54aafa763299c80452, type: 2}
-  _addTime: {fileID: 11400000, guid: f05ef207ccd4ee3428a8e953731ccf30, type: 2}
+  _addTime: {fileID: 11400000, guid: 851901f0a1aa87d47bad67cb91aca364, type: 2}
   _body: {fileID: 2066953761}
   _score: {fileID: 1286860648}
 --- !u!54 &2066953761
@@ -137,7 +137,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 122
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!136 &5391853384897211494
 CapsuleCollider:
   m_ObjectHideFlags: 0

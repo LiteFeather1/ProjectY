@@ -15,7 +15,8 @@ public class CanGameManager : MonoBehaviour
     [SerializeField] float xPadding;
 
     [Header("Cans")]
-    [SerializeField, Min(3)] int rows;
+    [SerializeField, Min(MIN_ROWS)] int rows;
+    private const int MIN_ROWS = 3;
     [SerializeField] private int _maxRows = 10;
     [SerializeField] private AnimationCurve _cansCurve;
     private int _currentCansNeededToKnock;
@@ -28,13 +29,16 @@ public class CanGameManager : MonoBehaviour
     [SerializeField] private int _startBalls;
     [SerializeField] private VrBall _ballPrefab;
     private int _ballCount;
+    private const int BALL_LIMIT = 9;
 
     [Header("End Game")]
     [SerializeField] private VoidEvent _endGame;
     private bool _gameStarted;
+    private bool _respawningCans = false;
+
     private float XSpacing => _canMeshRenderer.bounds.size.z / 10 * .3f + xPadding;
 
-    private readonly YieldInstruction _waitBetweenBalls = new WaitForSeconds(1.3f);
+    private readonly YieldInstruction _waitBetweenBalls = new WaitForSeconds(1.4f);
     private readonly YieldInstruction _waitBetweenPhase = new WaitForSeconds(1.5f);
 
     //Event
@@ -42,6 +46,7 @@ public class CanGameManager : MonoBehaviour
     public void StartGame()
     {
         _ballCount = 0;
+        rows = MIN_ROWS;
         _gameStarted = true;
         InitMaterialList();
         StartCoroutine(SpawnCans());
@@ -102,6 +107,7 @@ public class CanGameManager : MonoBehaviour
         _currentCansKnocked = 0;
         _currentCansNeededToKnock = (int)(_cansCurve.Evaluate(rows) * totalCount);
 
+        _respawningCans = false;
         yield return null;
     }
 
@@ -111,6 +117,9 @@ public class CanGameManager : MonoBehaviour
 
         for (int i = 0; i < ballsToSpawn; i++)
         {
+            if (_ballCount >= BALL_LIMIT)
+                break;
+
             Instantiate(_ballPrefab, _spawnPoint.position, Quaternion.identity);
             _ballCount++;
             yield return _waitBetweenBalls;
@@ -121,12 +130,10 @@ public class CanGameManager : MonoBehaviour
     {
         _currentCansKnocked++;
 
-        if (_currentCansKnocked >= _currentCansNeededToKnock)
+        if (_currentCansKnocked >= _currentCansNeededToKnock && !_respawningCans)
         {
-            foreach (var can in _currentCans)
-            {
-                Destroy(can.gameObject);
-            }
+            _respawningCans = true;
+            print("Knocked");
 
             rows++;
 
@@ -140,6 +147,10 @@ public class CanGameManager : MonoBehaviour
     private IEnumerator Delay_Spawn()
     {
         yield return _waitBetweenPhase;
+        foreach (var can in _currentCans)
+        {
+            Destroy(can.gameObject);
+        }
         yield return SpawnCans();
     }
 
