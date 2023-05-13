@@ -3,9 +3,14 @@ using ScriptableObjectEvents;
 
 public class ScoreManager : MonoBehaviour
 {
-    [SerializeField] private float _score;
+    private float _score;
+    private float _lastScore;
     [SerializeField] private FloatEvent _scoreUpdated;
+    [SerializeField] private FloatEvent _lastScoreUpdate;
+    [SerializeField] private FloatEvent _bestScoreUpdate;
     [SerializeField] private Games _game;
+
+    private string BestScore => $"Best Score {_game}"; 
 
     //Event Listener to when score event is Raised
     public void ChangeScore(float amount)
@@ -14,23 +19,26 @@ public class ScoreManager : MonoBehaviour
         _score = Mathf.Clamp(_score, 0f, float.MaxValue);
         _scoreUpdated.Raise(_score);
     }
-    //Event
-    public void SaveScoreToPrefs()
-    {
-        if (_score > PlayerPrefs.GetFloat(_game.ToString()))
-            PlayerPrefs.SetFloat(_game.ToString(), _score);
-    }
-
-    public void GameStarted(Games game)
-    {
-        _game = game;
-        _score = 0;
-    }
-
 
     public void GameEnded()
     {
+        _lastScore = _score;
         _score = 0;
         _scoreUpdated.Raise(_score);
+        _lastScoreUpdate.Raise(_lastScore);
+        _bestScoreUpdate.Raise(GetBestScore());
+    }
+
+    private float GetBestScore()
+    {
+        float bestScore = PlayerPrefs.GetFloat(BestScore, 0f);
+
+        if (_score > bestScore)
+        {
+            PlayerPrefs.SetFloat(BestScore, _score);
+            return _score;
+        }
+
+        return bestScore;
     }
 }
