@@ -10,9 +10,4 @@ public static class Extensions
         ray.direction = direction;
         return ray;
     }
-
-    public static void ChangeY(this Vector3 v3, float y)
-    {
-        v3 = new(v3.x, y, v3.z);
-    }
 }

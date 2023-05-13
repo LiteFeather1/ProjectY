@@ -81,7 +81,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45f32348993fcce44948141ae3187eed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scored: {fileID: 11400000, guid: f4855d017d56c8e4186db1a519e23a27, type: 2}
+  _scored: {fileID: 11400000, guid: 9c09a5f366062e944bab4801b3711fca, type: 2}
   _baseScore: 100
   _targetCenter: {fileID: 5468368251933307023}
   _rings:

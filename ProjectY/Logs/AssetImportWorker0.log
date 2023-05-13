@@ -2504,3 +2504,432 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1127.864192 seconds.
+  path: Assets/ScriptableObjectEvents/CanGame/FloatEvent_UpdateTotalScore.asset
+  artifactKey: Guid(664834f2b671c4a45892f669a9d09cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/CanGame/FloatEvent_UpdateTotalScore.asset using Guid(664834f2b671c4a45892f669a9d09cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db121b63dbfe410d79c921e72db0e1e') in 0.030240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.845411 seconds.
+  path: Assets/ScriptableObjectEvents/CanGame/CanGame_FloatEvent_UpdateTotalScore.asset
+  artifactKey: Guid(664834f2b671c4a45892f669a9d09cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/CanGame/CanGame_FloatEvent_UpdateTotalScore.asset using Guid(664834f2b671c4a45892f669a9d09cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7a7e9aa90499787b2911eeb1064848') in 0.002673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.202078 seconds.
+  path: Assets/ScriptableObjectEvents/CanGame/CanGame_FloatEvent_UpdateTotalScore 1.asset
+  artifactKey: Guid(3f0e0a4a5a9f17c4fb15ee099f6ef3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/CanGame/CanGame_FloatEvent_UpdateTotalScore 1.asset using Guid(3f0e0a4a5a9f17c4fb15ee099f6ef3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb95f3b2e282ec4ac0bdfa4d6db22252') in 0.003221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.442544 seconds.
+  path: Assets/ScriptableObjectEvents/CanGame/CanGame_FloatEvent_Update.asset
+  artifactKey: Guid(3f0e0a4a5a9f17c4fb15ee099f6ef3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/CanGame/CanGame_FloatEvent_Update.asset using Guid(3f0e0a4a5a9f17c4fb15ee099f6ef3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe5a4d7e7b2b62f5de3f8f85faded24') in 0.003380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.937417 seconds.
+  path: Assets/ScriptableObjectEvents/CanGame/CanGame_FloatEvent_UpdateBestScore.asset
+  artifactKey: Guid(3f0e0a4a5a9f17c4fb15ee099f6ef3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/CanGame/CanGame_FloatEvent_UpdateBestScore.asset using Guid(3f0e0a4a5a9f17c4fb15ee099f6ef3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e427f255954ba6834c6130b9ac43584d') in 0.002682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.105457 seconds.
+  path: Assets/ScriptableObjectEvents/CanGame/CanGame_FloatEvent_UpdateBestScore 1.asset
+  artifactKey: Guid(cb524c8dfed0aaf488c06a94d52d6508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/CanGame/CanGame_FloatEvent_UpdateBestScore 1.asset using Guid(cb524c8dfed0aaf488c06a94d52d6508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be337b99bac9d9d1a7512931c3868d77') in 0.003325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.997135 seconds.
+  path: Assets/ScriptableObjectEvents/CanGame/CanGame_FloatEvent_UpdateLastScore.asset
+  artifactKey: Guid(cb524c8dfed0aaf488c06a94d52d6508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/CanGame/CanGame_FloatEvent_UpdateLastScore.asset using Guid(cb524c8dfed0aaf488c06a94d52d6508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556f948db56709ac19da461be33ef07d') in 0.004942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.210770 seconds.
+  path: Assets/ScriptableObjectEvents/Shooter
+  artifactKey: Guid(b1d65bf03798a264a98116038e010b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/Shooter using Guid(b1d65bf03798a264a98116038e010b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a876d085d4ebe0b4d3842daeddfb1a') in 0.003254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.942414 seconds.
+  path: Assets/ScriptableObjectEvents/Shooter/CanGame_FloatEvent_UpdateBestScore.asset
+  artifactKey: Guid(a4d2f2132a1060d4cb51141c44ac5adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/Shooter/CanGame_FloatEvent_UpdateBestScore.asset using Guid(a4d2f2132a1060d4cb51141c44ac5adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5d88e6d3489abafafc78f2128b2dd4') in 0.003383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.448039 seconds.
+  path: Assets/ScriptableObjectEvents/Shooter/Shooter_FloatEvent_UpdateBestScore.asset
+  artifactKey: Guid(a4d2f2132a1060d4cb51141c44ac5adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/Shooter/Shooter_FloatEvent_UpdateBestScore.asset using Guid(a4d2f2132a1060d4cb51141c44ac5adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46723bf5d7927a9a2c611ee6684dc921') in 0.003849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.522974 seconds.
+  path: Assets/ScriptableObjectEvents/Shooter/FloatEvent_WK_ChangeTimer.asset
+  artifactKey: Guid(851901f0a1aa87d47bad67cb91aca364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/Shooter/FloatEvent_WK_ChangeTimer.asset using Guid(851901f0a1aa87d47bad67cb91aca364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4191a25555aa19d3713b1713fb7539b1') in 0.003276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.145700 seconds.
+  path: Assets/ScriptableObjectEvents/Shooter/FloatEvent_ChangeTimer.asset
+  artifactKey: Guid(f05ef207ccd4ee3428a8e953731ccf30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/Shooter/FloatEvent_ChangeTimer.asset using Guid(f05ef207ccd4ee3428a8e953731ccf30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a72c450af34d7a586bf00af95ad84fc') in 0.003950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.159474 seconds.
+  path: Assets/ScriptableObjectEvents/Shooter/FeedBackParitcleEvent.asset
+  artifactKey: Guid(f6990249b409b92448cf8756f8bad8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/Shooter/FeedBackParitcleEvent.asset using Guid(f6990249b409b92448cf8756f8bad8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3c2b74a4ad75338c521547fb37c214') in 0.003341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.184743 seconds.
+  path: Assets/ScriptableObjectEvents/Shooter/CanGame_FloatEvent_UpdateTotalScore.asset
+  artifactKey: Guid(c8e9efb6dc3eb9c45b6a0734a6c1684e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/Shooter/CanGame_FloatEvent_UpdateTotalScore.asset using Guid(c8e9efb6dc3eb9c45b6a0734a6c1684e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22731d69286f9c883fc1f88b743c343f') in 0.002628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.670450 seconds.
+  path: Assets/ScriptableObjectEvents/Shooter/Shooter_FloatEvent_UpdateTotalScore.asset
+  artifactKey: Guid(c8e9efb6dc3eb9c45b6a0734a6c1684e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/Shooter/Shooter_FloatEvent_UpdateTotalScore.asset using Guid(c8e9efb6dc3eb9c45b6a0734a6c1684e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1636ba4b37abc101592029a542a349') in 0.003080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.247089 seconds.
+  path: Assets/ScriptableObjectEvents/Shooter/CanGame_FloatEvent_UpdateLastScore.asset
+  artifactKey: Guid(0a233fcd9a78e7346957a81ca3c08176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/Shooter/CanGame_FloatEvent_UpdateLastScore.asset using Guid(0a233fcd9a78e7346957a81ca3c08176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0af63528d811ab9368f3f7793340a5') in 0.003001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.357892 seconds.
+  path: Assets/ScriptableObjectEvents/Shooter/Shooter_FloatEvent_UpdateLastScore.asset
+  artifactKey: Guid(0a233fcd9a78e7346957a81ca3c08176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/Shooter/Shooter_FloatEvent_UpdateLastScore.asset using Guid(0a233fcd9a78e7346957a81ca3c08176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f031aba8a30f44ee833fa464a0657f') in 0.003459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.421109 seconds.
+  path: Assets/ScriptableObjectEvents/SkeeBall
+  artifactKey: Guid(59e55b5fba0ae734984f03196f1cbff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/SkeeBall using Guid(59e55b5fba0ae734984f03196f1cbff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7230fe3d499819230b7518d875a6f5fc') in 0.036444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.087002 seconds.
+  path: Assets/ScriptableObjectEvents/SkeeBall/CanGame_FloatEvent_UpdateBestScore.asset
+  artifactKey: Guid(aa87d606d714d2343b75ed9fd2014b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/SkeeBall/CanGame_FloatEvent_UpdateBestScore.asset using Guid(aa87d606d714d2343b75ed9fd2014b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8870bf64cd776d8c785191673cb5a31') in 0.002694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.832933 seconds.
+  path: Assets/ScriptableObjectEvents/SkeeBall/SkeeBall_FloatEvent_UpdateBestScore.asset
+  artifactKey: Guid(aa87d606d714d2343b75ed9fd2014b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/SkeeBall/SkeeBall_FloatEvent_UpdateBestScore.asset using Guid(aa87d606d714d2343b75ed9fd2014b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e77a13df1a86204bce647610e21a4a2') in 0.003710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.728520 seconds.
+  path: Assets/ScriptableObjectEvents/SkeeBall/CanGame_FloatEvent_UpdateTotalScore.asset
+  artifactKey: Guid(c53d3b1ddf6334a41bb77bf2e3fa09f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/SkeeBall/CanGame_FloatEvent_UpdateTotalScore.asset using Guid(c53d3b1ddf6334a41bb77bf2e3fa09f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b4050834370428b33803d59d667037') in 0.002957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.189395 seconds.
+  path: Assets/ScriptableObjectEvents/SkeeBall/CanGame_FloatEvent_UpdateLastScore.asset
+  artifactKey: Guid(8c9cce64b2d012549b6ac1f4b1ceb714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/SkeeBall/CanGame_FloatEvent_UpdateLastScore.asset using Guid(8c9cce64b2d012549b6ac1f4b1ceb714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a18dc460bf640c3228c133f5eb9ec3e') in 0.002554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.618583 seconds.
+  path: Assets/ScriptableObjectEvents/SkeeBall/SkeeBall_FloatEvent_UpdateLastScore.asset
+  artifactKey: Guid(8c9cce64b2d012549b6ac1f4b1ceb714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/SkeeBall/SkeeBall_FloatEvent_UpdateLastScore.asset using Guid(8c9cce64b2d012549b6ac1f4b1ceb714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02edfc3adf9d1bb7faa220a57252a5d7') in 0.003981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.620441 seconds.
+  path: Assets/ScriptableObjectEvents/SkeeBall/SkeeBall_FloatEvent_UpdateTotalScore.asset
+  artifactKey: Guid(c53d3b1ddf6334a41bb77bf2e3fa09f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/SkeeBall/SkeeBall_FloatEvent_UpdateTotalScore.asset using Guid(c53d3b1ddf6334a41bb77bf2e3fa09f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44e2fdc18396273b219c1ead5b8dad4') in 0.002995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.678925 seconds.
+  path: Assets/ScriptableObjectEvents/WhackAMole
+  artifactKey: Guid(fbe7d12be424d0a43bb4e9071cce3f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/WhackAMole using Guid(fbe7d12be424d0a43bb4e9071cce3f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ada77187c848a6be74d89b6a9f3f53') in 0.028249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.786876 seconds.
+  path: Assets/ScriptableObjectEvents/WhackAMole/CanGame_FloatEvent_UpdateBestScore.asset
+  artifactKey: Guid(3773d1de106c1c94fa7c6502c4cf2e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/WhackAMole/CanGame_FloatEvent_UpdateBestScore.asset using Guid(3773d1de106c1c94fa7c6502c4cf2e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2964edbaad5e7c107ddb9df835aecf') in 0.002706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.754281 seconds.
+  path: Assets/ScriptableObjectEvents/WhackAMole/Whack_FloatEvent_UpdateBestScore.asset
+  artifactKey: Guid(3773d1de106c1c94fa7c6502c4cf2e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/WhackAMole/Whack_FloatEvent_UpdateBestScore.asset using Guid(3773d1de106c1c94fa7c6502c4cf2e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b766cbf333c5ad358455cd794c06d9a') in 0.003284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.667455 seconds.
+  path: Assets/ScriptableObjectEvents/WhackAMole/VoidEvent_WhackStarted.asset
+  artifactKey: Guid(6ba338d28634fef4288c06929d5db9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/WhackAMole/VoidEvent_WhackStarted.asset using Guid(6ba338d28634fef4288c06929d5db9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db30443d450bbc984eb547a9d6bce336') in 0.003642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.167323 seconds.
+  path: Assets/ScriptableObjectEvents/WhackAMole/CanGame_FloatEvent_UpdateTotalScore.asset
+  artifactKey: Guid(2b2c050e5d5a603458f964f58d919025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/WhackAMole/CanGame_FloatEvent_UpdateTotalScore.asset using Guid(2b2c050e5d5a603458f964f58d919025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d70cb526de38437483958a47378366') in 0.002420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.910796 seconds.
+  path: Assets/ScriptableObjectEvents/WhackAMole/Whack_FloatEvent_UpdateTotalScore.asset
+  artifactKey: Guid(2b2c050e5d5a603458f964f58d919025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/WhackAMole/Whack_FloatEvent_UpdateTotalScore.asset using Guid(2b2c050e5d5a603458f964f58d919025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7996e79059f6d79293fcfbe69ad740be') in 0.004038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.601404 seconds.
+  path: Assets/ScriptableObjectEvents/WhackAMole/CanGame_FloatEvent_UpdateLastScore.asset
+  artifactKey: Guid(f0f56c1c3d4731440a3fcd67c2312188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/WhackAMole/CanGame_FloatEvent_UpdateLastScore.asset using Guid(f0f56c1c3d4731440a3fcd67c2312188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e0230f2bbbb2f5a999b836daeda312') in 0.002844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.257443 seconds.
+  path: Assets/ScriptableObjectEvents/WhackAMole/Whack_FloatEvent_UpdateLastScore.asset
+  artifactKey: Guid(f0f56c1c3d4731440a3fcd67c2312188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/WhackAMole/Whack_FloatEvent_UpdateLastScore.asset using Guid(f0f56c1c3d4731440a3fcd67c2312188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed579119a41e74c924f15e9fbfa80df') in 0.004184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 629.401997 seconds.
+  path: Assets/ScriptableObjectEvents/VoidEvent_ReleaseInteractable.asset
+  artifactKey: Guid(5fc40feb4b093784b90fe9cff9360eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/VoidEvent_ReleaseInteractable.asset using Guid(5fc40feb4b093784b90fe9cff9360eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639aee42533b35740c9514ca3558b728') in 0.023865 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020609 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\vange\OneDrive\Documents\SourceTree\ProjectY\ProjectY\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\vange\OneDrive\Documents\SourceTree\ProjectY\ProjectY\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.52 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\vange\OneDrive\Documents\SourceTree\ProjectY\ProjectY\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\vange\OneDrive\Documents\SourceTree\ProjectY\ProjectY\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <d6232873609549b8a045fa15811a5bd3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <d6232873609549b8a045fa15811a5bd3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <63965ae56af7489797f355b7c1211ab2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.399 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1400ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1140ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (591ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (349ms)
+				ProcessInitializeOnLoadMethodAttributes (101ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.71 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 5833 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (309.9 KB). Loaded Objects now: 6570.
+Memory consumption went from 234.2 MB to 233.9 MB.
+Total: 5.193300 ms (FindLiveObjects: 0.521600 ms CreateObjectMapping: 0.271800 ms MarkObjects: 4.293300 ms  DeleteObjects: 0.105100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 59.967730 seconds.
+  path: Assets/ScriptableObjectEvents/CanGame/VoidEvent_GameEnded.asset
+  artifactKey: Guid(aa61396485cbf744ea7819a25a24f656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/CanGame/VoidEvent_GameEnded.asset using Guid(aa61396485cbf744ea7819a25a24f656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8414f1bb74af2c9d464e9762c65eb6') in 0.033469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.844236 seconds.
+  path: Assets/ScriptableObjectEvents/CanGame/VoidEvent_CanGameEnded.asset
+  artifactKey: Guid(aa61396485cbf744ea7819a25a24f656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/CanGame/VoidEvent_CanGameEnded.asset using Guid(aa61396485cbf744ea7819a25a24f656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e926b456dedbdf59df9ce0366ed89d4') in 0.002937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.123211 seconds.
+  path: Assets/ScriptableObjectEvents/Shooter/VoidEvent_GameEnded.asset
+  artifactKey: Guid(3c9b3e5357f2a784d955395b783641b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/Shooter/VoidEvent_GameEnded.asset using Guid(3c9b3e5357f2a784d955395b783641b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612bd2edb350a805cdf1e4dbaa37bd95') in 0.002632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.330057 seconds.
+  path: Assets/ScriptableObjectEvents/Shooter/VoidEvent_ShooterGameEnded.asset
+  artifactKey: Guid(3c9b3e5357f2a784d955395b783641b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/Shooter/VoidEvent_ShooterGameEnded.asset using Guid(3c9b3e5357f2a784d955395b783641b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b225998e98bd9c0d99af00485215ac5b') in 0.003183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.606288 seconds.
+  path: Assets/ScriptableObjectEvents/SkeeBall/VoidEvent_ShooterGameEnded.asset
+  artifactKey: Guid(db0be369cbdd31d4d974321f9ba7687f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/SkeeBall/VoidEvent_ShooterGameEnded.asset using Guid(db0be369cbdd31d4d974321f9ba7687f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1d3e82d791236f837e6c8fbc57f943') in 0.002311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.779708 seconds.
+  path: Assets/ScriptableObjectEvents/SkeeBall/VoidEvent_SkeeBallStarted.asset
+  artifactKey: Guid(2d8268cc9186dd94ab2ebdd46d28aa68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/SkeeBall/VoidEvent_SkeeBallStarted.asset using Guid(2d8268cc9186dd94ab2ebdd46d28aa68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898932e411dd56dccfde359f3c4cbde8') in 0.003400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.585481 seconds.
+  path: Assets/ScriptableObjectEvents/SkeeBall/VoidEvent_SkeeBallGameEnded.asset
+  artifactKey: Guid(db0be369cbdd31d4d974321f9ba7687f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/SkeeBall/VoidEvent_SkeeBallGameEnded.asset using Guid(db0be369cbdd31d4d974321f9ba7687f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780f37edd9f246613abfab484defff3d') in 0.003787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.592242 seconds.
+  path: Assets/ScriptableObjectEvents/WhackAMole/VoidEvent_ShooterGameEnded.asset
+  artifactKey: Guid(d579d0f005dd1ac42b20d636c1a20525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/WhackAMole/VoidEvent_ShooterGameEnded.asset using Guid(d579d0f005dd1ac42b20d636c1a20525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c734bbc037502cf9891b2715a807ad') in 0.003164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.655219 seconds.
+  path: Assets/ScriptableObjectEvents/WhackAMole/VoidEvent_WhackGameEnded.asset
+  artifactKey: Guid(d579d0f005dd1ac42b20d636c1a20525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/WhackAMole/VoidEvent_WhackGameEnded.asset using Guid(d579d0f005dd1ac42b20d636c1a20525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3ccf0157cd7fa6cf05aeab9fad222c') in 0.003128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1012.677019 seconds.
+  path: Assets/Prefabs/Shooter/Lane.prefab
+  artifactKey: Guid(b02da74cfe2a6e549b7ef5c3a8cedbf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shooter/Lane.prefab using Guid(b02da74cfe2a6e549b7ef5c3a8cedbf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f820e76923c66f0e59ff571841a2075') in 0.371998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.120380 seconds.
+  path: Assets/Prefabs/Shooter/Lane_Target_1 Variant.prefab
+  artifactKey: Guid(aec8d1af7bb27d742a23219fa93b8d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shooter/Lane_Target_1 Variant.prefab using Guid(aec8d1af7bb27d742a23219fa93b8d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753b0feccec36478323b207112084cdb') in 0.024528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.869781 seconds.
+  path: Assets/Prefabs/Shooter/Lane_Target_3 Variant.prefab
+  artifactKey: Guid(0c102ccb6922ebb4fb03fac02197bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shooter/Lane_Target_3 Variant.prefab using Guid(0c102ccb6922ebb4fb03fac02197bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01b72c08481d06271eb80f467c44390') in 0.024386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.676866 seconds.
+  path: Assets/Prefabs/Shooter/Lane_Target_2 Variant.prefab
+  artifactKey: Guid(0d39b1bda8a1bf44a9a55b9904fdaa85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shooter/Lane_Target_2 Variant.prefab using Guid(0d39b1bda8a1bf44a9a55b9904fdaa85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6a7b25f016fa7dac6d8dabfee51db6') in 0.021129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.544848 seconds.
+  path: Assets/Prefabs/Shooter/Player.prefab
+  artifactKey: Guid(22e2ce2c004674e41985d2bcc4b4043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shooter/Player.prefab using Guid(22e2ce2c004674e41985d2bcc4b4043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41382ad0cb45ca1f8fad774fd5d17d56') in 0.021120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.755900 seconds.
+  path: Assets/Prefabs/Shooter/Purple_Light.prefab
+  artifactKey: Guid(c0ed25dca12ccf540b6bf27bdee7d451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shooter/Purple_Light.prefab using Guid(c0ed25dca12ccf540b6bf27bdee7d451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8863d5e812ac2af52fea57064c8118') in 0.005789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.705843 seconds.
+  path: Assets/Prefabs/Shooter/Lane_Target_4 Variant.prefab
+  artifactKey: Guid(2d9198bae8031e84bb9ca4b0ba9a65ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shooter/Lane_Target_4 Variant.prefab using Guid(2d9198bae8031e84bb9ca4b0ba9a65ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c84cb846387fb1fc220998c5b09c93') in 0.021473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.033084 seconds.
+  path: Assets/Prefabs/Shooter/Base_Lane_Target.prefab
+  artifactKey: Guid(936c627b993fd74488d4cdc78b658679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shooter/Base_Lane_Target.prefab using Guid(936c627b993fd74488d4cdc78b658679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f18fb36ffcaef585d8bc386b3ef67e') in 0.020965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.711807 seconds.
+  path: Assets/ScriptableObjectEvents/CanGame/FloatEvent_Scored.asset
+  artifactKey: Guid(657338d734cacdd4c8ad9e535160989e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/CanGame/FloatEvent_Scored.asset using Guid(657338d734cacdd4c8ad9e535160989e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04757ea95aeab39265d8db7065d563e') in 0.002938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.205035 seconds.
+  path: Assets/ScriptableObjectEvents/CanGame/CanGame_FloatEvent_Scored.asset
+  artifactKey: Guid(657338d734cacdd4c8ad9e535160989e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/CanGame/CanGame_FloatEvent_Scored.asset using Guid(657338d734cacdd4c8ad9e535160989e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3bc6a3a4c106a329ab34424adeac76a') in 0.003524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.861527 seconds.
+  path: Assets/ScriptableObjectEvents/Shooter/CanGame_FloatEvent_Scored.asset
+  artifactKey: Guid(9c09a5f366062e944bab4801b3711fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/Shooter/CanGame_FloatEvent_Scored.asset using Guid(9c09a5f366062e944bab4801b3711fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c393f3e7f142bc870a8fe4276b94882c') in 0.003185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.860085 seconds.
+  path: Assets/ScriptableObjectEvents/Shooter/Shooter_FloatEvent_Scored.asset
+  artifactKey: Guid(9c09a5f366062e944bab4801b3711fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/Shooter/Shooter_FloatEvent_Scored.asset using Guid(9c09a5f366062e944bab4801b3711fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb2a92bf3ec4c1e6b00b7e17d783832') in 0.003431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.061021 seconds.
+  path: Assets/ScriptableObjectEvents/SkeeBall/CanGame_FloatEvent_Scored.asset
+  artifactKey: Guid(0327ddb6e4a79644c8115407ee631121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/SkeeBall/CanGame_FloatEvent_Scored.asset using Guid(0327ddb6e4a79644c8115407ee631121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22be8998202988309b347e1d60b3e67d') in 0.003731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.408180 seconds.
+  path: Assets/ScriptableObjectEvents/SkeeBall/Skeeball_FloatEvent_Scored.asset
+  artifactKey: Guid(0327ddb6e4a79644c8115407ee631121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/SkeeBall/Skeeball_FloatEvent_Scored.asset using Guid(0327ddb6e4a79644c8115407ee631121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092d440b9c69d3d921f8debb68531df4') in 0.004237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.735514 seconds.
+  path: Assets/ScriptableObjectEvents/WhackAMole/CanGame_FloatEvent_Scored.asset
+  artifactKey: Guid(614ab326401096f409e0bed3278d9a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/WhackAMole/CanGame_FloatEvent_Scored.asset using Guid(614ab326401096f409e0bed3278d9a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328c747fac8e01f26c6f8e61e17f108c') in 0.002943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.029263 seconds.
+  path: Assets/ScriptableObjectEvents/WhackAMole/Whack_FloatEvent_Scored.asset
+  artifactKey: Guid(614ab326401096f409e0bed3278d9a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectEvents/WhackAMole/Whack_FloatEvent_Scored.asset using Guid(614ab326401096f409e0bed3278d9a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1501df58ae5a9c60edc16e32f9d7d00b') in 0.003253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 108.660304 seconds.
+  path: Assets/Prefabs/Shooter/Base_Lane_Target.prefab
+  artifactKey: Guid(936c627b993fd74488d4cdc78b658679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shooter/Base_Lane_Target.prefab using Guid(936c627b993fd74488d4cdc78b658679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f176f31591e7f659e2c9968e590a96d') in 0.018997 seconds 
