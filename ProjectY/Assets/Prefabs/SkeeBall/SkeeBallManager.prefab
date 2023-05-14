@@ -147,9 +147,9 @@ MonoBehaviour:
   _delayBetweenSpawns: 0.65
   _howMuchScoreToGainBall: 150
   _ballsToGain: 2
-  _ballListerner: {fileID: 0}
+  _ballListerner: {fileID: 8843013310733843158}
   _ballsToGainFromSpecialScore: 1
-  _endGame: {fileID: 11400000, guid: e71b24dd0e0195848a51f0b22f95bbb1, type: 2}
+  _endGame: {fileID: 11400000, guid: db0be369cbdd31d4d974321f9ba7687f, type: 2}
 --- !u!1 &8843013309577955979
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,7 +317,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8843013310733843159
 Transform:
   m_ObjectHideFlags: 0

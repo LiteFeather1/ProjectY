@@ -965,7 +965,7 @@ GameObject:
   - component: {fileID: 5742576216220092706}
   - component: {fileID: 8200675887288007347}
   m_Layer: 5
-  m_Name: Best_Score (1)
+  m_Name: Best_Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1807,7 +1807,7 @@ GameObject:
   - component: {fileID: 7521659612280223582}
   - component: {fileID: 6263453086368251468}
   m_Layer: 5
-  m_Name: Best_Score
+  m_Name: Last_Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
