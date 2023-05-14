@@ -30,6 +30,7 @@ public class CanGameManager : MonoBehaviour
     [SerializeField] private VrBall _ballPrefab;
     private int _ballCount;
     private const int BALL_LIMIT = 9;
+    private readonly List<VrBall> _balls = new();
 
     [Header("End Game")]
     [SerializeField] private VoidEvent _endGame;
@@ -120,7 +121,7 @@ public class CanGameManager : MonoBehaviour
             if (_ballCount >= BALL_LIMIT)
                 break;
 
-            Instantiate(_ballPrefab, _spawnPoint.position, Quaternion.identity);
+            _balls.Add(Instantiate(_ballPrefab, _spawnPoint.position, Quaternion.identity));
             _ballCount++;
             yield return _waitBetweenBalls;
         }
@@ -166,6 +167,12 @@ public class CanGameManager : MonoBehaviour
                 Destroy(can.gameObject);
             }
 
+            foreach (var ball in _balls)
+            {
+                Destroy(ball.gameObject);
+            }
+
+            _balls.Clear();
             _gameStarted = false;
             _currentCans = new();
         }

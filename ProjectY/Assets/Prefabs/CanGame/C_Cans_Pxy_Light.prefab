@@ -40,10 +40,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8108030040131334309}
+  - component: {fileID: 1206346908}
   - component: {fileID: 5128009842387484416}
   - component: {fileID: 6975704744839252938}
   - component: {fileID: 5563961608122063201}
-  - component: {fileID: 1206346908}
   - component: {fileID: 7975451343717934087}
   - component: {fileID: -3965823466332351386}
   m_Layer: 0
@@ -69,6 +69,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1206346908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8921159109467253279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61972a9371cc36845ad5dde90723dc58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scored: {fileID: 11400000, guid: 657338d734cacdd4c8ad9e535160989e, type: 2}
+  _baseScore: 50
+  _knocked: {fileID: 11400000, guid: eda22eb1f6488374c8ebba2e62a02573, type: 2}
 --- !u!33 &5128009842387484416
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -135,21 +150,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1206346908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8921159109467253279}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61972a9371cc36845ad5dde90723dc58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _scored: {fileID: 11400000, guid: f4855d017d56c8e4186db1a519e23a27, type: 2}
-  _baseScore: 50
-  _knocked: {fileID: 11400000, guid: eda22eb1f6488374c8ebba2e62a02573, type: 2}
 --- !u!65 &7975451343717934087
 BoxCollider:
   m_ObjectHideFlags: 0

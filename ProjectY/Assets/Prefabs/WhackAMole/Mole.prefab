@@ -58,7 +58,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54495ab46ac2d7b4c9b964e628161eeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scored: {fileID: 11400000, guid: f4855d017d56c8e4186db1a519e23a27, type: 2}
+  _scored: {fileID: 11400000, guid: 614ab326401096f409e0bed3278d9a07, type: 2}
   _baseScore: 50
 --- !u!1 &8734187569945177730
 GameObject:

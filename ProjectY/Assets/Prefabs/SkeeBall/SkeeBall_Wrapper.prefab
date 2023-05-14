@@ -74,6 +74,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2764007901701066798}
     m_Modifications:
+    - target: {fileID: 288143253220096299, guid: e3fa405a729494147bc834eaf208cc0d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 3977339069032613351}
+    - target: {fileID: 288143253220096299, guid: e3fa405a729494147bc834eaf208cc0d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 288143253220096299, guid: e3fa405a729494147bc834eaf208cc0d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1339348678367201290, guid: e3fa405a729494147bc834eaf208cc0d,
         type: 3}
       propertyPath: m_RootOrder
@@ -134,7 +149,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkeeBall
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 288143253220096298, guid: e3fa405a729494147bc834eaf208cc0d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e3fa405a729494147bc834eaf208cc0d, type: 3}
 --- !u!4 &2764007901278532802 stripped
 Transform:
@@ -142,6 +158,70 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3804952400119413960}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3977339069032613351 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 288143253220096303, guid: e3fa405a729494147bc834eaf208cc0d,
+    type: 3}
+  m_PrefabInstance: {fileID: 3804952400119413960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3977339069032613357 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 288143253220096293, guid: e3fa405a729494147bc834eaf208cc0d,
+    type: 3}
+  m_PrefabInstance: {fileID: 3804952400119413960}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3977339069032613351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f675b5133817d244b003e0f15548eed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &5399151387536377058 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9088347167911508010, guid: e3fa405a729494147bc834eaf208cc0d,
+    type: 3}
+  m_PrefabInstance: {fileID: 3804952400119413960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1461022077765609051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5399151387536377058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bc1f57fc0234ba4784d1a7fcf94d9bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameEvent: {fileID: 11400000, guid: e71b24dd0e0195848a51f0b22f95bbb1, type: 2}
+  _unityEventResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3977339069032613357}
+        m_TargetAssemblyTypeName: StarGame, Assembly-CSharp
+        m_MethodName: GameEnded
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3977339069032613351}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1001 &4454931294982755449
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -158,7 +238,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _scoreUpdated
       value: 
-      objectReference: {fileID: 11400000, guid: 0327ddb6e4a79644c8115407ee631121,
+      objectReference: {fileID: 11400000, guid: c53d3b1ddf6334a41bb77bf2e3fa09f2,
         type: 2}
     - target: {fileID: 6255236865467424676, guid: 6e5b6423248fab841ac3f9b65db81a5a,
         type: 3}
@@ -232,6 +312,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6255236865679880354, guid: 6e5b6423248fab841ac3f9b65db81a5a,
+        type: 3}
+      propertyPath: _gameEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: 0327ddb6e4a79644c8115407ee631121,
+        type: 2}
+    - target: {fileID: 7318290042952138691, guid: 6e5b6423248fab841ac3f9b65db81a5a,
+        type: 3}
+      propertyPath: _gameEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: db0be369cbdd31d4d974321f9ba7687f,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e5b6423248fab841ac3f9b65db81a5a, type: 3}
 --- !u!4 &7718053350065490910 stripped
