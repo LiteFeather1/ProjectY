@@ -667,3 +667,111 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3444.068031 seconds.
+  path: Assets/Scenes/WhackAMole.unity
+  artifactKey: Guid(b5361318f291e8c48bace42d5a8530cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/WhackAMole.unity using Guid(b5361318f291e8c48bace42d5a8530cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3b56df8140151b9683002bfae20f36') in 0.013923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.586964 seconds.
+  path: Assets/Scenes/VRSkeeBallTestScene.unity
+  artifactKey: Guid(7d99423582d5c534a9f510f87ca6ecaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VRSkeeBallTestScene.unity using Guid(7d99423582d5c534a9f510f87ca6ecaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2036eda075a1f52070de91ac75f641be') in 0.003296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.638407 seconds.
+  path: Assets/Scenes/VRShooterTestScene.unity
+  artifactKey: Guid(eb1d41dc34f716744a77e8b37a44f66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VRShooterTestScene.unity using Guid(eb1d41dc34f716744a77e8b37a44f66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2846d924ce5411e1417da148d9f33942') in 0.002726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.347432 seconds.
+  path: Assets/Scenes/SetDressing_lvl.unity
+  artifactKey: Guid(8d0bf356572c235478588e5befd87818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SetDressing_lvl.unity using Guid(8d0bf356572c235478588e5befd87818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1361eecaa46ad03959443253816d88d2') in 0.002636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.362002 seconds.
+  path: Assets/Scenes/Playable_SetDressing.unity
+  artifactKey: Guid(40c5113ef5cfb2b4e865b55e0d50c684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Playable_SetDressing.unity using Guid(40c5113ef5cfb2b4e865b55e0d50c684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb211949f65d4c4265bf0a2ac798af2') in 0.044324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.606380 seconds.
+  path: Assets/Scenes/CanGame.unity
+  artifactKey: Guid(f64e4bbc66c89e04c9f9f71897204fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CanGame.unity using Guid(f64e4bbc66c89e04c9f9f71897204fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204856b197a095c7768675fe29f1dd28') in 0.042160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.596168 seconds.
+  path: Assets/Scenes/Old
+  artifactKey: Guid(88efa84fbf059f2409e486d56ea0790f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Old using Guid(88efa84fbf059f2409e486d56ea0790f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9247351af00d5c0583782b9ef12bee9c') in 0.041743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.057953 seconds.
+  path: Assets/Scenes/Old/ShooterTestScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Old/ShooterTestScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3b6fe5574c30c7ba2a554836095f38') in 0.030734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.490540 seconds.
+  path: Assets/Scenes/Old/SkeeBallTestScene.unity
+  artifactKey: Guid(87ae96258554f234f80386c3b9e89209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Old/SkeeBallTestScene.unity using Guid(87ae96258554f234f80386c3b9e89209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a707284f2836e1b85f27147c17cc68c6') in 0.040730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.429860 seconds.
+  path: Assets/Scenes/Old/VrTest.unity
+  artifactKey: Guid(cac3116635f4f5a4496458b48a711ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Old/VrTest.unity using Guid(cac3116635f4f5a4496458b48a711ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2226793b22633b70bc0bdcd43161c279') in 0.003427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.004610 seconds.
+  path: Assets/Prefabs/Full XR Origin.prefab
+  artifactKey: Guid(d9159e7309aefec45bafdf52c4874fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Full XR Origin.prefab using Guid(d9159e7309aefec45bafdf52c4874fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ad05cafb31e73d45e32ed52577778c') in 0.270138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.454867 seconds.
+  path: Assets/Scenes/Playable_SetDressing 1.unity
+  artifactKey: Guid(b1a5432e1a9af5148a2dcca5655aa028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Playable_SetDressing 1.unity using Guid(b1a5432e1a9af5148a2dcca5655aa028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fb714faad198deb53bcdc4e4c43ef0') in 0.002409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.198191 seconds.
+  path: Assets/Scenes/Playable_SetDressing_Etic.unity
+  artifactKey: Guid(b1a5432e1a9af5148a2dcca5655aa028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Playable_SetDressing_Etic.unity using Guid(b1a5432e1a9af5148a2dcca5655aa028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4475d6a1a163a3518796ce1c45cceb') in 0.002107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.951918 seconds.
+  path: Assets/Scenes/Playable_SetDressing_Etic.unity
+  artifactKey: Guid(b1a5432e1a9af5148a2dcca5655aa028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Playable_SetDressing_Etic.unity using Guid(b1a5432e1a9af5148a2dcca5655aa028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7322a1821b5b92f9bd36b09125eee619') in 0.002160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.040486 seconds.
+  path: Assets/Scenes/Etic_Playable_SetDressing.unity
+  artifactKey: Guid(b1a5432e1a9af5148a2dcca5655aa028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Etic_Playable_SetDressing.unity using Guid(b1a5432e1a9af5148a2dcca5655aa028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a80b78015dd13b374c3c72c1b47a07a') in 0.002225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.536230 seconds.
+  path: Assets/Scenes/Etic_Playable_SetDressing.unity
+  artifactKey: Guid(b1a5432e1a9af5148a2dcca5655aa028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Etic_Playable_SetDressing.unity using Guid(b1a5432e1a9af5148a2dcca5655aa028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7ced7d4e4bb1f378f5a63e564ca86a') in 0.003421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 366.445284 seconds.
+  path: Assets/Scenes/SetDressing_lvl
+  artifactKey: Guid(699254a417a094a47bee2be02dd707bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SetDressing_lvl using Guid(699254a417a094a47bee2be02dd707bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21749928fb64bad0c2a5e4ac92c57aae') in 0.046687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.643857 seconds.
+  path: Assets/Scenes/Etic_Playable_SetDressing.unity
+  artifactKey: Guid(b1a5432e1a9af5148a2dcca5655aa028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Etic_Playable_SetDressing.unity using Guid(b1a5432e1a9af5148a2dcca5655aa028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fed7e0224f29b29bcf5cbaeb31d0cd1') in 0.001809 seconds 

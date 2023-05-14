@@ -130,9 +130,7 @@ namespace SkeeBall
                 _ballListerner.SetActive(false);
 
                 foreach (var ball in _thrownBalls)
-                {
                     ball.enabled = false;
-                }
             }
         }
 

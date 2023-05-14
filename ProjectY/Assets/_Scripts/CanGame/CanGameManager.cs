@@ -57,9 +57,7 @@ public class CanGameManager : MonoBehaviour
     {
         _canMaterials = new List<Material>();
         foreach (var material in _canMats)
-        {
             _canMaterials.Add(material);
-        }
     }
 
     private IEnumerator SpawnCans()
@@ -95,6 +93,7 @@ public class CanGameManager : MonoBehaviour
                 {
                     newCan = Instantiate(_heavyCanPrefab, canPosition, Quaternion.identity);
                 }
+
                 newCan.SetMaterial(mat);
                 _currentCans.Add(newCan);
                 xPos += XSpacing;
@@ -148,10 +147,10 @@ public class CanGameManager : MonoBehaviour
     private IEnumerator Delay_Spawn()
     {
         yield return _waitBetweenPhase;
+
         foreach (var can in _currentCans)
-        {
             Destroy(can.gameObject);
-        }
+
         yield return SpawnCans();
     }
 
@@ -163,14 +162,10 @@ public class CanGameManager : MonoBehaviour
             _endGame.Raise();
 
             foreach (var can in _currentCans)
-            {
                 Destroy(can.gameObject);
-            }
 
             foreach (var ball in _balls)
-            {
                 Destroy(ball.gameObject);
-            }
 
             _balls.Clear();
             _gameStarted = false;
