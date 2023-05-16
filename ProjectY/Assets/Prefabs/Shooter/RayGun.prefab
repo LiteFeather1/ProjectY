@@ -279,6 +279,9 @@ MonoBehaviour:
   _targetLayer:
     serializedVersion: 2
     m_Bits: 64
+  _loseScoreWhenShoot: {fileID: 11400000, guid: 9c09a5f366062e944bab4801b3711fca,
+    type: 2}
+  _scoreToLose: -10
   _ballPrefab: {fileID: 5320228373611498253, guid: 5ba534a2faf0e6d49b6ff20a63eebd9b,
     type: 3}
   _firePoint: {fileID: 6708780184322359088}

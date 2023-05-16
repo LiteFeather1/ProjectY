@@ -23,15 +23,16 @@ public class ScoreManager : MonoBehaviour
     public void GameEnded()
     {
         _lastScore = _score;
-        _score = 0;
         _scoreUpdated.Raise(_score);
         _lastScoreUpdate.Raise(_lastScore);
-        _bestScoreUpdate.Raise(GetBestScore());
+        float best = GetBestScore();
+        _bestScoreUpdate.Raise(best);
+        _score = 0;
     }
 
     private float GetBestScore()
     {
-        float bestScore = PlayerPrefs.GetFloat(BestScore, 0f);
+        float bestScore = PlayerPrefs.GetFloat(BestScore);
 
         if (_score > bestScore)
         {

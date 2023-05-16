@@ -82,7 +82,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _scored: {fileID: 11400000, guid: 9c09a5f366062e944bab4801b3711fca, type: 2}
-  _baseScore: 100
+  _baseScore: 50
   _targetCenter: {fileID: 5468368251933307023}
   _rings:
   - {fileID: 161258298592579013}

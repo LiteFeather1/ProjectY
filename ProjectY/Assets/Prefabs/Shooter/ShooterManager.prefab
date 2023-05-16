@@ -354,8 +354,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _batchRange: {x: 1, y: 6}
+  _targetPool: []
   _endGameTimer: {fileID: 3678218483621646963}
-  _gameEnded: {fileID: 11400000, guid: e71b24dd0e0195848a51f0b22f95bbb1, type: 2}
+  _gameEnded: {fileID: 11400000, guid: 3c9b3e5357f2a784d955395b783641b1, type: 2}
   _currentTime: {fileID: 11400000, guid: 3cda4f5bad23d6346aace57f00d72618, type: 2}
   _flipTargets: {fileID: 3678218485561493345}
   _flipTargetsBack: {fileID: 3678218483777140282}

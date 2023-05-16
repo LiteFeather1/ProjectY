@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using ScriptableObjectEvents;
+using UnityEngine;
 
 namespace Shooter
 {
@@ -7,6 +8,8 @@ namespace Shooter
         [SerializeField] protected float _range = 20;
         private Vector3 _hitPoint;
         [SerializeField] private LayerMask _targetLayer;
+        [SerializeField] private FloatEvent _loseScoreWhenShoot;
+        [SerializeField] private float _scoreToLose;
 
         [Header("Projectile")]
         [SerializeField] private Rigidbody _ballPrefab;
@@ -17,14 +20,9 @@ namespace Shooter
 
         protected void Shoot()
         {
-            //if (Physics.Raycast(Ray, out RaycastHit hit, _range, _targetLayer))
-            //{
-            //    if (hit.transform.TryGetComponent(out TargetScore targetable))
-            //    {
-            //        targetable.ChangeManagerScore(hit.point);
-            //    }
-            //    _hitPoint = hit.point;
-            //}
+            if (!Physics.Raycast(Ray, out RaycastHit hit, _range, _targetLayer))
+                    _loseScoreWhenShoot.Raise(_scoreToLose);
+
             Rigidbody newProjectile = Instantiate(_ballPrefab, _firePoint.position, _firePoint.rotation);
             newProjectile.AddForce(_firePoint.forward * _force, ForceMode.VelocityChange);
             newProjectile.AddTorque(_force * 20 * Vector3.forward, ForceMode.VelocityChange);

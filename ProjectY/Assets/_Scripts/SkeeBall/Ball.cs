@@ -29,21 +29,6 @@ namespace SkeeBall
             _timerToDisappear.TimeEvent -= Disappear;
         }
 
-        //private void LateUpdate()
-        //{
-        //    if (!_thrown)
-        //        return;
-
-        //    if(!CheckIfMoving || _scored)
-        //    {
-        //        _timerToDisappear.Continue();
-        //    }
-        //    else
-        //    {
-        //        _timerToDisappear.Stop();
-        //    }
-        //}
-
         public virtual Ball Appear(Transform pos)
         {
             transform.position = pos.position;
@@ -51,6 +36,7 @@ namespace SkeeBall
             enabled = true;
             _scored = false;
             _thrown = false;
+            _timerToDisappear.StopAndReset();
             return this;
         }
 
@@ -87,6 +73,11 @@ namespace SkeeBall
             _thrown = false;
             _timerToDisappear.StopAndReset();
             return this;
+        }
+
+        public void StopTimer()
+        {
+            _timerToDisappear.StopAndReset();
         }
     }
 }
