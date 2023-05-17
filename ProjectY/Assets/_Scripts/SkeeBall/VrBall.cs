@@ -21,7 +21,7 @@ namespace SkeeBall
             _interactable.firstSelectEntered.RemoveListener(_ => VrGrabbed());
         }
 
-        private void VrThrown()
+        public void VrThrown()
         {
             _timerToDisappear.Restart();
             _thrown = true;

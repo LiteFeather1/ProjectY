@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Etic_Playable_SetDressing.unity
+    path: Assets/Scenes/Playable_SetDressing.unity
     guid: b1a5432e1a9af5148a2dcca5655aa028
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 372a78ca79ec0d044ad7f216b144db0b,

@@ -76,15 +76,7 @@ namespace SkeeBall
             }
         }
 
-        private void DestroyExtraBalls()
-        {
-            for (int i = _currentBalls.Count - 1; i >= 0; i--)
-            {
-                QueueBall(_currentBalls[i]);
-            }
-        }
-
-        private readonly YieldInstruction _wait = new WaitForSeconds(.25f);
+        private readonly YieldInstruction _wait = new WaitForFixedUpdate();
         private IEnumerator GiveBallsCo(int amount)
         {
             yield return _wait;
@@ -117,13 +109,16 @@ namespace SkeeBall
         //Event Listener. Listens to when a ball is stops moving
         public void BallThrown(Ball ball)
         {
+            if (!_gameStarted)
+                return;
+
             QueueBall(ball);
             EndGame();
         }
 
         public void EndGame()
         {
-            if (_respawning || !_gameStarted)
+            if (_respawning)
                 return;
 
             if (_currentBalls.Count == 0)

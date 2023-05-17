@@ -29,7 +29,7 @@ public class CanGameManager : MonoBehaviour
     [SerializeField] private int _startBalls;
     [SerializeField] private VrBall _ballPrefab;
     private int _ballCount;
-    private const int BALL_LIMIT = 9;
+    private const int BALL_LIMIT = 8;
     private readonly List<VrBall> _balls = new();
 
     [Header("End Game")]
@@ -56,6 +56,7 @@ public class CanGameManager : MonoBehaviour
     private void InitMaterialList()
     {
         _canMaterials = new List<Material>();
+
         foreach (var material in _canMats)
             _canMaterials.Add(material);
     }
@@ -108,6 +109,7 @@ public class CanGameManager : MonoBehaviour
         _currentCansNeededToKnock = (int)(_cansCurve.Evaluate(rows) * totalCount);
 
         _respawningCans = false;
+
         yield return null;
     }
 
