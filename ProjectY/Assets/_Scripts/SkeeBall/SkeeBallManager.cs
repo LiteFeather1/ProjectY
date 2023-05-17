@@ -70,25 +70,20 @@ namespace SkeeBall
             if (scoreAmount / i >= 1)
             {
                 _respawning = true;
-                DestroyExtraBalls();
+                //DestroyExtraBalls();
                 _timesThatGainBall++;
                 StartCoroutine(GiveBallsCo(_ballsToGain));
             }
         }
 
-        private void DestroyExtraBalls()
+        private readonly YieldInstruction _wait = new WaitForFixedUpdate();
+        private IEnumerator GiveBallsCo(int amount)
         {
-            for (int i = _currentBalls.Count - 1; i >= 0; i--)
-            {
-                QueueBall(_currentBalls[i]);
-            }
-        }
+            yield return _wait;
 
-        IEnumerator GiveBallsCo(int amount)
-        {
             for (int i = 0; i < amount; i++)
             {
-                if (_currentBalls.Count >= 3)
+                if (_currentBalls.Count >= _startingBalls)
                     break;
 
                 if (_thrownBalls.Count == 0)
@@ -108,18 +103,22 @@ namespace SkeeBall
         {
             _currentBalls.Remove(ball);
             _thrownBalls.Enqueue(ball);
+            _ball.StopTimer();
         }
 
-        //Event Listener.Listens to when a ball is stops moving 
+        //Event Listener. Listens to when a ball is stops moving
         public void BallThrown(Ball ball)
         {
+            if (!_gameStarted)
+                return;
+
             QueueBall(ball);
             EndGame();
         }
 
         public void EndGame()
         {
-            if (_respawning || !_gameStarted)
+            if (_respawning)
                 return;
 
             if (_currentBalls.Count == 0)
@@ -130,9 +129,7 @@ namespace SkeeBall
                 _ballListerner.SetActive(false);
 
                 foreach (var ball in _thrownBalls)
-                {
                     ball.enabled = false;
-                }
             }
         }
 

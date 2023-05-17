@@ -29,7 +29,8 @@ public class CanGameManager : MonoBehaviour
     [SerializeField] private int _startBalls;
     [SerializeField] private VrBall _ballPrefab;
     private int _ballCount;
-    private const int BALL_LIMIT = 9;
+    private const int BALL_LIMIT = 8;
+    private readonly List<VrBall> _balls = new();
 
     [Header("End Game")]
     [SerializeField] private VoidEvent _endGame;
@@ -55,10 +56,9 @@ public class CanGameManager : MonoBehaviour
     private void InitMaterialList()
     {
         _canMaterials = new List<Material>();
+
         foreach (var material in _canMats)
-        {
             _canMaterials.Add(material);
-        }
     }
 
     private IEnumerator SpawnCans()
@@ -94,6 +94,7 @@ public class CanGameManager : MonoBehaviour
                 {
                     newCan = Instantiate(_heavyCanPrefab, canPosition, Quaternion.identity);
                 }
+
                 newCan.SetMaterial(mat);
                 _currentCans.Add(newCan);
                 xPos += XSpacing;
@@ -108,6 +109,7 @@ public class CanGameManager : MonoBehaviour
         _currentCansNeededToKnock = (int)(_cansCurve.Evaluate(rows) * totalCount);
 
         _respawningCans = false;
+
         yield return null;
     }
 
@@ -120,7 +122,7 @@ public class CanGameManager : MonoBehaviour
             if (_ballCount >= BALL_LIMIT)
                 break;
 
-            Instantiate(_ballPrefab, _spawnPoint.position, Quaternion.identity);
+            _balls.Add(Instantiate(_ballPrefab, _spawnPoint.position, Quaternion.identity));
             _ballCount++;
             yield return _waitBetweenBalls;
         }
@@ -147,10 +149,10 @@ public class CanGameManager : MonoBehaviour
     private IEnumerator Delay_Spawn()
     {
         yield return _waitBetweenPhase;
+
         foreach (var can in _currentCans)
-        {
             Destroy(can.gameObject);
-        }
+
         yield return SpawnCans();
     }
 
@@ -162,10 +164,12 @@ public class CanGameManager : MonoBehaviour
             _endGame.Raise();
 
             foreach (var can in _currentCans)
-            {
                 Destroy(can.gameObject);
-            }
 
+            foreach (var ball in _balls)
+                Destroy(ball.gameObject);
+
+            _balls.Clear();
             _gameStarted = false;
             _currentCans = new();
         }

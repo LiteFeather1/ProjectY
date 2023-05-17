@@ -279,6 +279,9 @@ MonoBehaviour:
   _targetLayer:
     serializedVersion: 2
     m_Bits: 64
+  _loseScoreWhenShoot: {fileID: 11400000, guid: 9c09a5f366062e944bab4801b3711fca,
+    type: 2}
+  _scoreToLose: -10
   _ballPrefab: {fileID: 5320228373611498253, guid: 5ba534a2faf0e6d49b6ff20a63eebd9b,
     type: 3}
   _firePoint: {fileID: 6708780184322359088}
@@ -442,7 +445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bc1f57fc0234ba4784d1a7fcf94d9bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameEvent: {fileID: 11400000, guid: e71b24dd0e0195848a51f0b22f95bbb1, type: 2}
+  _gameEvent: {fileID: 11400000, guid: 3c9b3e5357f2a784d955395b783641b1, type: 2}
   _unityEventResponse:
     m_PersistentCalls:
       m_Calls:
