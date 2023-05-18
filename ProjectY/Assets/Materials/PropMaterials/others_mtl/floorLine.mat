@@ -140,7 +140,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     - _emissionMult: 1
-    - _multEmission: 0
+    - _multEmission: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
