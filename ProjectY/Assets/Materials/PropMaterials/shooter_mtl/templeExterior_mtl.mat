@@ -73,19 +73,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _master_diff:
-        m_Texture: {fileID: 2800000, guid: 5545538fe8d861f4988f1748e000bf38, type: 3}
+        m_Texture: {fileID: 2800000, guid: 190718178dd4aba41ba2ec6c6ba7baf8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _master_emission:
-        m_Texture: {fileID: 2800000, guid: b8bca432af212054da193759f479d3ad, type: 3}
+        m_Texture: {fileID: 2800000, guid: 83b7b5f9500e3844e8802a66630001cd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _master_maskMap:
-        m_Texture: {fileID: 2800000, guid: 5b8623852604a3b4ca1a27d837208757, type: 3}
+        m_Texture: {fileID: 2800000, guid: 590c2f1e8450c9f4caf9651d3043eef1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _master_nrm:
-        m_Texture: {fileID: 2800000, guid: 770ceca2c81c46d48bfaa0f24216ecb3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8262b3a6171b7424fb21d3c7231cf464, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -129,7 +129,7 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - _emissionMult: 8.52
+    - _emissionMult: 4.15
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
