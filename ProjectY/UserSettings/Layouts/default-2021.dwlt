@@ -48,7 +48,11 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 137
+=======
+  controlID: 155
+>>>>>>> origin/LidemJoan
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +228,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
+<<<<<<< HEAD
   controlID: 18
+=======
+  controlID: 156
+>>>>>>> origin/LidemJoan
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +257,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< HEAD
   controlID: 128
+=======
+  controlID: 157
+>>>>>>> origin/LidemJoan
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -273,11 +285,11 @@ MonoBehaviour:
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 17}
   - {fileID: 18}
   - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 1
+  - {fileID: 17}
+  m_Selected: 2
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -436,22 +448,37 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Models/Ister egs
+=======
+    - Assets/ScriptableObjectEvents/Shooter
+>>>>>>> origin/LidemJoan
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< HEAD
   - Assets/Models/Ister egs
+=======
+  - Assets/ScriptableObjectEvents/Shooter
+>>>>>>> origin/LidemJoan
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\GenisSuriol\Documents\ProjectY\ProjectY
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 180}
     m_SelectedIDs: 04900000
     m_LastClickedID: 36868
     m_ExpandedIDs: 00000000c88d0000ca8d0000cc8d0000ce8d0000d08d0000d28d0000e68d0000f28d000000ca9a3bffffff7f
+=======
+    scrollPos: {x: 0, y: 166}
+    m_SelectedIDs: 342e0100
+    m_LastClickedID: 77364
+    m_ExpandedIDs: 00000000628d0000648d0000668d0000688d00006a8d00006c8d00006e8d0000708d0000728d0000748d0000768d0000788d00007a8d0000a28d0000a68d000000ca9a3b
+>>>>>>> origin/LidemJoan
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -479,7 +506,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000c88d0000ca8d0000cc8d0000ce8d0000d08d0000d28d0000
+=======
+    m_ExpandedIDs: 00000000628d0000648d0000668d0000688d00006a8d00006c8d00006e8d0000708d0000728d0000748d0000768d0000788d00007a8d0000
+>>>>>>> origin/LidemJoan
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -608,10 +639,17 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< HEAD
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 56f2feffc8f5feffcc40ffffd040ffffe2effffffaefffff2af2ffff42f2ffff7ef2ffffd4f4ffffa4faffff2c720000b0760000
+=======
+      scrollPos: {x: 0, y: 848}
+      m_SelectedIDs: 7aefffff
+      m_LastClickedID: -4230
+      m_ExpandedIDs: 7eefffff82efffffacefffff6ef0ffff86f0ffff94f1ffffbef1ffff76f2ffffb6f2ffffcef2ffff0af3ffff30fbffff42710000e6720000be750000c6750000ca750000
+>>>>>>> origin/LidemJoan
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -894,9 +932,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 1.4451535, y: 0.73969215, z: -2.0910861}
     speed: 2
     m_Value: {x: 1.4451535, y: 0.73969215, z: -2.0910861}
+=======
+    m_Target: {x: 4.108212, y: 1.2149757, z: 9.960159}
+    speed: 2
+    m_Value: {x: 4.108212, y: 1.2149757, z: 9.960159}
+>>>>>>> origin/LidemJoan
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -943,6 +987,7 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: -0.14332531, y: -0.081510805, z: 0.011837703, w: -0.9862721}
     speed: 2
     m_Value: {x: -0.14187609, y: -0.078566335, z: 0.011289488, w: -0.9866971}
@@ -950,13 +995,22 @@ MonoBehaviour:
     m_Target: 0.826889
     speed: 2
     m_Value: 0.826889
+=======
+    m_Target: {x: -0.113153614, y: -0.6475446, z: 0.09811194, w: -0.74736047}
+    speed: 2
+    m_Value: {x: -0.11298986, y: -0.6485705, z: 0.09826725, w: -0.7462796}
+  m_Size:
+    m_Target: 1.5646491
+    speed: 2
+    m_Value: 1.4972719
+>>>>>>> origin/LidemJoan
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 0.70065
-    m_SpeedNormalized: 0.35
+    m_Speed: 0.76062
+    m_SpeedNormalized: 0.38
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -1033,10 +1087,10 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
+    m_HSlider: 1
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1046,19 +1100,32 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 1211
+<<<<<<< HEAD
       height: 683
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 605.5, y: 341.5}
+=======
+      height: 654
+    m_Scale: {x: 1.1886886, y: 1.1886886}
+    m_Translation: {x: 588.64813, y: 326.46356}
+>>>>>>> origin/LidemJoan
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -605.5
       y: -341.5
       width: 1211
       height: 683
+=======
+      x: -495.208
+      y: -274.64178
+      width: 1018.7697
+      height: 550.18616
+>>>>>>> origin/LidemJoan
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1211, y: 704}
