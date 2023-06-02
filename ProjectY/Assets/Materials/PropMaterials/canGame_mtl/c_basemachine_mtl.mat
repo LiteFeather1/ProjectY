@@ -74,7 +74,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _master_emission:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 2dd5c5b6ac0ce664cad9fb4d1a7c4d33, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _master_maskMap:
@@ -126,7 +126,7 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - _emissionMult: 0
+    - _emissionMult: 2.2
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
