@@ -129,7 +129,7 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - _emissionMult: 3.51
+    - _emissionMult: 3.4
     - _multEmission: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
